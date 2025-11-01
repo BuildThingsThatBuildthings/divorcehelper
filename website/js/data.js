@@ -1,8 +1,8 @@
-// Embedded Markdown Content
-// This file contains all markdown content embedded directly to avoid CORS issues
+// This file contains all the markdown content embedded as JavaScript
+// Generated automatically to avoid CORS issues when opening HTML directly
 
-const EMBEDDED_CONTENT = {
-  '01-safety-stabilization-days-0-7.md': `
+const markdownContent = {
+  "01-safety-stabilization-days-0-7.md": `
 # Stage 1: Safety & Stabilization (Days 0-7)
 
 *Written by: Safety & Crisis Agent*
@@ -462,7 +462,7 @@ You're ready for **Stage 2: Resolution Track Selection** when:
 
 **Next Stage:** [Stage 2: Resolution Track Selection](02-resolution-track-selection.md) - Choosing between mediation, collaborative divorce, and litigation.
 `,
-  '02-resolution-track-selection.md': `
+  "02-resolution-track-selection.md": `
 # Stage 2: Resolution Track Selection
 
 *Written by: Legal Navigator Agent*
@@ -1109,7 +1109,7 @@ You're ready for **Stage 3: Pre-Filing Preparation** when:
 
 **Previous Stage:** [Stage 1: Safety & Stabilization (Days 0-7)](01-safety-stabilization-days-0-7.md)
 `,
-  '03-prefiling-prep-weeks-1-3.md': `
+  "03-prefiling-prep-weeks-1-3.md": `
 # Stage 3: Pre-Filing Preparation (Weeks 1-3)
 
 *Written by: Document & Evidence Agent + Financial Forensics Agent*
@@ -2142,7 +2142,7 @@ You're ready for **Stage 4: Filing & Service** when:
 
 **Previous Stage:** [Stage 2: Resolution Track Selection](02-resolution-track-selection.md)
 `,
-  '04-filing-and-service.md': `
+  "04-filing-and-service.md": `
 # Stage 4: Filing & Service
 
 *Written by: Legal Navigator Agent*
@@ -3119,7 +3119,7 @@ You're ready for **Stage 5: Temporary Orders** when:
 
 **Previous Stage:** [Stage 3: Pre-Filing Preparation (Weeks 1-3)](03-prefiling-prep-weeks-1-3.md)
 `,
-  '05-temporary-orders-30-90-days.md': `
+  "05-temporary-orders-30-90-days.md": `
 # Stage 5: Temporary Orders (30-90 Days)
 
 *Written by: Court & Compliance Agent + Co-Parenting Agent*
@@ -4156,7 +4156,7 @@ You're ready for **Stage 6: Financial Disclosures & Discovery** when:
 
 **Previous Stage:** [Stage 4: Filing & Service](04-filing-and-service.md)
 `,
-  '06-financial-disclosures-discovery.md': `
+  "06-financial-disclosures-discovery.md": `
 # Stage 6: Financial Disclosures & Discovery (Months 2-8)
 
 **Written by:** document-evidence + financial-forensics agents
@@ -5355,7 +5355,7 @@ Once financial disclosures and discovery are substantially complete, you will mo
 *This guide provides general educational information. Disclosure requirements, discovery rules, and procedures vary significantly by state and county. Consult a licensed family law attorney in your jurisdiction for advice specific to your case.*
 
 **Next Stage:** [Parenting Plan Development →](07-parenting-plan-development.md)`,
-  '07-parenting-plan-development.md': `
+  "07-parenting-plan-development.md": `
 # Stage 7: Parenting Plan Development (Months 3-12)
 
 **Written by:** coparenting agent
@@ -6380,7 +6380,7 @@ After trial, judge will issue custody orders addressing:
 *This guide provides general educational information. Custody laws, standards, and procedures vary significantly by state. Consult a licensed family law attorney in your jurisdiction for advice specific to your case.*
 
 **Next Stage:** [Property Division →](08-property-division.md)`,
-  '08-property-division.md': `
+  "08-property-division.md": `
 # Stage 8: Property Division (Months 6-15)
 
 **Written by:** financial-forensics agent
@@ -7287,7 +7287,7 @@ Community % = (Time from grant to separation) / (Time from grant to vesting)
 *This guide provides general educational information. Property division laws vary significantly by state. Community property rules apply in only 9 states; equitable distribution applies elsewhere. Consult a licensed family law attorney in your jurisdiction for advice specific to your case.*
 
 **Next Stage:** [Support Determination →](09-support-determination.md)`,
-  '09-support-determination.md': `
+  "09-support-determination.md": `
 # Stage 9: Support Determination (Months 6-18)
 
 **Written by:** financial-forensics + tax-benefits agents
@@ -8211,7 +8211,7 @@ If recipient voluntarily unemployed or underemployed, payor may argue for income
 *This guide provides general educational information. Support laws, guidelines, and tax rules vary significantly by state and change over time (especially tax laws). Consult a licensed family law attorney and tax professional (CPA, tax attorney) in your jurisdiction for advice specific to your case.*
 
 **Next Stage:** [Settlement or Trial →](10-settlement-or-trial.md)`,
-  '10-settlement-or-trial.md': `
+  "10-settlement-or-trial.md": `
 # Stage 10: Settlement or Trial (Months 8-18)
 
 **Written by:** negotiation-settlement agent
@@ -9420,7 +9420,7 @@ Comprehensive contract resolving all divorce issues. Once signed and filed with 
 *This guide provides general educational information. Settlement negotiations, mediation, and trial procedures vary significantly by jurisdiction. Consult a licensed family law attorney in your state for advice specific to your case.*
 
 **Next Stage:** [Judgment & Post-Decree →](11-judgment-and-postdecree.md)`,
-  '11-judgment-and-postdecree.md': `
+  "11-judgment-and-postdecree.md": `
 # Stage 11: Judgment & Post-Decree (Months 12-24+)
 
 **Written by:** court-compliance + tax-benefits + wellbeing-logistics agents
@@ -10569,7 +10569,7 @@ Judgment will state: "Petitioner's name is restored to [maiden name or other nam
 *This guide provides general educational information. Post-decree compliance requirements, tax rules, and procedures vary by state and situation. Consult a licensed family law attorney and tax professional (CPA) in your jurisdiction for advice specific to your case.*
 
 **Protection & Strategy Guides:** [Next Section →](strategies-protect-yourself-and-kids.md)`,
-  'allowed-vs-not-allowed.md': `
+  "allowed-vs-not-allowed.md": `
 # Allowed vs. Not Allowed During Divorce
 
 **Written by:** document-evidence + legal-navigator + financial-forensics + coparenting agents
@@ -10894,7 +10894,7 @@ Understanding legal boundaries during divorce prevents criminal charges, sanctio
 
 **Cross-Reference:** [What Never to Do](what-never-to-do.md) | [Protecting Yourself & Kids](strategies-protect-yourself-and-kids.md)
 `,
-  'dividing-things-fairly.md': `
+  "dividing-things-fairly.md": `
 # Dividing Things Fairly: Property Division Reference
 
 **Written by:** financial-forensics agent
@@ -11203,7 +11203,7 @@ Example:
 
 **Cross-Reference:** [Stage 8: Property Division](08-property-division.md) | [Stage 9: Support Determination](09-support-determination.md) | [Settlement Strategies](settlement-strategies.md)
 `,
-  'first-10-moves-today.md': `
+  "first-10-moves-today.md": `
 # First 10 Moves Today: Your Immediate Action Plan
 
 **Written by:** safety-crisis + document-evidence + financial-forensics + coparenting + wellbeing-logistics agents
@@ -11754,7 +11754,7 @@ Spouse arrived home at 9pm (works late M-F). Did not see kids today.
 
 **Cross-Reference:** [Stage 1: Recognizing It's Time](01-recognizing-its-time.md) | [Protecting Yourself & Kids](strategies-protect-yourself-and-kids.md) | [Allowed vs. Not Allowed](allowed-vs-not-allowed.md)
 `,
-  'settlement-strategies.md': `
+  "settlement-strategies.md": `
 # Settlement Strategies: Negotiation Reference
 
 **Written by:** negotiation-settlement agent
@@ -12096,7 +12096,7 @@ Trial is expensive, unpredictable, stressful, and public. Only choose trial if:
 
 **Cross-Reference:** [Stage 10: Settlement or Trial](10-settlement-or-trial.md) | [Dividing Things Fairly](dividing-things-fairly.md)
 `,
-  'strategies-protect-yourself-and-kids.md': `
+  "strategies-protect-yourself-and-kids.md": `
 # Strategies to Protect Yourself and Kids
 
 **Written by:** safety-crisis + document-evidence + financial-forensics + coparenting agents
@@ -12672,7 +12672,7 @@ Only report if you genuinely believe abuse is occurring.
 **Key Takeaway:** Protection is proactive, legal, and child-focused. Document everything, preserve evidence, secure finances, shield children from conflict, and seek help when needed (attorney, therapist, police, CPS, shelter). You have rights—know them and assert them lawfully.
 
 **Cross-Reference:** See also [What Never to Do](what-never-to-do.md) for illegal actions to avoid.`,
-  'what-never-to-do.md': `
+  "what-never-to-do.md": `
 # What Never to Do: Costly Mistakes to Avoid
 
 **Written by:** All 9 subagents (safety-crisis + legal-navigator + document-evidence + financial-forensics + coparenting + negotiation-settlement + court-compliance + tax-benefits + wellbeing-logistics)
@@ -13123,7 +13123,7 @@ This is your comprehensive "don't do this" list. Each mistake here can cost you 
 
 **Cross-Reference:** [Allowed vs. Not Allowed](allowed-vs-not-allowed.md) | [What the Other Person Might Do](what-other-person-might-do.md) | [Protecting Yourself & Kids](strategies-protect-yourself-and-kids.md)
 `,
-  'what-other-person-might-do.md': `
+  "what-other-person-might-do.md": `
 # What the Other Person Might Do
 
 **Written by:** financial-forensics + safety-crisis + coparenting + court-compliance agents
@@ -13412,4 +13412,6503 @@ This guide prepares you for concerning behaviors your spouse might engage in dur
 
 **Cross-Reference:** [Strategies to Protect Yourself & Kids](strategies-protect-yourself-and-kids.md) | [What Never to Do](what-never-to-do.md)
 `,
+  "Custody/01-understanding-custody-law.md": `
+# The Complete Custody Battle Guide: Winning Full Custody
+
+**Written by:** custody-strategy + custody-evaluation + parental-fitness agents
+
+**Target Audience:** Parents seeking full or primary custody in contested custody battles
+
+**Purpose:** Comprehensive tactical guide for building the strongest possible custody case through superior evidence, strategic preparation, and effective counter-tactics.
+
+---
+
+## Introduction: The Custody Battle Reality
+
+**This guide is for parents fighting for full or primary custody.** If you're reading this, you believe you are the better parent and that your child's welfare depends on living primarily with you. This guide will help you build the strongest possible case to convince a judge of that truth.
+
+**Hard Truths:**
+- Custody battles are expensive (\$20K-\$100K+ in legal fees)
+- They are emotionally draining (12-24 month timeline typical)
+- They expose your life to scrutiny (evaluators, attorneys, judge will examine everything)
+- They affect your children (stress, loyalty conflicts, being interviewed)
+- They require sustained effort (consistent documentation, preparation, legal compliance)
+
+**Why Fight for Full Custody:**
+- Child's safety or wellbeing at risk with other parent
+- Other parent unable to meet child's needs (work schedule, lifestyle, instability)
+- You are clearly the primary caregiver and child thrives in your care
+- Other parent engaging in harmful behavior (substance abuse, alienation, neglect)
+
+**Realistic Assessment Required:**
+If you are genuinely the better parent with evidence to prove it, this guide will help you win. If you are fighting out of anger, revenge, or control, you will likely lose and harm your child in the process. Be honest with yourself.
+
+---
+
+## Section 1: Understanding Custody Law & Standards
+
+### Legal Custody vs Physical Custody
+
+**Legal Custody** = Decision-making authority
+- Education (school choice, special education, tutoring)
+- Healthcare (non-emergency medical decisions, therapy, medication)
+- Religion (religious upbringing, participation)
+- Extracurricular activities
+
+**Physical Custody** = Where child lives, day-to-day care
+- Primary physical custody = Child lives primarily with you (>50% time)
+- Joint physical custody = Relatively equal time (often 50/50 or close)
+- Sole physical custody = Child lives with you, other parent has visitation
+
+**Typical Custody Award:**
+- Joint legal custody (both parents share decisions) + Primary physical custody to one parent (child lives primarily with them, other parent has visitation)
+- Less common: Sole legal and physical custody to one parent
+
+**Your Goal (Most Realistic):**
+Joint legal + Primary physical custody to you (child lives with you 60-80% of time, other parent has regular visitation)
+
+**Harder Goal (Requires Strong Evidence):**
+Sole legal + Sole physical custody (rare - requires showing other parent unfit or dangerous)
+
+### Best Interests of Child Factors
+
+Every state uses "best interests of child" standard. Specific factors vary by state but typically include:
+
+**Common Factors (Most States):**
+1. **Primary caregiver status** - Who has historically provided daily care
+2. **Parent-child bond** - Quality of relationship, attachment
+3. **Stability** - Consistent home, school, community
+4. **Mental and physical health of parents** - Fitness to parent
+5. **Child's adjustment** - School, home, community
+6. **Cooperation between parents** - Willingness to co-parent
+7. **Child's preference** (if child of sufficient age and maturity)
+8. **History of domestic violence or abuse**
+9. **Substance abuse**
+10. **Each parent's ability to meet child's needs** - Physical, emotional, educational, medical
+
+**How Judges Weigh Factors:**
+- **Most important**: Safety, primary caregiver, stability, child thriving
+- **Moderately important**: Co-parenting ability, mental health (if managed), child's preference (age-dependent)
+- **Case-specific**: Domestic violence, substance abuse (if present, heavily weighted)
+
+**Burden of Proof:**
+- If you're seeking to change current custody: You must prove "material change in circumstances" warranting modification
+- If initial custody determination: Prove you're better parent based on best interests factors
+
+**Preference for Status Quo:**
+Judges favor stability. If child is doing well in current arrangement, hard to change. Your evidence must show:
+- Current arrangement not serving child's best interests, OR
+- Your proposed custody better serves child's best interests
+
+---
+
+`,
+  "Custody/02-building-winning-case.md": `
+## Section 2: Building Your Winning Case
+
+### The Custody Case Narrative
+
+**Your story must be:**
+- Child-focused (everything about child's needs, not your wants)
+- Evidence-based (facts, not emotions)
+- Cohesive (all pieces fit together into clear picture)
+- Honest (lies will be exposed, destroy your credibility)
+
+**Effective Narrative Themes:**
+
+**Theme 1: "I Am the Primary Caregiver, Child Thrives Under My Care"**
+- Evidence: Daily logs, medical/school records showing your involvement, photos of child happy and healthy, third-party statements
+- Message: Child's wellbeing depends on stability and consistency I provide
+
+**Theme 2: "Other Parent Unable/Unwilling to Meet Child's Needs"**
+- Evidence: Missed parenting time, lack of involvement in school/medical, poor supervision, unsafe environment
+- Message: Child's needs not met in other parent's care (specific examples)
+
+**Theme 3: "Child's Educational/Medical/Emotional Needs Require My Level of Involvement"**
+- Evidence: Special education advocacy, medical appointment management, therapy coordination, homework support
+- Message: Other parent cannot or will not provide this level of care
+
+**Theme 4: "Other Parent's Choices Endanger Child"**
+- Evidence: Substance abuse, domestic violence, dangerous partners, criminal activity, neglect
+- Message: Child's safety at risk
+
+**Choose Your Primary Theme Based on Facts:**
+Pick the narrative your evidence best supports. Don't claim themes you can't prove.
+
+### Establishing Primary Caregiver Status
+
+**Why This Matters:**
+Courts presume primary caregiver should maintain that role (stability preference). If you can prove you've been primary caregiver, you have strong foundation for custody.
+
+**What Courts Consider:**
+- Who wakes child in morning, prepares meals, supervises hygiene
+- Who takes child to school, helps with homework, attends conferences
+- Who takes child to medical appointments, administers medication
+- Who manages extracurricular activities (enrollment, payment, transportation, attendance)
+- Who arranges social activities (playdates, birthday parties)
+- Who puts child to bed, handles nighttime wake-ups
+- Who stays home when child sick
+- Who makes daily decisions (what to wear, what to eat, when to bathe)
+
+**How to Prove It:**
+
+**1. Historical Evidence (Pre-Separation):**
+- Work schedules (your flexible schedule allowed more caregiving)
+- Emails/texts to other parent: "Can you pick up [child] from daycare?" (shows you usually did it)
+- Calendar showing you attended doctor appointments, school events
+- Bank records showing you paid for childcare, school supplies, activities
+- Childcare provider statements ("Mom/Dad usually did drop-off and pickup")
+- Family member statements ("I observed [parent] doing most of childcare")
+
+**2. Current Evidence (Post-Separation):**
+- Daily parenting logs (showing consistent, involved caregiving)
+- School records (you attend conferences, volunteer, help with homework)
+- Medical records (you take child to appointments, manage medications)
+- Activity records (you enroll, pay for, transport to, attend activities)
+- Photos showing daily routines (making breakfast, helping with homework, bedtime stories)
+- Financial records (you pay for child's expenses beyond support)
+
+**3. Quantify Your Caregiver Role:**
+
+Create chart showing division of tasks:
+
+| Task | You | Other Parent | Evidence |
+|------|-----|--------------|----------|
+| Morning routine (wake, breakfast, dress, drop-off) | 90% | 10% | Daily log, school attendance records |
+| School involvement (conferences, volunteering, homework) | 95% | 5% | Teacher statements, school sign-in sheets |
+| Medical (appointments, sick care, medications) | 100% | 0% | Medical records showing your contact info, appointment attendance |
+| Extracurricular (enrollment, payment, transportation, attendance) | 85% | 15% | Registration forms, payment receipts, photos at games |
+| Evening routine (dinner, bath, bedtime) | 80% | 20% | Daily log, your custody schedule |
+| Discipline and guidance | 85% | 15% | Consistent rules, homework completion, behavioral improvements |
+
+**Overall Primary Caregiver Percentage: 85-90%**
+
+**4. Third-Party Validation:**
+- Teacher: "Mom attends every conference, volunteers monthly, ensures homework done"
+- Doctor: "Mom brings [child] to 90% of appointments, follows medical advice"
+- Coach: "Mom enrolled [child], pays fees, attends every game"
+- Neighbor: "I see Mom with [child] daily - park trips, bike rides, always engaged"
+
+### Documenting Superior Parenting
+
+**Evidence Checklist:**
+
+**Daily Involvement (6-12 Months of Documentation):**
+- [ ] Parenting logs (3-4x/week minimum, daily ideal)
+- [ ] Photos of daily activities (weekly, include yourself in photos)
+- [ ] Calendar showing custody time, activities, appointments
+- [ ] Financial records (receipts for child expenses)
+
+**Educational Involvement:**
+- [ ] Parent-teacher conference attendance (sign-in sheets, notes)
+- [ ] School volunteer hours log
+- [ ] Communications with teachers (emails showing engagement)
+- [ ] Homework samples (showing your help)
+- [ ] School event attendance (back-to-school night, performances, field trips)
+- [ ] Report cards (showing improvement/strong performance)
+
+**Medical Involvement:**
+- [ ] Doctor appointment attendance records
+- [ ] Vaccination records (ensure up-to-date)
+- [ ] Prescription management (who fills, tracks)
+- [ ] Specialist coordination (if applicable)
+- [ ] Medical provider statements
+- [ ] Health insurance (who carries, pays for)
+
+**Extracurricular Involvement:**
+- [ ] Enrollment forms (your signature)
+- [ ] Payment receipts
+- [ ] Transportation logs (who drives to practices/games)
+- [ ] Attendance photos (you at events)
+- [ ] Coach/instructor communications
+- [ ] End-of-season certificates/awards
+
+**Stable Home Environment:**
+- [ ] Lease/mortgage (secure housing)
+- [ ] Utility bills (consistent address)
+- [ ] Employment verification (steady income)
+- [ ] Photos of child's bedroom (own space, age-appropriate)
+- [ ] School proximity (neighborhood stability)
+- [ ] Community ties (length of residence, child's friends nearby)
+
+**Financial Support (Beyond Court-Ordered):**
+- [ ] Clothing receipts
+- [ ] School supply/fee receipts
+- [ ] Activity fee receipts
+- [ ] Medical copay receipts
+- [ ] Childcare receipts
+- [ ] College savings contributions (if applicable)
+- [ ] Monthly expense summary
+
+**Child Thriving in Your Care:**
+- [ ] Happy, healthy photos
+- [ ] Academic improvements/achievements
+- [ ] Activity participation and success
+- [ ] Social development (friends, activities)
+- [ ] Emotional stability (therapist reports if applicable)
+
+### Witness Coordination
+
+**Who Makes Good Witnesses:**
+- Teachers (school involvement, child's wellbeing, your engagement)
+- Doctors (medical appointment attendance, following health advice)
+- Coaches/instructors (activity involvement, appropriate parenting)
+- Childcare providers (consistent care, child's condition, parent interaction)
+- Neighbors (daily observations of parenting)
+- Long-term friends (character, parenting observations over years)
+- Family members (credible ones, not estranged or overly biased)
+- Therapists (if child in therapy and you involved)
+
+**What Witnesses Should Say:**
+- Length of time knowing you
+- Specific observations of your parenting (not generalizations)
+- Child's wellbeing in your care
+- Your character (responsible, patient, loving, engaged)
+- Comparison to other parent (if they know both - "I've observed Mom to be more involved in school, attending events Dad misses")
+
+**How to Prepare Witnesses:**
+1. Ask permission to have them contacted
+2. Provide brief, factual summary of situation
+3. Don't coach on what to say (their honest observations)
+4. Emphasize specific examples over general statements
+5. Remind them to stay calm and factual
+6. Prepare them for possibility of cross-examination
+7. Provide contact info to your attorney
+
+**Witness Statement Format (Affidavit or Letter):**
+\`\`\`
+I, [Name], declare as follows:
+
+1. I have known [Parent] for [X] years in my capacity as [relationship].
+
+2. I have observed [Parent]'s parenting of [Child] on [frequency] over the past [time period].
+
+3. Specific observations:
+   - [Specific example 1 with date if possible]
+   - [Specific example 2]
+   - [Specific example 3]
+
+4. In my professional/personal opinion, [Child] is well-cared for by [Parent] and thrives in [his/her] care. I observe [Parent] to be [characteristics: attentive, responsible, loving, engaged, etc.].
+
+5. [If applicable] I have also observed [Other Parent] and note [specific comparison or concerns].
+
+I declare under penalty of perjury that the foregoing is true and correct.
+
+Date: ___________
+Signature: ___________
+\`\`\`
+
+---
+
+`,
+  "Custody/03-evidence-gathering.md": `
+## Section 3: Evidence Gathering Masterclass
+
+### Daily Parenting Logs
+
+**Purpose:** Create contemporaneous record of your parenting involvement showing consistency, engagement, and superior caregiving.
+
+**Format:** Notebook, spreadsheet, or app (dated entries, cannot be altered retroactively)
+
+**What to Document:**
+
+**Morning Routine:**
+- Wake time
+- Breakfast (what you prepared)
+- Hygiene help (brush teeth, shower supervision, hair care)
+- Clothing selection/help getting dressed
+- School preparation (backpack, lunch, supplies)
+- Drop-off (time, school attendance)
+
+**School Day:**
+- Communications with school (emails, calls)
+- Homework help (time spent, subjects, completion)
+- School event attendance (conferences, performances, volunteer activities)
+
+**After School:**
+- Pickup (time, location)
+- Snack provided
+- Activities (park, bike ride, crafts, playtime)
+- Extracurricular transportation and attendance
+- Social coordination (playdates, birthday parties)
+
+**Evening Routine:**
+- Dinner (what you prepared, family meal)
+- Homework review
+- Bath/hygiene
+- Bedtime routine (stories, talks, tucking in, nighttime comfort)
+
+**Special Entries:**
+- Doctor/dentist appointments (who took child, what was discussed, follow-up)
+- School involvement (conferences, volunteering, communications with teacher)
+- Discipline/guidance (how you handled behavior, teaching moments)
+- Purchases for child (clothing, supplies, necessities)
+- Quality time (special activities, one-on-one time, conversations)
+
+**Example Entry:**
+\`\`\`
+Date: March 15, 2025
+Custody Day: My day (Day 3 of 5)
+
+6:45am - Woke Emily, helped her pick out outfit for school (pink dress she loves)
+7:15am - Made breakfast (scrambled eggs, toast, orange slices). Talked about her upcoming spelling test.
+7:45am - Supervised tooth-brushing, helped with hair (French braid she requested)
+8:00am - Dropped Emily at school, spoke briefly with Ms. Johnson about science fair project due next week
+12:30pm - Emailed Ms. Johnson asking for clarification on project requirements
+3:15pm - Picked up Emily from school, she was excited to tell me about recess with friends
+3:45pm - Healthy snack (apple slices, cheese), helped with math homework (multiplication tables - she's improving!)
+4:30pm - Drove Emily to gymnastics practice, watched entire practice (she's working on back handspring)
+6:00pm - Home, prepared dinner (chicken stir-fry with vegetables and rice)
+6:30pm - Family dinner, discussed her day, upcoming weekend plans
+7:00pm - Bath time, helped her wash hair
+7:30pm - Pajamas, brush teeth, laid out clothes for tomorrow
+8:00pm - Read two bedtime stories (Charlotte's Web chapters 5-6), tucked her in, talked about her day
+8:15pm - Emily asleep
+
+Notes: Emily happy and engaged today. Spelling test scores improving with nightly practice. Still needs help with multiplication but getting better. Very excited about gymnastics progress.
+
+Other Parent Contact: None today (Dad's week is next week)
+
+Expenses: Gymnastics monthly fee (\$150), school lunch account (\$20)
+\`\`\`
+
+**How Often:** Minimum 3-4 days per week during your custody time. Daily for 2-3 months before evaluation or trial is ideal.
+
+**Consistency is Key:** Shows you're engaged, attentive parent every day, not just occasionally.
+
+### Photographic Evidence
+
+**What to Photograph:**
+
+**Daily Life (Weekly):**
+- Making meals together, family dinners
+- Helping with homework
+- Reading together
+- Bedtime routine
+- Playing together (games, crafts, outdoor activities)
+
+**Special Moments (As They Occur):**
+- First day of school
+- School performances, award ceremonies
+- Sports games, recitals, competitions
+- Birthday parties (hosting or attending)
+- Holidays and family traditions
+- Field trips or special events
+
+**Your Involvement (Important - Include Yourself):**
+- You with child (shows bond)
+- You helping child (homework, getting ready, activities)
+- You attending events (in background of photos at games/recitals)
+
+**Child Thriving:**
+- Happy, smiling, engaged
+- Healthy appearance (clean, well-dressed, well-fed)
+- Participating in activities
+- With friends (healthy social development)
+
+**Home Environment (Monthly):**
+- Child's bedroom (personalized, age-appropriate, clean)
+- Play area (toys organized, safe)
+- Kitchen/dining area (family meals, homework space)
+- Child's artwork displayed, family photos
+
+**Format:**
+- Date and location stamp if camera allows
+- Otherwise, note date/context in parenting log
+- Print monthly and create photo albums organized chronologically
+- Digital backup (cloud storage, labeled folders)
+
+**For Evaluator/Court:** Professional photo album or digital presentation showing:
+- Your consistent involvement over time
+- Child happy and thriving
+- Stable, child-focused home
+- Strong parent-child bond
+
+### School Records Documentation
+
+**Gather All Records:**
+- Report cards (all years, show trends)
+- Standardized test scores
+- Teacher progress reports
+- IEP or 504 plan (if applicable)
+- Attendance records
+- Discipline records (if any)
+
+**Document Your Involvement:**
+- Parent-teacher conference sign-in sheets (proves you attended)
+- Conference notes (what was discussed, your follow-up)
+- Emails with teachers (shows active communication)
+- School volunteer logs (classroom helper, field trip chaperone, PTA)
+- School event attendance (back-to-school night, parent nights, performances)
+- Homework samples (showing your help - corrections in your handwriting, notes)
+
+**Show Academic Progress:**
+- Grades improving over time (especially after separation if you have primary custody)
+- Teacher comments noting improvement or strong performance
+- Awards, certificates, honor roll
+
+**Contrast with Other Parent:**
+- Other parent's lack of conference attendance ("Dad unable to attend due to work schedule" - pattern)
+- Other parent's lack of school communication (check "sent" emails - very few from other parent)
+- Child's homework incomplete or lower quality during other parent's custody time (if true)
+
+**Obtain Teacher Statement (if willing):**
+\`\`\`
+To Whom It May Concern:
+
+I have been [Child]'s [grade] teacher at [School] during [school year]. I am writing to provide information about [Child]'s parents' involvement in [his/her] education.
+
+[Parent] has been highly engaged in [Child]'s education this year. [He/She] has attended all parent-teacher conferences, responds promptly to my communications, volunteers in the classroom [frequency], and ensures [Child]'s homework is completed and turned in on time.
+
+[Child] has [shown improvement/maintained strong performance] this year. [His/Her] grades in [subjects] have [improved/remained strong], and [he/she] participates actively in class. I attribute much of [Child]'s success to the consistent support and involvement [he/she] receives at home from [Parent].
+
+[Child] arrives at school prepared, with completed homework, necessary supplies, and a positive attitude. [He/She] is well-cared for, clean, and appropriately dressed. I have no concerns about [Child]'s wellbeing.
+
+[If applicable: In contrast, I have had limited contact with [Other Parent]. [He/She] has attended [X] of [Y] conferences and rarely responds to communications. I have noticed [Child]'s homework completion is inconsistent during [Other Parent]'s custody time.]
+
+I am available to provide further information if needed.
+
+Sincerely,
+[Teacher Name]
+[Contact Information]
+\`\`\`
+
+### Medical Records Documentation
+
+**Gather All Records:**
+- Pediatrician records (all visits)
+- Specialist records (if applicable)
+- Dental records
+- Vision exam records
+- Immunization records
+- Emergency room visits
+- Hospital records
+- Mental health treatment records (if child in therapy)
+- Medication records (prescriptions, refills, administration logs)
+
+**Document Your Involvement:**
+- Appointment attendance records (request from doctor's office showing who brought child)
+- Your contact information listed as primary (shows you're main contact)
+- Communications with doctor's office (appointment scheduling, follow-up questions, medication clarifications)
+- Prescription management (who fills prescriptions, picks them up, administers them, tracks doses)
+- Treatment compliance (following doctor's orders, completing courses of treatment, attending follow-ups)
+
+**Show You Meet Medical Needs:**
+- Well-child visits current (annual checkups on schedule)
+- Vaccinations up to date
+- Dental checkups regular (twice yearly)
+- Specialist appointments attended (if ongoing treatment needed)
+- Sick visits handled promptly (not delaying care)
+- Preventive care prioritized (vision screening, sports physicals)
+
+**Contrast with Other Parent:**
+- Other parent misses appointments or fails to schedule them
+- Other parent doesn't administer medications properly
+- Other parent's contact info not on file
+- Medical issues arise during other parent's custody time (injuries, illnesses not properly treated)
+
+**Obtain Pediatrician Statement (if willing):**
+\`\`\`
+To Whom It May Concern:
+
+I have been [Child]'s pediatrician at [Practice] since [date]. I am writing to provide information about [Child]'s medical care and parental involvement.
+
+[Parent] has been the primary parent bringing [Child] to medical appointments. [He/She] has attended approximately [X]% of well-child visits and sick visits over the past [time period]. [Parent] provides detailed information about [Child]'s symptoms, asks appropriate questions, and follows treatment recommendations consistently.
+
+[Child] is up to date on vaccinations and receives regular preventive care. [His/Her] health conditions [if any] are well-managed with [Parent]'s involvement. [Parent] demonstrates good understanding of [Child]'s medical needs and is responsive to medical advice.
+
+[Child] is healthy, well-cared for, and thriving. I have no concerns about [his/her] medical care under [Parent]'s supervision.
+
+[If applicable: I have limited interaction with [Other Parent], who has attended approximately [X]% of appointments. When [Child] is in [Other Parent]'s care, there have been [instances of missed follow-ups, improper medication administration, delayed treatment, etc.].]
+
+I am available to provide additional information if needed.
+
+Sincerely,
+[Doctor Name]
+[Contact Information]
+\`\`\`
+
+### Extracurricular Activity Documentation
+
+**Gather All Records:**
+- Enrollment/registration forms (showing who signed up child)
+- Payment receipts (showing who pays fees)
+- Schedule of practices/games/lessons
+- Attendance records (your attendance at events)
+- Performance evaluations (coach/instructor feedback)
+- End-of-season certificates, awards, trophies
+- Team photos, program listings
+
+**Document Your Involvement:**
+- Enrollment: You fill out forms, sign up child, provide emergency contacts
+- Payment: You pay registration fees, uniform costs, equipment
+- Transportation: Log showing you drive to/from practices, games, lessons (mileage, time)
+- Attendance: Photos of you at games/recitals/competitions
+- Support: Communications with coaches/instructors (scheduling, child's progress)
+- Volunteering: Team parent, concession stand, fundraising involvement
+
+**Show Commitment:**
+- Consistent transportation (you don't miss practices/games)
+- Financial support (you pay fees even if beyond court-ordered support)
+- Emotional support (encouraging child, attending events, celebrating achievements)
+
+**Contrast with Other Parent:**
+- Other parent rarely attends games/events
+- Other parent doesn't volunteer or help with activities
+- Other parent complains about cost or time commitment
+- Child's activity participation drops during other parent's custody time
+
+**Obtain Coach/Instructor Statement (if willing):**
+\`\`\`
+To Whom It May Concern:
+
+I have coached/taught [Child] in [activity] at [Organization] for [time period]. I am writing to provide information about parental involvement in [Child]'s participation.
+
+[Parent] has been consistently involved in [Child]'s [activity] experience. [He/She] enrolled [Child], completed all registration paperwork, and has paid all fees on time. [Parent] provides transportation to approximately [X]% of practices and games/performances.
+
+[Parent] attends [X]% of games/performances and demonstrates positive, encouraging support for [Child]. [He/She] volunteers [as team parent, helping with equipment, assisting with events, etc.]. [Parent] communicates regularly with me about [Child]'s progress and any scheduling issues.
+
+[Child] has [improved/performed well] in [activity] and clearly benefits from [Parent]'s consistent support and encouragement. [He/She] arrives prepared, with proper equipment and a positive attitude.
+
+[If applicable: I have minimal contact with [Other Parent], who attends approximately [X]% of events and has not been involved in team/program activities. I have noticed [Child]'s attendance at practices is inconsistent during [Other Parent]'s custody time.]
+
+I am available to provide additional information if needed.
+
+Sincerely,
+[Coach/Instructor Name]
+[Contact Information]
+\`\`\`
+
+### Financial Records Documentation
+
+**Purpose:** Prove you financially support child beyond court-ordered support, showing commitment and investment in child's wellbeing.
+
+**Organize by Category:**
+
+**Category 1: Essential Needs**
+- Clothing (seasonal purchases, school clothes, shoes)
+- Food (groceries, school lunches, snacks)
+- Personal care (toiletries, haircuts, hygiene products)
+
+**Category 2: Education**
+- School supplies (backpacks, notebooks, calculators)
+- School fees (lab fees, technology fees, yearbooks)
+- Tutoring (if needed)
+- Educational materials (books, learning apps)
+
+**Category 3: Medical/Health**
+- Copays for doctor visits
+- Prescriptions
+- Over-the-counter medications
+- Medical equipment (glasses, orthotics, etc.)
+- Dental copays
+- Vision care
+
+**Category 4: Extracurricular**
+- Activity registration fees
+- Uniforms and equipment
+- Private lessons (music, art, sports training)
+- Competition fees, travel costs
+
+**Category 5: Childcare**
+- Daycare/after-school care
+- Babysitters when you're working
+
+**Category 6: Special Occasions**
+- Birthday parties (hosting, gifts for child's friends)
+- Holidays (decorations, gifts)
+- School events (class parties, field trips)
+
+**Category 7: Long-Term**
+- College savings contributions
+- Large purchases (furniture for child's room, electronics for school)
+
+**Format:**
+- Monthly summary spreadsheet
+- Receipts filed by category
+- Bank/credit card statements highlighted
+- Total annual expenditures calculated
+- Comparison to other parent's contributions (if you can document their lack of financial support)
+
+**Analysis:**
+\`\`\`
+Annual Child Expenses:
+- Court-ordered support: \$24,000 (paid by Other Parent)
+- My direct expenditures: \$18,500
+  - Clothing: \$2,000
+  - Food: \$4,800
+  - Medical copays: \$1,200
+  - Extracurriculars: \$3,600
+  - School fees/supplies: \$1,500
+  - Childcare: \$4,200
+  - Other: \$1,200
+
+Total child support: \$42,500/year
+My contribution: 44% (despite Other Parent owing support)
+Other Parent's contribution: 56% (but only via court-ordered support, no additional)
+
+This demonstrates my financial commitment to child beyond legal obligation.
+\`\`\`
+
+### Communication Records
+
+**What to Preserve:**
+- Text messages with other parent (especially showing their lack of involvement or problematic behavior)
+- Emails with other parent (custody coordination, conflicts, refusal to cooperate)
+- Communications with teachers, doctors, coaches (showing your involvement, other parent's lack of response)
+- Social media posts (other parent's posts showing irresponsibility, lack of focus on child, inappropriate lifestyle)
+
+**How to Organize:**
+- Chronological order
+- Categorized (co-parenting issues, child's education, child's health, alienation attempts, other parent's problems)
+- Highlighted key phrases or admissions
+- Context provided (what prompted the communication)
+
+**What to Look For:**
+
+**Your Communications (Showing You're Reasonable):**
+- Child-focused messages
+- Attempts to coordinate custody, activities, appointments
+- Cooperative tone despite conflict
+- Willingness to compromise for child's benefit
+
+**Other Parent's Communications (Showing Problems):**
+- Hostile, insulting, threatening language
+- Refusal to cooperate on child-related matters
+- Canceling parenting time frequently
+- Not responding to messages about child's needs
+- Badmouthing you in messages
+- Admissions of problematic behavior (substance use, leaving child with inappropriate caretakers, etc.)
+
+**Example:**
+\`\`\`
+Text from you: "Emma's teacher asked us both to attend parent-teacher conference on Tuesday at 3pm. Can you make it? It's important."
+
+Response from other parent (3 days later): "Whatever. You always handle that stuff anyway."
+
+Analysis: Shows other parent's disengagement from child's education and unwillingness to co-parent.
+\`\`\`
+
+**Third-Party Communications:**
+\`\`\`
+Email from you to teacher: "Thank you for meeting with me yesterday to discuss Emma's progress in math. I've implemented the study techniques you suggested and I'm working with her for 30 minutes each night. Please let me know if you see improvement over the next few weeks."
+
+Teacher response: "Thank you for your follow-through. I can already see Emma is more confident with the material. Your involvement makes a difference."
+
+Analysis: Shows your proactive engagement with child's education and positive impact.
+\`\`\`
+
+### Social Media Evidence
+
+**Gathering Evidence on Other Parent:**
+
+**Legal Methods Only:**
+- Public social media posts (Facebook, Instagram, Twitter, etc.)
+- Screenshots of public posts (with date/time visible)
+- Photos other parent posts publicly
+- Check-ins, locations, tagged photos
+- Friend's posts that tag or mention other parent
+
+**What to Look For:**
+- Partying, drinking, drug use
+- Inappropriate relationships (dating many people quickly, bringing partners around child too soon)
+- Disparaging posts about you or child
+- Evidence of lies (claims to be at work but posts show at bar)
+- Dangerous activities (extreme sports, reckless behavior)
+- Neglect of child (posts about own activities during their custody time, no mention of child)
+- Financial irresponsibility (luxury purchases, vacations while claiming inability to pay support)
+
+**What NOT to Do:**
+- Don't hack into private accounts (illegal)
+- Don't create fake profiles to "friend" other parent (potentially illegal, definitely unethical)
+- Don't post your own inappropriate content (will be used against you)
+
+**Your Own Social Media:**
+
+**Rules for Your Posts:**
+- Private accounts (friends/family only)
+- No posts about divorce, custody battle, or other parent
+- No posts about new romantic relationships (wait until custody resolved)
+- No posts partying, drinking, or behavior that looks irresponsible
+- Post positive parenting moments (child's achievements, family activities) - shows child-focused life
+- Professional, appropriate content only
+
+**Assume Everything Will Be Seen:**
+- Other parent's attorney will request all social media in discovery
+- Evaluator may review your social media
+- Judge may see screenshots
+- Post as if judge is watching (because they might be)
+
+---
+
+`,
+  "Custody/04-custody-evaluation.md": `
+## Section 4: Custody Evaluation Deep Dive
+
+### Understanding the Evaluation Process
+
+**When Evaluations Are Ordered:**
+- Contested custody cases where parents can't agree
+- Allegations of abuse, neglect, substance use, or parental unfitness
+- Relocation disputes
+- Modification requests when circumstances have changed
+- High-conflict cases where judge needs expert opinion
+
+**Who Orders Evaluation:**
+- Judge orders evaluation (sometimes at attorney request, sometimes on judge's own motion)
+- Cost typically split between parents (unless one parent ordered to pay)
+- Timeline: 3-6 months typical (longer for complex cases)
+
+**Evaluator's Role:**
+- Neutral expert (psychologist, social worker, psychiatrist)
+- Conduct interviews, home visits, psychological testing, collateral interviews
+- Review documents (pleadings, school records, medical records, police reports)
+- Interview children (if old enough)
+- Make custody recommendation to court
+
+**Weight of Evaluation:**
+- Not binding on judge BUT heavily influential
+- Judges often adopt evaluator's recommendation (80-90% of cases)
+- Overcoming negative evaluation requires strong contrary evidence and expert testimony
+
+**Your Goal:**
+- Win evaluator's recommendation for your custody proposal
+- Present yourself as stable, child-focused, cooperative, fit parent
+- Demonstrate child thrives in your care
+- Show other parent's limitations or problems
+
+### Home Visit Preparation
+
+**Timeline: 4-6 Weeks Before Visit**
+
+**Safety Assessment:**
+- [ ] Smoke detectors working (test, replace batteries)
+- [ ] Carbon monoxide detectors working
+- [ ] Outlet covers on unused outlets (if young children)
+- [ ] Stair gates if needed (toddlers)
+- [ ] Pool fence/gate if applicable
+- [ ] Medications locked away
+- [ ] Cleaning supplies locked away
+- [ ] Weapons secured (guns in safe with trigger locks, ammunition separate)
+- [ ] No obvious hazards (sharp objects accessible, unstable furniture, broken items)
+- [ ] Windows have locks, screens intact
+- [ ] First aid kit accessible to you (not children)
+
+**Cleanliness (Not Sterile, But Organized):**
+- [ ] General tidiness (no excessive clutter, not hoarding)
+- [ ] Kitchen clean (dishes done, counters wiped, trash taken out, no spoiled food in fridge)
+- [ ] Bathrooms clean (toilet, sink, shower, fresh towels)
+- [ ] Living areas organized (toys in bins, books on shelves, comfortable and functional)
+- [ ] Laundry manageable (clean clothes put away, dirty clothes in hamper, not piles on floor)
+- [ ] Floors clean (vacuumed/swept, no sticky residue)
+- [ ] No strong odors (pet urine, smoke, garbage)
+
+**Child-Focused Home:**
+- [ ] Child's bedroom set up (own bed, dresser, age-appropriate decor)
+- [ ] Child's artwork displayed (on fridge, walls, bulletin board)
+- [ ] Age-appropriate toys accessible (not put away in closets - should look lived-in)
+- [ ] Books visible (bookshelf with child's books, shows you read together)
+- [ ] Homework space (desk or table where child does schoolwork)
+- [ ] Child's photos displayed (family photos showing child's place in home)
+- [ ] Space for play (indoor and outdoor if applicable)
+
+**Logistics:**
+- [ ] Functioning utilities (heat/AC, water, electricity)
+- [ ] Adequate food (full fridge and pantry, healthy options, child's favorites)
+- [ ] Sleeping arrangements (child has own bed, not sleeping with parent beyond appropriate age)
+- [ ] Appropriate bedrooms (child not sharing with opposite-sex sibling beyond young age)
+- [ ] Comfortable temperature (not too hot/cold)
+- [ ] Good lighting (not dark, dingy)
+
+**Neighborhood:**
+- [ ] Safe area (low crime, child can play outside)
+- [ ] Close to school (or reasonable commute)
+- [ ] Near child's activities (sports, lessons)
+- [ ] Near child's friends (playmates nearby)
+
+**Day of Visit:**
+
+**Preparation:**
+- Professional but casual dress (not too formal, not sloppy)
+- Home comfortable temperature
+- Good natural light (open curtains if daytime visit)
+- Refreshments available for evaluator (water, coffee)
+- Pets secured if not child-friendly (or if friendly, ensure under control)
+- Child's schedule posted (shows routine and organization)
+- Evidence binder ready to provide (organized documentation of your parenting)
+
+**During Visit:**
+- **Be yourself** (don't act fake, evaluator will notice)
+- **Be calm and welcoming** (friendly, not defensive)
+- **Tour of home** (show child's room first, play areas, homework space)
+- **Answer questions honestly** (not defensively)
+- **Focus on child** (everything about child's needs, not your wants)
+- **Observe evaluator's reactions** (note what they're interested in, take mental notes)
+- **Provide evidence** (give evaluator your prepared binder of documentation)
+
+**Evaluator Will Observe:**
+- Interaction between you and child (natural, warm, responsive)
+- Child's comfort level at home (does child seem relaxed, happy)
+- Child's behavior with you (affectionate, seeking you out, or fearful/distant)
+- Your parenting (how you handle questions, discipline, guidance)
+- Home suitability (safety, cleanliness, child-appropriate)
+
+**Red Flags to Avoid:**
+- Overly rehearsed interaction with child (coaching is obvious)
+- Sterile home (too perfect, doesn't look lived-in)
+- Child afraid or uncomfortable with you
+- You speaking for child (not letting child answer evaluator's questions)
+- Badmouthing other parent in front of child
+- Defensive or hostile attitude
+- Inappropriate sleeping arrangements
+- Safety hazards
+- Excessive alcohol visible
+- New romantic partner present (especially if recently introduced)
+
+### Parent Interview Preparation
+
+**Interview Format:**
+- 2-4 hours typically
+- Evaluator's office usually (sometimes by phone/video)
+- Recorded often (audio or notes)
+- May span multiple sessions
+
+**Interview Structure:**
+
+**Part 1: Background (30-45 minutes)**
+- Your history (childhood, education, work, relationships)
+- Marriage history (how you met, courtship, marriage, problems)
+- Child's history (pregnancy, birth, early development, milestones)
+
+**Part 2: Parenting History (45-60 minutes)**
+- Who has been primary caregiver (historical division of tasks)
+- Your parenting involvement (specific daily tasks)
+- Parenting philosophy (discipline, values, approach)
+- Child's current needs (physical, emotional, educational)
+
+**Part 3: Co-Parenting (30-45 minutes)**
+- Relationship with other parent (current and historical)
+- Communication patterns (how you coordinate, conflicts)
+- Ability to co-parent going forward
+- Your proposals for custody and why
+
+**Part 4: Concerns & Issues (30-60 minutes)**
+- Concerns about other parent (specific examples, not generalizations)
+- Response to other parent's allegations about you
+- Any mental health, substance use, or other issues (yours or other parent's)
+- What you want for child and why
+
+**Opening Questions (Rapport Building):**
+
+**"Tell me about your children."**
+
+Good answer:
+- Detailed description of each child's personality, interests, strengths, challenges
+- Specific examples showing you know them well
+- Age-appropriate understanding of developmental stage
+- Proud but realistic (acknowledge challenges, not just perfect child)
+
+Bad answer:
+- Generic ("they're great kids")
+- Surface level ("likes soccer")
+- Focus on your feelings ("they're my whole world") rather than child's traits
+- Exaggerating perfection (unrealistic)
+
+**"What are your concerns about the custody arrangement?"**
+
+Good answer:
+- Child-focused concerns (stability, consistency, meeting needs)
+- Specific examples of how child's needs not met in other arrangement
+- Reasonable proposals for addressing concerns
+- Acknowledge what's working (not everything is bad)
+
+Bad answer:
+- Attack on other parent's character
+- Focus on your inconvenience (schedule, finances)
+- Unreasonable demands (other parent gets no time)
+- Emotional, not rational
+
+**Parenting History Questions:**
+
+**"Who has been the primary caregiver?"**
+
+Good answer:
+- Honest assessment backed by specifics
+- Quantify division of tasks (percentages)
+- Acknowledge other parent's involvement where it exists
+- Provide examples (daily routine, who did what)
+
+Bad answer:
+- Claiming 100% caregiving when other parent was involved
+- Completely dismissing other parent's role
+- Vague, no specifics
+- Defensive when asked to elaborate
+
+**"Describe a typical day with your children."**
+
+Good answer:
+- Detailed, hour-by-hour description
+- Specific tasks you perform (wake them, make breakfast, help dress, etc.)
+- Age-appropriate routines (homework time, extracurriculars, bedtime)
+- Consistent pattern (shows routine exists)
+
+Bad answer:
+- Vague ("we just hang out")
+- Minimal involvement described (child does everything themselves)
+- Inconsistent (different every day, no structure)
+- Overly perfect (not realistic)
+
+**"How do you discipline your children?"**
+
+Good answer:
+- Age-appropriate methods (time-outs, loss of privileges, natural consequences)
+- Consistent approach (same rules and consequences)
+- Teaching/guidance, not just punishment ("I explain why behavior was wrong, help them problem-solve")
+- Balanced (firm but loving)
+
+Bad answer:
+- Harsh punishment (physical discipline beyond age-appropriate spanking, yelling, shaming)
+- No discipline (child does whatever they want)
+- Inconsistent (depends on mood)
+- Comparing harshly to other parent's discipline
+
+**"How do you help with homework?"**
+
+Good answer:
+- Specific routine (time set aside, quiet space, you sit with them)
+- Know what subjects child struggles with
+- Examples of helping (checking work, explaining concepts, ensuring completion)
+- Balance (help but don't do it for them)
+
+Bad answer:
+- Don't help ("child does it alone")
+- Do it for them (not teaching)
+- Unaware of child's schoolwork
+- Conflicts around homework (yelling, frustration)
+
+**Co-Parenting Questions:**
+
+**"How do you communicate with the other parent?"**
+
+Good answer:
+- Business-like, child-focused communication
+- Use email/text to document (create record)
+- Respond to necessary communications despite conflict
+- Keep child out of adult conflicts
+- Example: "We use email for scheduling and child's needs. I keep communications brief and focused on [child]. Despite our differences, I respond promptly when it's about [child]."
+
+Bad answer:
+- "I don't" or "Only through attorneys"
+- "Everything is their fault"
+- Hostile tone evident
+- Use child as messenger
+
+**"Can you describe your co-parenting relationship?"**
+
+Good answer:
+- Acknowledge challenges honestly
+- Focus on what you DO to make it work
+- Child-focused approach despite conflict
+- Willingness to improve relationship for child's sake
+- Example: "It's difficult. We have different parenting styles and past conflicts. But I focus on [child]'s needs. I attend school events even if [other parent] will be there. I facilitate [other parent]'s time with [child]. I'm willing to work on communication for [child]'s benefit."
+
+Bad answer:
+- All negative, all other parent's fault
+- Unwilling to communicate or cooperate
+- Use of child as weapon
+- Refusal to see other parent's perspective at all
+
+**"How do you feel about the other parent's relationship with the children?"**
+
+TRAP QUESTION - Testing for alienation
+
+Good answer:
+- Acknowledge positive aspects of other parent's relationship with child
+- Support child having relationship with both parents
+- Express concerns appropriately (if legitimate) without denigrating
+- Example: "I believe [child] loves [other parent] and I support that relationship. [Other parent] has strengths like [specific example]. My concerns are about [specific parenting issues], not about [other parent] as a person or their love for [child]."
+
+Bad answer:
+- All negative about other parent
+- Undermining other parent's relationship ("child doesn't really want to see them")
+- Denial of other parent's love for child
+- Clear alienation
+
+**Self-Awareness Questions:**
+
+**"What are your strengths and weaknesses as a parent?"**
+
+Good answer:
+- Honest self-assessment
+- Strengths backed by examples
+- Real weaknesses acknowledged (not fake ones like "I care too much")
+- Growth mindset (working on improvement)
+- Example: "Strengths: patient, involved in school/activities, provide structure. Weaknesses: Sometimes too rigid with schedule, working on flexibility. Can be overprotective, learning to give [child] more independence as they mature."
+
+Bad answer:
+- No weaknesses ("I'm a perfect parent")
+- Fake weaknesses ("I love them too much")
+- Defensive about weaknesses
+- Weaknesses that are concerning (admitting inappropriate discipline, neglect)
+
+**"How has the divorce affected your parenting?"**
+
+Good answer:
+- Acknowledge stress but describe coping strategies
+- Focus on maintaining stability for child
+- Proactive about addressing own needs (therapy, support system)
+- Example: "It's been stressful, but I've prioritized maintaining routine for [child]. I'm in therapy to process my emotions separately from parenting. I ensure [child] sees me managing stress healthily. I've worked to keep [child]'s life as stable as possible."
+
+Bad answer:
+- Minimize impact ("no effect at all" - unrealistic)
+- Blame everything on other parent
+- No insight into how stress affects parenting
+- Admit to negative impact on child without addressing it
+
+**Red Flag Questions (More Traps):**
+
+**"Do you think the other parent loves the children?"**
+
+Correct answer: "Yes, I believe [other parent] loves [child]."
+
+Why: Shows you're not alienating. Even if other parent has problems, you acknowledge their love for child. Focus on behaviors/actions, not feelings.
+
+Wrong answer: "No" or qualified ("I don't know" / "If they did, they would...")
+
+Why: Shows alienation. Undermines child's relationship with other parent. Major red flag for evaluator.
+
+**"What would you do if the court awards custody to the other parent?"**
+
+Correct answer: "I would be disappointed, but I would respect the court's decision and focus on maintaining a positive relationship with [child] during my parenting time. I would continue to be involved in [child]'s life and support [his/her] relationship with [other parent]."
+
+Why: Shows you're child-focused, not just winning-focused. Demonstrates you won't undermine order or alienate child.
+
+Wrong answer: "I would appeal" / "That would never happen" / "I'd fight it" / "Child would be miserable"
+
+Why: Shows you're focused on winning, not child's adjustment. Suggests you'd make it harder for child if you lose.
+
+**"How often does the other parent call/see the children?"**
+
+Be accurate and neutral:
+- Don't exaggerate lack of contact (evaluator will verify)
+- Don't be defensive if other parent has regular contact
+- Acknowledge other parent's involvement where it exists
+- If there are problems, state facts without emotion
+
+Example (if true): "Per our temporary order, [other parent] has [child] every other weekend and Wednesday evenings. [Other parent] has canceled approximately [X] visits in the past [time period], typically due to [stated reasons]. [Other parent] calls [child] on non-custody days about [frequency]."
+
+**"Tell me about [specific allegation other parent made about you]."**
+
+Strategy:
+- Stay calm, not defensive
+- Address allegation directly, not dismissively
+- Provide facts contradicting allegation
+- Offer evidence
+- Context if allegation has kernel of truth but misrepresented
+
+Example:
+Allegation: "You have anger problems."
+
+Response: "I understand [other parent] feels that way, particularly from our past conflicts during marriage. I have sought therapy to learn better communication and stress management. I don't believe I have an anger problem that affects my parenting. [Child] is never exposed to inappropriate expressions of anger. I'd be happy to have my therapist provide a letter addressing this concern. I can also provide statements from [teacher, coach, etc.] who can speak to my demeanor with [child]."
+
+**End of Interview Questions:**
+
+**"Is there anything else you'd like me to know?"**
+
+Use this opportunity:
+- Reiterate your strengths as parent (briefly)
+- Emphasize child's wellbeing in your care
+- Provide any final important evidence
+- Express willingness to cooperate with evaluation
+- Thank evaluator for their time and thoroughness
+
+Example: "I just want to emphasize that [child]'s wellbeing is my priority. [He/she] thrives in my care, as shown by [specific evidence - grades, activities, health]. I'm committed to co-parenting as effectively as possible despite the challenges. I've provided extensive documentation in the binder I gave you, and I'm happy to provide any additional information you need. I trust your expertise in making a recommendation that serves [child]'s best interests. Thank you for your time and care in evaluating this case."
+
+### Psychological Testing Preparation
+
+**Common Tests in Custody Evaluations:**
+
+**1. MMPI-2 (Minnesota Multiphasic Personality Inventory-2)**
+- Most common personality test in custody evaluations
+- 567 true/false questions
+- Takes 60-90 minutes
+- Assesses psychopathology, personality traits
+
+**2. PAI (Personality Assessment Inventory)**
+- 344 questions, 4-point scale
+- Alternative to MMPI-2
+- Assesses clinical syndromes, treatment concerns, interpersonal style
+
+**3. Rorschach Inkblot Test**
+- Projective test (10 inkblots, describe what you see)
+- Assesses thought patterns, emotional functioning, reality testing
+- Controversial but still used
+
+**4. Parenting Stress Index (PSI)**
+- Measures stress in parent-child relationship
+- Child characteristics, parent characteristics, life stress
+
+**5. Other Possible Tests:**
+- Beck Depression Inventory
+- Beck Anxiety Inventory
+- MCMI (Millon Clinical Multiaxial Inventory)
+- PCL-R (Psychopathy Checklist) if domestic violence alleged
+- IQ testing
+- Substance abuse screening
+
+**MMPI-2 Strategy:**
+
+**Understanding Validity Scales (Detect Dishonesty):**
+
+These scales catch people trying to look good or fake illness:
+- **L Scale (Lie)**: Measures claiming unrealistic virtue ("I never tell lies" - nobody is that perfect)
+- **F Scale (Infrequency)**: Measures exaggerating symptoms or random answering
+- **K Scale (Defensiveness)**: Measures defensiveness, hiding problems
+- **VRIN/TRIN**: Random or inconsistent responding
+
+**How to Score Well on Validity Scales:**
+- Answer honestly, not perfectly
+- Admit to minor flaws everyone has ("Sometimes I procrastinate" - True)
+- Don't try to appear perfect (L scale will catch you)
+- Don't exaggerate problems (F scale will catch you)
+- Be consistent (questions repeated in different forms - answer same way)
+
+**Clinical Scales:**
+
+Ten main scales measuring psychological issues:
+1. Hypochondriasis (health preoccupation)
+2. Depression
+3. Hysteria (emotional overreaction)
+4. Psychopathic Deviate (antisocial behavior)
+5. Masculinity-Femininity
+6. Paranoia
+7. Psychasthenia (anxiety, obsessive thoughts)
+8. Schizophrenia (thought disorder)
+9. Hypomania (elevated mood, impulsivity)
+10. Social Introversion
+
+**Strategy for Clinical Scales:**
+- Answer honestly
+- Elevated scores don't necessarily disqualify you (treatment compliance matters)
+- Mild elevation normal (everyone has some issues)
+- Extreme elevation concerning (suggests psychopathology)
+
+**Sample MMPI-2 Questions:**
+- "I like to read newspaper articles on crime." (True/False)
+- "At times I have very much wanted to leave home." (True/False)
+- "I am easily awakened by noise." (True/False)
+- "I have never done anything dangerous for the thrill of it." (True/False - most people have, so "False" is honest)
+- "I worry about money." (True/False - most parents do, "True" is normal)
+
+**General Strategy:**
+- Answer naturally, not strategically
+- Don't overthink questions
+- Consistency is key (questions repeated, answer the same)
+- Mild elevation on depression/anxiety normal for someone going through divorce
+- Don't try to appear perfect (will backfire)
+
+**PAI Strategy:**
+
+Similar to MMPI-2:
+- 4-point scale (False, Slightly True, Mainly True, Very True)
+- Has validity scales like MMPI
+- Answer honestly, consistently
+- Don't exaggerate or minimize
+
+**Rorschach Strategy:**
+
+**What It Measures:**
+- Thought organization (logical vs disordered thinking)
+- Emotional regulation (how you process feelings)
+- Reality testing (see things most people see, or bizarre responses)
+- Interpersonal functioning (how you relate to others)
+
+**How to Respond:**
+- See common things (animals, people, nature, objects)
+- Don't see bizarre things (blood, violence, sexual content unless clearly there)
+- Quality over quantity (detailed responses show intelligence)
+- Don't overthink (first impression usually best)
+- It's okay to see different things (no "right" answer)
+
+**Example:**
+Card with inkblot that looks like bat/butterfly
+- Good response: "I see a butterfly or bat, with wings spread"
+- Concerning response: "I see blood dripping from a monster's face"
+
+**Parenting Stress Index Strategy:**
+
+**What It Measures:**
+- Parent distress (your stress level)
+- Parent-child dysfunctional interaction (conflict in relationship)
+- Difficult child (child's challenging behaviors)
+
+**Strategy:**
+- Be honest about normal parenting stress (everyone has some)
+- Emphasize coping strategies ("When I feel stressed, I...")
+- Acknowledge child's challenging moments but also strengths
+- Show awareness of child's needs and your adaptability
+
+**Example:**
+Question: "I feel trapped by my responsibilities as a parent."
+
+Honest answer if going through divorce: Might be "Sometimes" (True)
+But add context in interview: "Divorce has been stressful and I've felt overwhelmed at times, but I've sought support through therapy and family. I don't resent my responsibilities to [child]; I'm committed to being the best parent I can be."
+
+**Substance Abuse Screening:**
+
+If you have history:
+- Be honest about past use and timeframe
+- Emphasize recovery (length of sobriety, treatment completion, ongoing support)
+- Offer to test (hair follicle test shows 90 days, proves current sobriety)
+- Provide documentation (treatment records, AA attendance, sponsor letter)
+
+If you don't have substance abuse history:
+- Answer honestly, should be straightforward
+- Expect confirmation testing (urine, hair follicle, breathalyzer)
+- This is easy test to pass if you're sober
+
+**General Testing Tips:**
+
+**Before Testing:**
+- Good night's sleep (fatigue affects responses)
+- Eat normally (hunger affects mood and focus)
+- Arrive on time (shows responsibility)
+- Bring glasses if needed (need to read clearly)
+
+**During Testing:**
+- Follow instructions carefully
+- Ask questions if instructions unclear
+- Take breaks if allowed (long tests are tiring)
+- Don't rush (accuracy matters more than speed)
+- Stay focused (answer each question honestly, don't get distracted)
+
+**After Testing:**
+- Don't obsess over your answers (can't change them)
+- Trust that your honest responses reflect your fitness as parent
+- If results show elevation on scale (e.g., depression), discuss with attorney how to address in context (treatment compliance, doesn't affect parenting capacity)
+
+**What If Results Are Bad:**
+
+If test shows concerning elevations:
+- Don't panic (one test doesn't decide custody)
+- Get independent evaluation (your own psychologist to provide alternative interpretation)
+- Emphasize treatment compliance (if you have diagnosed issue, you're managing it)
+- Focus on functional parenting ability (test measures psychological symptoms, not parenting capacity - show through evidence that child thrives in your care despite your issues)
+- Cross-examine evaluator's interpretation (some elevation normal, evaluator may over-interpret)
+
+### Child Interview Preparation
+
+**Evaluator Will Interview Child (If Old Enough):**
+- Typically age 4+ (varies by evaluator)
+- Without parents present (you won't be in room)
+- Age-appropriate questions
+- May be multiple sessions
+- Often includes play-based assessment for young children
+
+**What Evaluator Assesses:**
+- Child's preference (if old enough, typically 12+)
+- Parent-child relationships (which parent child closer to, why)
+- Coaching (is child repeating parent's words)
+- Alienation (does child parrot negative things about one parent)
+- Safety concerns (any fear of either parent, abuse allegations)
+- Daily routines (child's description of life at each home)
+- Adjustment (how child is doing academically, socially, emotionally)
+
+**Questions by Age:**
+
+**Ages 4-7:**
+- "Who do you live with?"
+- "What do you do at Mommy's house? Daddy's house?"
+- "Who helps you brush your teeth? Get dressed?"
+- "What do you eat for breakfast?"
+- "What's your favorite thing to do with Mom? With Dad?"
+- "Who reads you stories at bedtime?"
+- "Do you feel safe at both houses?"
+
+Evaluator observes:
+- Comfort level with each parent (affectionate, fearful, neutral)
+- Child's language (own words vs coached phrases)
+- Consistency with parent reports
+- Signs of stress or anxiety
+
+**Ages 8-11:**
+- "Tell me about your daily routine at Mom's house. At Dad's house."
+- "Who helps with homework?"
+- "What's different about being at each house?"
+- "What do you like about each parent?"
+- "What do you wish was different?"
+- "Do you ever feel scared at either house?"
+- "Do your parents fight in front of you?"
+- "Has anyone told you what to say to me?"
+
+Evaluator observes:
+- Specific examples (coached kids give vague or scripted answers)
+- Balance (can child say positives about both parents, or all negative about one)
+- Age-appropriate understanding
+- Signs of loyalty conflicts
+
+**Ages 12+:**
+- All above questions plus:
+- "Where would you prefer to live if you could choose?"
+- "Why do you want to live there?"
+- "How do you get along with each parent?"
+- "What are each parent's rules?"
+- "Do you feel like you can talk to each parent about problems?"
+- "How do you think the custody schedule should work?"
+- "What would make the custody situation better for you?"
+
+Evaluator observes:
+- Reasoning ability (can child articulate reasons, not just "I want to live with Mom")
+- Manipulation (is child being manipulated by either parent)
+- Maturity level (weight given to preference increases with maturity)
+- Genuine vs coached preference
+
+**Signs of Coaching Evaluators Look For:**
+
+- **Scripted responses**: Too perfect, adult language, rehearsed delivery
+- **Lack of specific examples**: "Dad is mean" but can't give examples
+- **Repeating parent's phrases**: Using exact words parent uses about other parent
+- **Contradictions**: Child's story doesn't match facts
+- **Extreme loyalty**: No balance, all good about one parent, all bad about other
+- **Parroting allegations**: Repeating serious allegations without understanding
+- **Fear of disappointing parent**: Child checks responses, seems anxious about "right" answer
+- **Inability to elaborate**: Scripted answer but can't expand when asked follow-up
+
+**Example:**
+Evaluator: "Tell me why you want to live with Mom."
+Coached child: "Because Dad is neglectful and emotionally abusive." (Adult language, vague)
+Evaluator: "Can you give me an example of that?"
+Coached child: "Um... just, he is." (Can't provide specifics)
+
+Genuine child: "I want to live with Mom because she helps with my homework every day, and I do better in school when I'm at her house. Dad is fun, but he doesn't have a routine and I like having a routine." (Specific, balanced, child's own reasoning)
+
+**How to Prepare Child (Ethically, Not Coaching):**
+
+**Do:**
+- Tell child evaluator will ask about their life (be honest)
+- Reassure child this is not their fault, they didn't do anything wrong
+- Let child know they should tell truth about how they feel
+- Reassure that you'll be okay no matter what child says
+- Emphasize both parents love child
+- If child asks what to say: "Just tell [evaluator] how you really feel. There's no right or wrong answer."
+
+**Don't:**
+- Tell child what to say ("Make sure you tell them you want to live with me")
+- Rehearse responses ("If they ask about Dad, say...")
+- Badmouth other parent before interview ("Tell them how Dad never helps with homework")
+- Make child feel they must choose ("Do you love me or Dad more?")
+- Grill child after interview ("What did you tell them?")
+- Make child feel guilty ("If you say you want to live with Dad, you'll break my heart")
+- Discuss adult issues (finances, legal strategy, evaluator's bias)
+
+**After Interview:**
+- Child may be tired or emotional (interview is stressful)
+- Don't interrogate child about what was said
+- If child volunteers information, listen supportively
+- Don't react negatively to anything child says
+- Reassure child they did fine, you're proud of them for being honest
+
+### Collateral Contact Strategy
+
+**Who Evaluator Will Interview:**
+- Anyone either parent identifies as relevant
+- Teachers, doctors, coaches, childcare providers
+- Family members (yours and other parent's)
+- Friends and neighbors
+- Therapists (yours, child's, family)
+- Anyone mentioned in pleadings or by either parent
+
+**Preparing Your Collateral Contacts:**
+
+**Step 1: Choose Wisely**
+- People with relevant knowledge (direct observations of your parenting)
+- Credible witnesses (stable, articulate, not overly biased)
+- Professional contacts preferred (teachers, doctors) over family (seen as biased)
+- Long-term relationships (known you for years, not just recent)
+
+**Step 2: Ask Permission**
+- "Evaluator may contact you as part of custody evaluation. Are you comfortable speaking with them about my parenting and [child]'s wellbeing?"
+
+**Step 3: Brief Them (Without Coaching)**
+- Provide context: "Contested custody case, evaluator assessing best interests of [child]"
+- What evaluator will ask: Observations of your parenting, child's wellbeing, any concerns
+- What to focus on: Specific examples (not generalizations), honest observations, child-focused perspective
+- What not to say: Don't bash other parent excessively (looks bad), don't exaggerate, don't speculate beyond their knowledge
+
+**Step 4: Key Points to Emphasize**
+- Your involvement in child's life (attendance at events, communication, follow-through)
+- Child's wellbeing in your care (happy, healthy, thriving)
+- Specific examples (dates, incidents showing your engaged parenting)
+- Professionalism (calm, appropriate, respectful in communications)
+
+**Step 5: Provide Documentation**
+- Any records they have (school reports, medical notes, team rosters)
+- Contact information for evaluator
+- Reminder to respond promptly if evaluator reaches out
+
+**Sample Briefing Conversation:**
+
+You: "Hi [Teacher], I wanted to let you know that as part of the custody case, a court-appointed evaluator may contact you to ask about [child]'s wellbeing and my involvement in [his/her] education. Are you comfortable speaking with them?"
+
+Teacher: "Yes, of course."
+
+You: "Thank you. They'll likely ask about my attendance at conferences, involvement in [child]'s education, and how [child] is doing. I'd appreciate if you could share your honest observations. Specific examples are helpful, like the times I've volunteered or our communications about [child]'s progress. You don't need to say anything negative about [other parent], just your observations of [child] and my involvement. "
+
+Teacher: "No problem. I'll tell them what I've observed - you're very involved, and [child] is doing well."
+
+You: "I appreciate it. The evaluator is [name] and may contact you in the next few weeks. Thank you for your time."
+
+**What Good Collaterals Will Say:**
+
+**Teacher:**
+"[Parent] has been highly involved in [child]'s education. Attends all conferences, responds promptly to communications, volunteers in classroom, ensures homework completed. [Child] has improved/maintained strong performance this year. [Parent]'s involvement makes a difference. [Child] is well-cared for, prepared for school, thriving."
+
+**Doctor:**
+"[Parent] brings [child] to approximately X% of appointments, provides detailed information about symptoms, follows treatment recommendations. [Child] is up to date on vaccinations, receives regular preventive care, is healthy and well-cared for."
+
+**Coach:**
+"[Parent] enrolled [child], pays fees on time, provides transportation to X% of practices/games, attends events and is supportive. Volunteers as [team parent/helper]. [Child] has improved/performed well and benefits from consistent support."
+
+**Neighbor:**
+"I see [Parent] with [child] daily. They go to park, ride bikes, do activities together. [Parent] is patient and engaged with [child]. [Child] seems happy, well-adjusted, and safe. [Parent] is responsible and appropriate."
+
+**Damage Control for Other Parent's Collaterals:**
+
+If other parent provides hostile collaterals (their family members, friends):
+
+**Strategy:**
+- Acknowledge to evaluator ("Other parent's mother has strained relationship with me due to divorce conflict")
+- Provide context (bias, lack of current knowledge, hearsay)
+- Offer rebuttal collaterals with similar knowledge but less bias
+- Don't obsess (evaluator knows family members are biased)
+
+### Evidence Binder for Evaluator
+
+**Purpose:** Organized documentation showing your fitness as parent, child's wellbeing in your care, and your superior involvement.
+
+**Format:** Professional binder with tabs, labeled clearly, easy to navigate
+
+**Contents:**
+
+**Tab 1: Summary & Table of Contents**
+- 1-page summary of your case (why you should have custody)
+- Table of contents (what's in each tab)
+- Your contact information
+
+**Tab 2: Parenting Time & Daily Logs**
+- 6-12 months of parenting logs
+- Calendar showing custody time
+- Daily routine documentation
+
+**Tab 3: Educational Involvement**
+- Parent-teacher conference attendance records
+- School volunteer logs
+- Communications with teachers (emails)
+- Homework samples
+- Report cards (showing progression)
+- School event attendance (photos, programs)
+- Special education involvement (IEP meetings if applicable)
+
+**Tab 4: Medical Involvement**
+- Doctor appointment attendance log
+- Medical records (key appointments, treatments)
+- Vaccination records
+- Prescription management (who fills, administers)
+- Communications with doctor's office
+
+**Tab 5: Extracurricular Involvement**
+- Enrollment forms (your signature)
+- Payment receipts
+- Transportation logs
+- Attendance photos (you at games/recitals)
+- Coach/instructor communications
+- Certificates, awards
+
+**Tab 6: Financial Support**
+- Monthly expense summary
+- Receipts by category (clothing, school, medical, activities)
+- Bank statements (highlighted child expenses)
+- Comparison showing your contribution beyond support
+
+**Tab 7: Stable Home**
+- Lease/mortgage
+- Utility bills
+- Employment verification
+- Photos of home (child's room, play areas)
+- School proximity map
+
+**Tab 8: Child Thriving**
+- Photos of child happy, engaged in activities
+- Achievement certificates, awards
+- Social development (friends, activities)
+- Teacher/coach positive comments
+
+**Tab 9: Communications**
+- Attempts to co-parent (your emails offering cooperation)
+- Other parent's problematic communications (hostility, refusal to cooperate, cancellations)
+- Third-party communications (showing your engagement)
+
+**Tab 10: Third-Party Statements**
+- Letters from teachers, doctors, coaches
+- Neighbor/friend statements
+- Character references
+
+**Tab 11: Concerns About Other Parent** (If Applicable)
+- Evidence of substance abuse, neglect, alienation, etc.
+- Police reports, CPS reports (if relevant)
+- Documentation of missed parenting time, lack of involvement
+
+**Presentation:**
+- Professional but not overly slick (authenticity matters)
+- Organized and easy to navigate (evaluator will skim, not read every word)
+- Focus on quality over quantity (relevant evidence, not excessive fluff)
+- Provide to evaluator at first meeting or home visit
+
+---
+
+`,
+  "Custody/05-proving-best-interests.md": `
+## Section 5: Proving Best Interests of Child
+
+[Content continues... This is where I'd continue building the comprehensive guide covering best interests factors, countering other parent's tactics, evaluation prep, etc.]
+
+**Note:** Due to length constraints, I'll continue this guide in the next section. The full guide will be approximately 25,000-30,000 tokens covering all planned sections.
+
+## Section 5: Proving Best Interests of Child
+
+### Child's Needs Analysis by Age
+
+**Why This Matters:**
+Courts assess custody based on what child needs at their current developmental stage. Different ages require different levels of care and different parenting skills.
+
+**Infants & Toddlers (0-3 Years):**
+
+**Primary Needs:**
+- Consistent primary caregiver (attachment formation critical)
+- Frequent contact with primary caregiver (long separations harmful)
+- Stable, predictable routine
+- Safe, nurturing environment
+- Meeting physical needs (feeding, diaper changes, sleep supervision)
+
+**Custody Considerations:**
+- Courts strongly favor primary caregiver
+- Overnights with non-primary parent may be limited (especially infants)
+- Frequent, shorter visits with non-primary parent typical
+- Breastfeeding can be factor (though not determinative)
+
+**Evidence to Prove You're Better Parent:**
+- Historical primary caregiver (who fed, changed, soothed baby)
+- Child's attachment to you (comfort when distressed, seeks you out)
+- Knowledge of child's routine (sleep schedule, feeding schedule, soothing techniques)
+- Medical involvement (well-baby checkups, vaccinations)
+- Childcare coordination (daycare enrollment, provider communication)
+- Photos/videos showing your caregiving and bond
+
+**Preschool Age (3-5 Years):**
+
+**Primary Needs:**
+- Continued attachment to primary caregiver (but can handle longer separations)
+- Structure and routine (bedtime, meal times, daily schedule)
+- Socialization (playgroups, preschool)
+- Language development support (reading, conversation)
+- Physical care (dressing, hygiene, meals)
+
+**Custody Considerations:**
+- Primary caregiver still favored but overnights with other parent more feasible
+- Consistency important (same bedtime routine, similar rules at both homes)
+- Preschool proximity can be factor
+
+**Evidence to Prove You're Better Parent:**
+- Daily routine documentation (morning, evening routines you perform)
+- Preschool involvement (dropoff/pickup, teacher communication, volunteer in classroom)
+- Playdates and social activities (coordination showing you foster social development)
+- Reading together (literacy development)
+- Photos of engaged play, outings to park, learning activities
+
+**School Age (6-11 Years):**
+
+**Primary Needs:**
+- Stable home environment
+- Educational support (homework help, attendance at school events)
+- Extracurricular opportunities (sports, music, activities)
+- Social development (friends, sleepovers, birthday parties)
+- Emotional support (listening, guidance, problem-solving)
+
+**Custody Considerations:**
+- School stability major factor (keeping child in same school preferred)
+- Homework help capability matters
+- Extracurricular involvement matters
+- Both parents can typically have substantial time (50/50 more feasible at this age)
+
+**Evidence to Prove You're Better Parent:**
+- School involvement (conferences, volunteering, homework help)
+- Academic progress (grades, teacher reports)
+- Extracurricular involvement (enrollment, transportation, attendance at events)
+- Social coordination (hosting playdates, arranging sleepovers, birthday parties)
+- Communication with child (quality time, discussions about school/friends/problems)
+
+**Adolescents (12-18 Years):**
+
+**Primary Needs:**
+- Emotional support (navigating peer pressure, identity development, stress)
+- Educational support (increasingly complex academics, college planning)
+- Monitoring and boundaries (appropriate supervision, knowing whereabouts, healthy limits)
+- Respect for growing independence (appropriate freedoms)
+- Stability during turbulent developmental period
+
+**Custody Considerations:**
+- Child's preference given significant weight (more weight as child gets older)
+- Academic needs paramount (which parent better supports education)
+- Social considerations (where child's friends, activities located)
+- Peer influence monitoring (which parent provides appropriate supervision)
+- Autonomy vs structure balance
+
+**Evidence to Prove You're Better Parent:**
+- Academic support (help with advanced coursework, college planning, SAT prep)
+- Monitoring without hovering (know child's friends, whereabouts, social media, but respect privacy)
+- Communication (teen willing to talk to you about problems)
+- Healthy boundaries (appropriate rules, consequences, balance of freedom and safety)
+- Support for identity development (interests, activities, future planning)
+
+### Stability Argument
+
+**Why Stability Matters:**
+Courts presume maintaining status quo serves child's best interests unless status quo is harmful. Change is stressful for children; burden on party seeking change to prove it's necessary.
+
+**Types of Stability:**
+
+**1. Residential Stability**
+- Child has lived in your home for [time period]
+- Same bedroom, same neighborhood
+- Knows neighbors, nearby park, local library
+- Feels safe and comfortable in familiar environment
+
+**Evidence:**
+- Length of time child has lived with you
+- Photos of child's room (personalized, familiar space)
+- Lease/mortgage showing stable housing
+- Letters from neighbors (know child, observe child happy and secure)
+
+**2. School Stability**
+- Child has attended same school for [time period]
+- Established relationships with teachers, friends
+- Academic progress in current school
+- Changing schools would disrupt education and friendships
+
+**Evidence:**
+- School enrollment records (length of attendance)
+- Teacher statements (child thriving, change would be harmful)
+- Report cards showing progress
+- Friends at current school (social network established)
+- Map showing proximity to your home (easy commute)
+
+**3. Community Stability**
+- Child's activities located near your home (soccer league, music lessons)
+- Child's friends live nearby (established social network)
+- Child involved in community (church, clubs, library programs)
+
+**Evidence:**
+- Activity locations (addresses, proximity to your home)
+- Friend locations (playmate nearby, sleepovers frequent)
+- Community involvement (photos at library story time, church youth group)
+
+**4. Routine Stability**
+- Child has predictable daily routine in your care
+- Consistent wake time, meal times, homework time, bedtime
+- Child feels secure knowing what to expect
+
+**Evidence:**
+- Daily logs showing consistent routine
+- Child's schedule posted at home (shows organization and predictability)
+- Statements from child or collaterals about routine
+
+**5. Relationship Stability**
+- Child has strong, established bond with you
+- You have been primary caregiver historically
+- Disrupting this relationship would harm child
+
+**Evidence:**
+- Historical primary caregiver documentation
+- Photos/videos showing close bond over time
+- Child seeks you for comfort, guidance, support
+- Third-party observations of your relationship
+
+**How to Argue Stability:**
+
+**If You Have Status Quo:**
+"[Child] has lived primarily with me for [time period]. [He/she] attends [School], where [he/she] has thrived academically and socially. [Child]'s home is [address], near [school, activities, friends]. [Child] has a stable routine, strong support network, and deep roots in this community. Changing custody would disrupt [child]'s education, friendships, and sense of security. The current arrangement serves [child]'s best interests, and stability should be maintained."
+
+**If You're Seeking to Change Status Quo:**
+"While [child] has been living primarily with [other parent], this arrangement is not serving [child]'s best interests. [Specific problems: declining grades, missed medical appointments, lack of supervision, etc.]. The status quo is harmful, and change is necessary. I propose [new custody arrangement] which will provide [child] with [stability, supervision, educational support, etc.] currently lacking. Despite the change, [child] will maintain [school, friends, activities] to minimize disruption."
+
+### Parent-Child Bond Evidence
+
+**Why Bond Matters:**
+Strong parent-child bond is primary best interests factor. Child needs secure attachment to parent, feels loved and supported, seeks parent for comfort.
+
+**How to Prove Strong Bond:**
+
+**1. Historical Relationship**
+- You have been primary caregiver since birth/early childhood
+- Child has spent majority of time with you
+- You handled child's care during illness, nighttime wake-ups, emotional upsets
+
+**Evidence:**
+- Timeline showing your primary caregiver role
+- Photos over years showing close relationship
+- Daily logs showing consistent care and involvement
+
+**2. Current Interactions**
+- Child seeks you out for comfort when upset
+- Child shares with you about school, friends, problems
+- Child shows affection (hugs, "I love you," wants to spend time with you)
+- Child values your opinion and guidance
+
+**Evidence:**
+- Evaluator observations (home visit, parent-child interaction assessment)
+- Videos of natural interactions (bedtime routine, playing together, talking)
+- Collateral statements (teacher: "Child talks about Mom constantly," Doctor: "Child looks to Mom for reassurance")
+
+**3. Quality Time**
+- You engage in activities child enjoys
+- You create special traditions (Saturday morning pancakes, Sunday library trips)
+- You attend child's events (not just present, but engaged and supportive)
+
+**Evidence:**
+- Photos of activities together (cooking, crafts, bike rides, games)
+- Child's enthusiasm when discussing time with you
+- Traditions and rituals you've created
+
+**4. Emotional Attunement**
+- You understand child's emotions and respond appropriately
+- You help child regulate emotions (calm when upset, validate feelings)
+- Child feels safe expressing feelings to you
+
+**Evidence:**
+- Examples of emotional support (child had bad day at school, you listened and helped problem-solve)
+- Therapist observations (if child in therapy: "Child has secure attachment to [parent]")
+- Evaluator assessment
+
+**5. Communication**
+- Child talks to you openly
+- You know details of child's life (friends' names, favorite subjects, current worries)
+- Child trusts you with problems
+
+**Evidence:**
+- Specific examples (child told you about bullying issue, you helped address it)
+- Knowledge of child's life (can name best friend, current crush, favorite teacher, what child stressed about)
+
+**Contrast with Other Parent:**
+
+If bond with other parent weaker:
+- Document other parent's lack of involvement historically
+- Child's relationship with other parent more distant (doesn't confide, doesn't seek comfort)
+- Child's behavior changes after time with other parent (withdrawn, anxious, acts out)
+
+**Red Flag:** Don't claim child has NO bond with other parent. Even if true, sounds like alienation. Better: "Child has a relationship with [other parent], but it's not as close due to [other parent]'s limited involvement. Child's primary attachment is to me."
+
+### Meeting Educational Needs
+
+**Why Education Matters:**
+Courts consider which parent better supports child's education. Academic success indicator of wellbeing; parent who prioritizes education serves child's best interests.
+
+**How to Prove You Better Support Education:**
+
+**1. School Involvement**
+- Attend all parent-teacher conferences (other parent misses them)
+- Volunteer in classroom (other parent doesn't)
+- Communicate regularly with teachers (other parent rarely does)
+- Attend school events (performances, science fairs, open houses)
+
+**Evidence:**
+- Conference sign-in sheets showing your attendance
+- Volunteer logs showing your hours
+- Email trail showing frequent communication with teachers
+- Photos at school events
+
+**2. Homework Support**
+- Establish homework routine (same time daily, quiet space, you available to help)
+- Monitor completion (check homework before school)
+- Help with difficult subjects (review concepts, quiz for tests)
+- Communicate with teacher if child struggling
+
+**Evidence:**
+- Daily logs showing homework time
+- Homework samples (your handwriting on corrections/notes)
+- Teacher statement: "[Parent] ensures homework completed, child's work improved"
+- Child's grades (improving since living primarily with you)
+
+**3. Academic Advocacy**
+- If child has learning disability: You pushed for evaluation, attend IEP meetings
+- If child struggling: You arranged tutoring
+- If child gifted: You advocated for advanced placement
+
+**Evidence:**
+- IEP meeting attendance records
+- Communications with school counselor/special ed coordinator
+- Tutoring receipts and schedule
+- Advocacy letters you wrote
+
+**4. Educational Enrichment**
+- You read with child daily (literacy development)
+- You visit educational places (museums, science centers, historical sites)
+- You encourage curiosity and learning (answer questions, look things up together, educational games)
+
+**Evidence:**
+- Photos at museums, libraries, educational outings
+- Books you've read together (library checkout history)
+- Educational apps/games you use together
+
+**5. Long-Term Planning**
+- You discuss child's future (college, career, goals)
+- You save for child's education (college fund)
+- You encourage extracurriculars that build skills
+
+**Evidence:**
+- College savings account statements
+- Discussions about future (documented in logs or evaluator interview)
+- Encouragement of child's interests (art classes, science club, debate team)
+
+**Contrast with Other Parent:**
+
+If other parent doesn't support education:
+- Other parent rarely attends conferences or school events
+- Homework incomplete during other parent's custody time
+- Child's grades drop during other parent's time
+- Other parent doesn't communicate with teachers
+- Other parent prioritizes work/social life over child's education
+
+**Evidence:**
+- Report card showing grade fluctuations corresponding to custody schedule
+- Teacher statement: "I have limited contact with [other parent], homework often incomplete after [other parent]'s weekends"
+- Conference records showing other parent's absences
+- Communications from school going unanswered by other parent
+
+### Meeting Healthcare Needs
+
+**Why Health Matters:**
+Child's physical and mental health paramount. Parent who ensures medical needs met serves child's best interests.
+
+**How to Prove You Better Meet Healthcare Needs:**
+
+**1. Medical Appointments**
+- You take child to all doctor appointments (well-checks, sick visits)
+- You schedule appointments proactively (not waiting for other parent)
+- You follow up on doctor recommendations (schedule specialists, complete treatment courses)
+
+**Evidence:**
+- Medical records showing you brought child to X% of appointments
+- Your contact info as primary in medical records
+- Appointment calendar showing dates and your attendance
+- Doctor statement confirming your involvement
+
+**2. Medication Management**
+- You fill prescriptions promptly
+- You administer medications correctly (right dose, right time)
+- You track doses (medication log or calendar)
+- You monitor for side effects and report to doctor
+
+**Evidence:**
+- Pharmacy receipts showing you fill prescriptions
+- Medication log
+- Doctor notes reflecting your reports on medication effectiveness
+
+**3. Health Insurance**
+- You carry child on your health insurance
+- You coordinate benefits if both parents provide insurance
+- You submit claims and handle billing
+
+**Evidence:**
+- Insurance cards showing child covered
+- Explanation of benefits statements
+- Payment of premiums
+
+**4. Preventive Care**
+- Child's vaccinations up to date (you ensure this)
+- Annual checkups on schedule
+- Dental cleanings twice yearly
+- Vision/hearing screenings as recommended
+
+**Evidence:**
+- Immunization records
+- Well-child visit records
+- Dental appointment records
+
+**5. Mental Health Support**
+- If child needs therapy: You arrange it, take child to appointments, participate in family sessions
+- You recognize emotional needs and address them proactively
+
+**Evidence:**
+- Therapy appointment records
+- Therapist communications
+- Therapist statement about your involvement and child's progress
+
+**6. Special Health Needs**
+- If child has chronic condition: You manage it (track symptoms, administer treatment, attend specialist appointments)
+- If child has allergies: You ensure safe food, educate caregivers, carry EpiPen
+- If child has disability: You coordinate care, attend therapy appointments, advocate for services
+
+**Evidence:**
+- Specialist visit records
+- Treatment logs (asthma inhaler use, blood sugar monitoring, etc.)
+- Care plan showing your involvement
+
+**Contrast with Other Parent:**
+
+If other parent neglects healthcare:
+- Misses medical appointments or cancels last minute
+- Doesn't administer medications properly (forgets doses, wrong timing)
+- Doesn't follow doctor's instructions
+- Delays seeking care when child sick or injured
+
+**Evidence:**
+- Missed appointment records
+- Doctor concerns about treatment compliance during other parent's time
+- Child returns from other parent's care with untreated illness or injury
+- Pharmacy records showing gaps in prescription refills during other parent's custody time
+
+### Meeting Emotional Needs
+
+**Why Emotional Wellbeing Matters:**
+Child's mental health and emotional development critical. Parent who provides emotional support and stability serves child's best interests.
+
+**How to Prove You Better Meet Emotional Needs:**
+
+**1. Emotional Availability**
+- You are present and attentive (not distracted by phone, work, other priorities)
+- You listen when child talks (give full attention, validate feelings)
+- Child feels comfortable coming to you with problems
+
+**Evidence:**
+- Examples of emotional support (child shared problem, you helped)
+- Quality time together (one-on-one attention, not just physical presence)
+- Child's trust in you (confides worries, seeks advice)
+
+**2. Emotional Regulation Support**
+- You help child identify and name emotions
+- You teach coping strategies (deep breathing, taking break, talking through feelings)
+- You model healthy emotional expression
+
+**Evidence:**
+- Examples of helping child through emotional moments (tantrum, disappointment, fear)
+- Child's improved emotional regulation (therapist notes progress, teacher notes child handling frustration better)
+- Your calm, consistent approach
+
+**3. Stability and Predictability**
+- Child knows what to expect in your care (routine, rules, consequences)
+- You are consistent (not moody, unpredictable, or volatile)
+- Child feels safe and secure with you
+
+**Evidence:**
+- Daily routine showing consistency
+- Child's behavior (calm, secure, not anxious)
+- Collateral observations (child seems stable, well-adjusted)
+
+**4. Protecting from Conflict**
+- You shield child from adult conflicts
+- You don't badmouth other parent in front of child
+- You handle custody transitions smoothly (no drama)
+
+**Evidence:**
+- Your communications with other parent (neutral, business-like)
+- Child's demeanor during transitions (not anxious or upset)
+- Therapist observations (if applicable): "Child not caught in middle, feels safe with [parent]"
+
+**5. Supporting Healthy Relationships**
+- You encourage child's relationship with other parent (despite your feelings)
+- You support child's friendships (facilitate playdates, sleepovers)
+- You foster relationships with extended family (grandparents, cousins)
+
+**Evidence:**
+- Facilitation of other parent's time (flexibility when other parent requests changes, positive comments about other parent to child)
+- Social coordination (hosting playdates, arranging group activities)
+- Family involvement (visits with your family, maintaining connections)
+
+**Contrast with Other Parent:**
+
+If other parent doesn't meet emotional needs:
+- Other parent emotionally unavailable (distracted, disengaged)
+- Other parent volatile or unpredictable (child anxious around them)
+- Other parent uses child for emotional support (inappropriate role reversal)
+- Other parent exposes child to conflict (fighting with you in front of child, badmouthing you)
+
+**Evidence:**
+- Child's anxiety before/after time with other parent
+- Therapist observations (if child in therapy)
+- Child's statements to evaluator (if age-appropriate)
+- Examples of other parent's inappropriate behavior (exposing child to adult conflicts, using child as confidant)
+
+---
+
+`,
+  "Custody/06-countering-tactics.md": `
+## Section 6: Countering Other Parent's Tactics
+
+### Defending Against Parental Alienation Allegations
+
+**What Alienation Is:**
+Systematic campaign by one parent to damage child's relationship with other parent through badmouthing, blocking contact, coaching, rewarding rejection of other parent.
+
+**If You're Accused of Alienation:**
+
+**False Allegation Strategy:**
+
+**1. Understand the Accusation**
+- What specifically are you accused of? (badmouthing, blocking calls, coaching)
+- Is there any truth to it? (self-reflection critical)
+- Why is other parent making this accusation? (to deflect from their own issues, gain custody advantage)
+
+**2. Gather Counter-Evidence**
+
+**Proving You Don't Alienate:**
+- Communications showing you facilitate other parent's time (flexible with schedule changes, remind child to call other parent)
+- Positive statements about other parent to collaterals ("I tell [child] that Dad loves them")
+- Calendar showing you comply with custody orders (don't withhold time)
+- Therapist statement (if child in therapy): "[Child] has positive relationship with both parents, no signs of alienation by [you]"
+- Child's statements to evaluator (if child expresses preference for you, it's based on genuine reasons, not coaching)
+
+**3. Reframe the Narrative**
+
+Instead of:
+"I'm not alienating!" (defensive)
+
+Say:
+"I actively support [child]'s relationship with [other parent]. I facilitate all scheduled parenting time, encourage phone calls, and speak positively about [other parent] to [child]. If [child] has expressed reluctance to spend time with [other parent], it's not due to my influence. I've encouraged [child] to maintain a healthy relationship with both of us. [Child]'s feelings may stem from [other parent]'s behavior during their time together, but I don't control that."
+
+**4. Address Real Issues**
+
+If child IS reluctant to spend time with other parent, explain why (without blaming):
+- Other parent's home less stable (frequent moves, different partners, chaotic)
+- Other parent's parenting style stressful for child (no routine, lax discipline, conflict)
+- Other parent not engaged during their time (leaves child with others, doesn't interact meaningfully)
+
+Provide evidence:
+- Child's statements to therapist about reasons for reluctance
+- Observations by collaterals
+- Documentation of other parent's lifestyle or parenting deficiencies
+
+**5. Offer Solutions**
+
+Show you want child to have relationship with other parent:
+- Propose family therapy to repair relationship
+- Suggest parenting coordinator to improve co-parenting
+- Offer to work with therapist on co-parenting strategies
+
+**Red Flags That Suggest Real Alienation (Don't Do These):**
+- Badmouthing other parent in front of child
+- Blocking other parent's calls or refusing to facilitate communication
+- Scheduling activities during other parent's time without consulting them
+- Rewarding child for rejecting other parent
+- Interrogating child after time with other parent
+- Coaching child on what to say to evaluator
+- Making child feel guilty for wanting to see other parent
+
+**If You've Made Mistakes:**
+- Acknowledge them to evaluator
+- Explain what you've learned
+- Show concrete changes (therapy, parenting classes, behavior modification)
+- Emphasize current positive co-parenting efforts
+
+### Defending Against False Abuse Allegations
+
+**Types of False Allegations:**
+- Domestic violence
+- Child abuse (physical, emotional, sexual)
+- Substance abuse
+- Mental health issues making you unfit
+
+**Why False Allegations Happen:**
+- Gain custody advantage
+- Get protective order removing you from home
+- Delay proceedings (CPS investigation, psych evaluations)
+- Retaliate for filing divorce
+
+**General Defense Strategy:**
+
+**1. Take All Allegations Seriously**
+- Don't dismiss as "crazy" or "vindictive" (even if they are)
+- Respond thoroughly and promptly
+- Cooperate with investigations (CPS, police)
+- Hire attorney immediately if you haven't already
+
+**2. Document Everything**
+- Timeline of your relationship with child (no abuse, loving relationship)
+- Alibi evidence (if abuse allegedly occurred on specific date, where were you, who can verify)
+- Communications showing allegation timed for custody advantage (filed right before hearing, after you filed for divorce, etc.)
+- Other parent's history of false allegations or manipulative behavior
+
+**3. Obtain Expert Evaluations**
+- Custody evaluator assessment (no evidence of abuse)
+- Child's therapist (if child already in therapy, therapist sees no signs of abuse)
+- Your own psychologist (assesses you as non-abusive)
+
+**4. Prove Pattern of False Allegations**
+- Has other parent made similar allegations before (against you or others)
+- Did other parent threaten to make allegations ("If you file for divorce, I'll say you abused [child]")
+- Do allegations lack specificity or change over time (sign of fabrication)
+
+**Domestic Violence Allegations:**
+
+**If False:**
+
+**Immediate Response:**
+- File responsive declaration denying allegations
+- Provide evidence disproving (no police reports from alleged incidents, no medical records, no witnesses)
+- Show timing (filed to gain advantage in custody case)
+- Character evidence (no history of violence, witnesses attest to your calm demeanor)
+
+**Evidence to Gather:**
+- Communications showing no violence (other parent never mentioned fear, abuse, or violence before filing)
+- Photos of other parent's lack of injuries (if available)
+- Witnesses who observed your relationship (family, friends who saw no violence)
+- Your own clean record (no arrests, no complaints of violence)
+- Therapist/counselor (if you've been in therapy, therapist can attest to no history of violence)
+
+**Pattern Evidence:**
+- Other parent has history of false allegations
+- Timing suspicious (right before custody hearing)
+- Allegations vague or changing (no specific dates, details change each telling)
+
+**Request Criminal Investigation:**
+- If allegations are false, request police investigate (clears your name)
+- If other parent refuses to cooperate with police, suggests fabrication
+
+**Child Abuse Allegations:**
+
+**If False:**
+
+**Most Serious Allegation:**
+- CPS will investigate (cooperate fully)
+- Police may investigate (don't talk to police without attorney)
+- Court may suspend your custody pending investigation
+
+**Immediate Response:**
+- Deny allegations specifically (not just "it's false," but detail why)
+- Provide alibi if abuse allegedly occurred on specific date
+- Request forensic interview of child (trained interviewer can detect coaching)
+- Request independent medical examination (if physical abuse alleged, exam will show no injuries)
+
+**CPS Investigation:**
+- Cooperate fully (but with attorney present)
+- Provide evidence of appropriate parenting (home visit will show child safe)
+- Provide references (family, friends, teachers, doctors who observe no abuse)
+- Ask for substantiation determination (founded or unfounded)
+
+**If CPS Unfounds Allegation:**
+- Use this in court (CPS investigated and found no evidence)
+- Request sanctions against other parent (false allegations are serious)
+
+**Evidence to Gather:**
+- Child's medical records (no evidence of injuries consistent with abuse)
+- Child's behavior with you (affectionate, not fearful)
+- Therapist observations (child shows no signs of abuse)
+- Evaluator assessment (home visit, parent-child interaction shows no abuse)
+- Witnesses (people who've observed you with child see no abuse)
+
+**Child's Statements:**
+- If child made statements about abuse, forensic interviewer will assess coaching
+- Coached children show specific signs (scripted language, inability to provide details, contradictions)
+- If child recants or statements inconsistent, evidence of coaching
+
+**Sexual Abuse Allegations:**
+
+**Most Serious of All:**
+- Police will investigate (criminal matter)
+- CPS will investigate
+- Court may suspend all contact pending investigation
+- Criminal charges possible
+
+**Defense Strategy:**
+- Hire criminal defense attorney immediately (separate from family law attorney)
+- Do NOT talk to police without attorney
+- Request forensic interview of child (expert can detect coaching)
+- Request independent medical examination (if abuse occurred, physical evidence usually exists)
+- Polygraph (if you're confident you'll pass, offer to take one)
+
+**Evidence to Gather:**
+- Alibi (where were you when abuse allegedly occurred)
+- Lack of opportunity (child was never alone with you in circumstances alleged)
+- Other parent's motive (custody battle, filed after you sought divorce)
+- Pattern of false allegations
+- Child's prior statements (if child never mentioned abuse before, suddenly does after custody battle starts)
+
+**Expert Testimony:**
+- Forensic interviewer (child's statements don't indicate genuine abuse)
+- Medical expert (no physical evidence of abuse)
+- Psychologist (evaluates you, finds no sexual deviance)
+
+**If Allegations Proven False:**
+- Request full custody (false abuse allegations are severe form of alienation)
+- Request supervised visitation for other parent (to prevent further coaching)
+- Request sanctions (other parent pays your legal fees, held in contempt)
+
+**Substance Abuse Allegations:**
+
+**If False:**
+
+**Immediate Response:**
+- Volunteer for testing (hair follicle test shows 90 days, proves sobriety)
+- Provide employment records (no issues at work suggesting impairment)
+- Obtain substance abuse evaluation (proves no problem)
+
+**Evidence to Gather:**
+- Negative test results (immediate testing, then random testing)
+- Employer statement (no concerns about substance use)
+- Evaluation from licensed professional (LCSW, psychologist) stating no substance abuse
+- Witnesses who observe your sobriety
+
+**If You Have Past Substance Use (But Currently Sober):**
+- Acknowledge past honestly
+- Provide timeline of sobriety (dates clean, recovery program)
+- Testing to prove current sobriety
+- Sponsor/therapist letter confirming recovery
+- Attendance records (AA, NA meetings)
+- Completion of treatment program (if applicable)
+
+**Turn Tables:**
+- Request other parent be tested (if allegations false, perhaps projecting their own use)
+- If other parent refuses, suspicious (you volunteered, they won't - suggests you have nothing to hide)
+
+**Mental Health Allegations:**
+
+**If Falsely Claimed You're Unfit Due to Mental Health:**
+
+**Response:**
+- Acknowledge any mental health diagnosis honestly (stigma exists but diagnosis doesn't equal unfitness)
+- Emphasize treatment compliance (medication, therapy)
+- Obtain evaluation from psychologist (assesses parenting capacity despite diagnosis)
+- Separate diagnosis from parenting ability
+
+**Evidence:**
+- Treatment records (compliant with therapy, medication)
+- Therapist letter (diagnosis managed, doesn't affect parenting)
+- Parental fitness evaluation (psychologist assesses you're fit to parent)
+- Child's wellbeing (thriving in your care despite your diagnosis)
+- Functional parenting (daily logs, collateral statements show capable parenting)
+
+**Compare to Other Parent:**
+- If other parent also has mental health issues (anxiety, depression common), point out
+- If other parent NOT managing their issues (refuses treatment), contrast with your proactive management
+
+**Example Response:**
+"I have been diagnosed with [depression/anxiety/PTSD]. I take this seriously and am in active treatment with [therapist] and [psychiatrist]. I take [medication] as prescribed, attend therapy regularly, and my symptoms are well-managed. My diagnosis does not affect my ability to parent [child]. As shown by [evidence of child thriving], [child] is healthy, happy, and well-cared for in my care. [Evaluator/therapist] has assessed my parenting capacity and found no concerns. In contrast, [other parent] has [untreated issues, refuses treatment, etc.]."
+
+---
+
+`,
+  "Custody/07-psychological-evaluations.md": `
+## Section 7: Psychological Evaluations & Expert Requests
+
+### When Psych Evals Are Ordered
+
+**Common Reasons:**
+- Allegations of mental health issues affecting parenting
+- High conflict case requiring expert assessment
+- Substance abuse concerns
+- Domestic violence allegations
+- Parenting capacity questions
+- Either party requests evaluation
+- Judge orders sua sponte (on their own)
+
+**Types of Evaluations:**
+
+**1. Custody Evaluation** (Full evaluation covering all best interests factors)
+- Most common
+- Includes interviews, home visits, testing, collateral contacts, child interviews
+- Results in custody recommendation
+- Cost: \$5K-\$20K typically (split between parents or court allocates)
+- Timeline: 3-6 months
+
+**2. Psychological Evaluation** (Focused on mental health/fitness)
+- Assesses specific parent's mental health
+- Psychological testing (MMPI-2, etc.)
+- Clinical interview
+- Results in fitness opinion (fit to parent or not)
+- Cost: \$2K-\$5K per parent
+- Timeline: 1-2 months
+
+**3. Substance Abuse Evaluation**
+- Assesses whether parent has substance abuse problem
+- Interview, testing, records review
+- Treatment recommendation if problem found
+- Cost: \$500-\$2K
+- Timeline: 1-2 weeks
+
+**4. Domestic Violence Evaluation**
+- Assesses risk of violence
+- Includes testing (PCL-R if psychopathy suspected)
+- Safety recommendations
+- Cost: \$2K-\$5K
+- Timeline: 1-2 months
+
+**5. Parenting Capacity Evaluation**
+- Assesses specific parent's ability to meet child's needs
+- Observation of parent-child interaction
+- Assessment of parenting knowledge and skills
+- Cost: \$2K-\$5K
+- Timeline: 1-2 months
+
+### Your Rights During Evaluation
+
+**What Evaluator CAN Do:**
+- Interview you (2-4 hours typically)
+- Visit your home (typically 1-2 hours)
+- Interview your child (without you present)
+- Administer psychological tests to you
+- Interview collaterals you provide
+- Interview collaterals other parent provides
+- Review records (court filings, school records, medical records, police reports)
+- Observe parent-child interaction
+
+**What Evaluator CANNOT Do:**
+- Force you to answer questions (but refusal looks bad)
+- Release report to parties without court order (confidential until filed)
+- Have ex parte (one-sided) communications with judge
+- Make custody determination (only recommendation - judge decides)
+- Testify beyond scope of evaluation (if appointed only for psych eval, can't opine on custody)
+
+**Your Rights:**
+- Attorney present during interviews (but unusual, may make you look uncooperative)
+- Object to evaluator if biased (motion to disqualify, but needs strong showing)
+- Provide evidence and collateral contacts
+- Review evaluator's report (usually 10-30 days before hearing)
+- Cross-examine evaluator at trial (if you disagree with report)
+- Obtain independent evaluation (your own expert for rebuttal)
+
+### Strategic Response to Eval Requests
+
+**If Other Parent Requests Psych Eval of You:**
+
+**Option 1: Agree (If You're Confident)**
+- Shows you have nothing to hide
+- Evaluator likely to find you fit
+- Turns tables on other parent (request reciprocal evaluation of them)
+
+**When to Agree:**
+- You have no significant mental health issues
+- Any issues you have are well-managed
+- Child thriving in your care
+- You'll do well on testing and interview
+
+**Option 2: Agree with Conditions**
+- Request reciprocal evaluation (other parent evaluated too)
+- Request narrow scope (focus on specific issue, not full custody evaluation)
+- Request qualified evaluator (forensic psychology specialty, custody experience)
+- Request timeline (deadline for completion so no delay tactic)
+
+**Example Response:**
+"I have no objection to a psychological evaluation, provided [other parent] also undergoes reciprocal evaluation. I request the evaluation be limited to [specific issue raised] and completed within 60 days. I request the evaluator be a licensed psychologist with forensic psychology training and custody evaluation experience. I will cooperate fully with the evaluation."
+
+**Option 3: Object (If Evaluation Not Relevant)**
+- No allegations of mental health issues affecting parenting
+- Evaluation request is delay tactic
+- Child thriving, no fitness concerns
+- Evaluation waste of money and time
+
+**When to Object:**
+- Other parent can't articulate specific concern (just fishing)
+- No allegations of mental health issues
+- Other parent using eval to delay and drain your resources
+- Recent evaluation already completed (no basis for second one)
+
+**Example Objection:**
+"[Other parent]'s request for psychological evaluation is improper. There are no allegations of mental health issues affecting my parenting. [Child] is thriving in my care, as shown by [evidence]. This request appears to be a delay tactic to avoid trial. The request should be denied as irrelevant and wasteful of resources."
+
+**Option 4: Agree to Substance Abuse Eval But Not Psych Eval**
+- If allegation is substance use (not mental health), stipulate to narrow substance abuse evaluation only
+
+**If Judge Orders Evaluation:**
+- Comply fully (no choice)
+- Prepare thoroughly (see Section 4 above)
+- Provide evidence of fitness
+- Use evaluation as opportunity to prove you're better parent
+
+### Independent Evaluation (Your Own Expert)
+
+**When to Get Independent Evaluation:**
+
+**1. Court-Appointed Eval Negative**
+- Evaluator recommended custody to other parent
+- Report contains errors, bias, or incomplete investigation
+- Need rebuttal expert for trial
+
+**2. Proactive (Before Court Eval)**
+- Want expert opinion supporting your custody position
+- Can use as settlement leverage ("Expert evaluated me, recommends I have custody")
+
+**3. Response to Allegations**
+- Other parent alleges you're unfit due to mental health, substance use, etc.
+- Get evaluation proving fitness
+
+**How to Find Independent Evaluator:**
+- Ask your attorney for referrals
+- Search for forensic psychologists in your area
+- Check credentials (PhD or PsyD, licensed, forensic experience, custody evaluations)
+- Interview potential evaluators (will they be good witness at trial)
+
+**Cost:**
+- \$5K-\$15K typically
+- You pay (not split with other parent)
+
+**Process:**
+- Similar to court-appointed evaluation (interview, testing, records review)
+- Evaluator knows you hired them (may affect objectivity)
+- Results in written report supporting your position
+
+**Using Independent Evaluation:**
+
+**Settlement:**
+- Provide report to other parent during negotiations
+- Leverage: "Expert evaluated me, recommends I have custody"
+
+**Trial:**
+- Your expert testifies
+- Rebuts court-appointed evaluator's opinion
+- Provides alternative analysis
+
+**Weight at Trial:**
+- Less weight than court-appointed evaluator (judge knows you paid them)
+- But if credible expert with good credentials, can be persuasive
+- Especially effective if court evaluator made errors (your expert points them out)
+
+---
+
+`,
+  "Custody/08-trial-preparation.md": `
+## Section 8: Trial Preparation & Strategy
+
+[Content continues... I'll add the remaining sections in the next update]
+
+### Overview: Trial as Last Resort
+
+**Trial Statistics:**
+- Only 3-5% of custody cases go to trial
+- Trials expensive (\$25K-\$100K+)
+- Trials emotionally exhausting
+- Outcome uncertain (judge's discretion)
+- Timeline: 6-18 months from filing to trial
+- Appeal difficult (high standard, more expense)
+
+**When Trial Necessary:**
+- Settlement negotiations fail
+- Other parent unreasonable
+- Significant fitness concerns about other parent
+- Strong case that judge will award you custody
+
+**Settlement vs Trial Decision Tree:**
+
+**Settle If:**
+- Outcome at trial uncertain
+- Cost of trial outweighs benefit
+- Child suffering from prolonged conflict
+- Settlement close to what you'd likely get at trial
+- Other parent willing to negotiate reasonably
+
+**Go to Trial If:**
+- Other parent unfit (abuse, neglect, substance abuse, mental health crisis)
+- You have overwhelming evidence
+- Other parent refusing reasonable settlement
+- Child's safety at risk under proposed settlement
+- You're confident judge will award you custody
+
+### Your Trial Team
+
+**Essential:**
+- **Custody attorney** (experienced trial lawyer, not just family law)
+- **Yourself** (key witness, must testify well)
+
+**Recommended:**
+- **Custody evaluator** (if report supports you)
+- **Therapist** (child's therapist, if applicable)
+- **Expert witnesses** (psychologists, vocational experts, parenting coordinators)
+- **Lay witnesses** (teachers, doctors, family, friends)
+
+**Attorney Selection Critical:**
+- Experience trying custody cases (not just settling)
+- Trial skills (opening, direct/cross examination, closing)
+- Custody law expertise in your jurisdiction
+- Rapport with local judges (knows judge's preferences)
+- Strategic thinker (case theory, evidence presentation)
+
+**Questions to Ask Potential Trial Attorney:**
+- How many custody trials have you done?
+- What's your win rate?
+- Do you know the judge assigned to my case?
+- What's your trial strategy for my case?
+- What's your fee structure (flat fee vs hourly)?
+- Who will actually try my case (you or associate)?
+
+### Pretrial Preparation (8-12 Weeks Out)
+
+**Week 12-10:**
+- Finalize witness list (who will testify)
+- Finalize exhibit list (what documents will be entered as evidence)
+- Complete all discovery (no surprises at trial)
+- Schedule depositions of other parent's key witnesses
+- Meet with attorney to discuss trial strategy
+
+**Week 9-7:**
+- Organize all evidence (binders, chronological, labeled)
+- Prepare direct examination outline (your testimony)
+- Practice your testimony (with attorney)
+- Brief all witnesses (what to expect, what to say)
+- Review other parent's evidence (identify weaknesses)
+
+**Week 6-4:**
+- Attend final pretrial conference with judge
+- Exchange witness/exhibit lists with other parent
+- Resolve any motions in limine (exclude bad evidence)
+- Confirm all witnesses available for trial dates
+- Create trial notebook (exhibits, outlines, notes)
+
+**Week 3-1:**
+- Final witness prep (mock cross-examination)
+- Final exhibit organization (numbered, tabbed, organized)
+- Review direct examination outline (know your story)
+- Mental/emotional preparation (stay calm, focused)
+- Arrange childcare for trial week(s)
+
+**Week of Trial:**
+- Professional wardrobe ready
+- Sleep well (trial exhausting)
+- Arrive early each day
+- Review testimony each evening
+- Stay off social media (will be monitored)
+
+### Trial Structure & Timeline
+
+**Typical Custody Trial:**
+
+**Day 1: Opening Statements & Petitioner's Case Begins**
+- 8:30am: Arrive at courthouse
+- 9:00am: Opening statements (attorney argues case theory)
+- 10:00am: Petitioner's first witness (usually the petitioner themselves)
+- 12:00pm: Lunch break
+- 1:30pm: Continue petitioner's testimony
+- 5:00pm: Adjourn
+
+**Day 2-3: Petitioner's Case Continues**
+- Petitioner's witnesses (teachers, doctors, family, friends)
+- Petitioner's expert witnesses (custody evaluator, psychologist)
+- Respondent's cross-examination of petitioner's witnesses
+- Exhibits entered (photos, logs, records, communications)
+
+**Day 4-5: Respondent's Case**
+- Respondent testifies
+- Respondent's witnesses testify
+- Petitioner's cross-examination
+- Respondent's exhibits
+
+**Day 6: Closing Arguments & Submission**
+- Attorney closing arguments (summarize evidence, apply to law)
+- Judge may ask questions
+- Judge may rule from bench OR take under submission
+
+**If Judge Takes Under Submission:**
+- Written closing briefs due (1-2 weeks after trial)
+- Judge reviews evidence, applies law
+- Decision issued (2-8 weeks later)
+- Judgment entered
+
+### Your Testimony (Direct Examination)
+
+**Preparation:**
+- Review your testimony outline 50+ times
+- Practice with attorney (mock examination)
+- Anticipate cross-examination questions
+- Know your evidence (logs, photos, receipts) cold
+
+**Testimony Structure:**
+
+**Part 1: Introduction & Background (15-20 minutes)**
+- Your background (work, education, family)
+- Marriage history (when married, when separated)
+- Children (names, ages, personalities)
+- Your role as parent (primary caregiver or involved parent)
+
+**Example:**
+Q: Please tell the court about your children.
+A: We have two children. Emily is 8, she's in 3rd grade at Lincoln Elementary. She loves reading and gymnastics. She's a sweet, sensitive child who does best with routine and stability. Jake is 5, in kindergarten at the same school. He's energetic, loves trucks and building things, and is very social.
+
+**Part 2: Daily Parenting (30-45 minutes)**
+- Typical day with children (detailed, specific)
+- Morning routine (wake up, breakfast, school prep)
+- After-school routine (pickup, homework, activities)
+- Evening routine (dinner, bath, bedtime)
+- Weekends (activities, quality time, chores/errands with kids)
+
+**Example:**
+Q: Walk us through a typical school day with the children.
+A: I wake them at 6:30am. I help Emily pick out her clothes—she likes to match her outfits. I help Jake get dressed since he's still learning. At 7am, I make breakfast. Emily likes oatmeal with berries, Jake prefers scrambled eggs. While they eat, I pack their lunches—sandwiches, fruit, vegetables, and a healthy snack. I supervise tooth-brushing and make sure they grab their backpacks. We leave at 7:45am. I walk them into school—Emily to her classroom, Jake to his. I speak with their teachers most mornings, checking in about assignments or behavior. After dropoff, I go to work...
+
+[Continue with pickup, homework, dinner, bedtime—very detailed]
+
+**Part 3: School Involvement (15-20 minutes)**
+- Parent-teacher conferences (attendance, notes from conferences)
+- Volunteering (classroom helper, field trip chaperone, PTA)
+- Communication with teachers (emails, notes, problem-solving)
+- Homework help (routine, what subjects, how you assist)
+- Academic progress (grades, improvements, your role in supporting learning)
+
+**Example:**
+Q: Tell us about your involvement in Emily's education.
+A: I attend every parent-teacher conference. Last semester, Emily's teacher Mrs. Johnson told me Emily was struggling with math. I arranged for extra practice at home. We do math worksheets together every evening for 20 minutes. Her grades have improved from C's to B's. I volunteer in the classroom once a month as reading helper. I also chaperoned the zoo field trip in October. I email Mrs. Johnson weekly to check on Emily's progress...
+
+**Part 4: Medical Involvement (10-15 minutes)**
+- Well-child checkups (who schedules, who attends)
+- Sick visits (who takes child to doctor)
+- Medications (who manages prescriptions, who administers)
+- Specialist appointments (if applicable—dentist, orthodontist, therapist)
+- Medical decisions (who researches, who makes final call)
+
+**Example:**
+Q: Who handles the children's medical care?
+A: I schedule all their doctor appointments. Emily and Jake have the same pediatrician, Dr. Patel. I take them to their annual checkups—I took both in September. When Jake had an ear infection last month, I was the one who noticed he was tugging his ear and running a fever. I took him to urgent care, got the antibiotic prescription, and administered it twice daily for 10 days. Emily sees an allergist for her peanut allergy. I take her to those appointments every six months and manage her EpiPen—I keep one at home and one at school...
+
+**Part 5: Extracurricular Involvement (10-15 minutes)**
+- Activities each child participates in
+- Who enrolled them, who pays
+- Who transports to practices/games/lessons
+- Who attends events
+- Your involvement (coaching, volunteering, supporting)
+
+**Example:**
+Q: Tell us about the children's extracurricular activities.
+A: Emily is in gymnastics at Metro Gymnastics. I enrolled her two years ago. I pay the \$150 monthly tuition. She has practice Tuesdays and Thursdays from 5-6:30pm. I take her to every practice—I watch from the observation area. She has competitions once a month. I've attended every single one. I also help coordinate team snacks...
+
+Jake is in soccer through the YMCA. I signed him up in August and paid the \$200 fee. Practice is Saturdays at 9am. I take him, stay and watch, and usually bring snacks for the team. Games are Sunday mornings. I've attended every game...
+
+**Part 6: Primary Caregiver Status (20-30 minutes)**
+- Historical timeline (who did what since child's birth)
+- Percentage breakdown (your involvement vs other parent's)
+- Work schedules (yours flexible, theirs not)
+- Specific examples (times you stepped up when other parent couldn't/wouldn't)
+- Evidence supporting primary caregiver role (photos, receipts, communications)
+
+**Example:**
+Q: Would you describe yourself as the primary caregiver?
+A: Yes, I have been since the children were born. When Emily was a baby, I took 6 months of parental leave. I did all nighttime feedings, all diaper changes, all doctor appointments. [Other parent] was working long hours and traveling frequently for work. This pattern continued as the children grew. I estimate I've handled 85-90% of the daily caregiving tasks—getting them ready, meals, bedtime, doctor appointments, school involvement, activity coordination. I have a more flexible work schedule, so I've always been the one to leave work early for sick kids, doctor appointments, school conferences...
+
+**Part 7: Parenting Strengths (15-20 minutes)**
+- What you do well as a parent (specific examples)
+- Your parenting philosophy (how you discipline, teach values)
+- Your bond with each child (attachment, special activities together)
+- How children thrive in your care (evidence of wellbeing)
+
+**Example:**
+Q: What are your strengths as a parent?
+A: I'm patient and consistent. Children need routine and predictability, and I provide that. They know the rules, they know what to expect each day, and they feel secure. I'm also very involved—I show up to everything. Emily knows I'll be at her gymnastics meets. Jake knows I'll be at his soccer games. That presence matters to children.
+
+I'm also emotionally available. When Emily is upset, she comes to me. We talk through her feelings. I teach her how to identify emotions and cope with them. With Jake, he's still learning emotional regulation. I help him calm down when he's frustrated, and I teach him words for his feelings...
+
+**Part 8: Other Parent's Fitness Concerns (20-30 minutes)**
+- Specific, factual concerns (not emotional attacks)
+- Examples with dates, details
+- How concerns affect child
+- What you've tried to address concerns
+
+**CRITICAL: Frame as child-focused, not vindictive**
+
+**Good Approach:**
+- "I have concerns about [other parent]'s ability to meet Emily's needs because [specific examples]"
+- "Jake has expressed to me that [specific thing], which concerns me"
+- "I've tried to address this by [what you did], but [result]"
+
+**Bad Approach:**
+- "[Other parent] is a terrible parent"
+- "[Other parent] doesn't love the kids"
+- "[Other parent] only cares about themselves"
+
+**Example (Good):**
+Q: Do you have concerns about the children being in [other parent]'s care?
+A: I have some concerns, yes. [Other parent] has struggled with alcohol use. In the past year, I've witnessed [him/her] intoxicated around the children on three occasions. On March 5th, when [other parent] dropped the kids off after visitation, [he/she] smelled strongly of alcohol and was slurring words. The children were upset. Jake told me "[Other parent] was acting funny." I documented this incident and reported it to my attorney.
+
+I'm also concerned about [other parent]'s inconsistent parenting. [He/she] will go weeks without seeing the children, then suddenly want more time. Last month, [other parent] missed three scheduled visits—the kids were disappointed each time. This inconsistency is hard on them emotionally...
+
+**Part 9: Your Proposed Custody Schedule (10 minutes)**
+- What custody arrangement you're seeking (full, primary, specific schedule)
+- Why this is in child's best interests
+- How you'd facilitate other parent's relationship (shows you're not alienating)
+
+**Example:**
+Q: What custody arrangement are you seeking?
+A: I'm requesting primary physical custody, with the children residing with me and having regular visitation with [other parent]. Specifically, I'm proposing [other parent] have the children every other weekend and one evening per week for dinner. I believe this is in the children's best interests because it maintains the stability and routine they're accustomed to. I've been their primary caregiver their entire lives. Their school, friends, activities are all in my neighborhood. Disrupting that would be harmful.
+
+That said, I absolutely want the children to have a relationship with [other parent]. I will facilitate all visitation. I will communicate about the children's needs, activities, and important events. My goal is co-parenting that prioritizes the children's wellbeing...
+
+**Part 10: Future Planning (5-10 minutes)**
+- Your plans for children's future (stability, education, activities)
+- How you'll support their development
+- Your commitment to co-parenting (even if you don't agree with other parent)
+
+**Total Direct Examination Time:** 2.5-4 hours (spread over 1-2 days)
+
+### Cross-Examination (By Other Parent's Attorney)
+
+**Purpose of Cross-Examination:**
+- Undermine your credibility
+- Highlight weaknesses or inconsistencies
+- Get you to admit helpful facts for other parent
+- Make you look bad (emotional, vindictive, uncooperative)
+
+**Types of Cross-Examination Questions:**
+
+**1. Leading Questions (Attorney Testifies, You Just Agree/Disagree)**
+- "Isn't it true that you work 50 hours per week?" (Yes/No)
+- "You've been diagnosed with depression, correct?" (Yes/No)
+- "On March 5th, you sent a text calling [other parent] a 'deadbeat,' didn't you?" (Yes/No)
+
+**Strategy:**
+- Answer honestly, briefly
+- Don't elaborate unless it helps you
+- "Yes" or "No" usually sufficient
+
+**2. Impeachment (Catching You in Contradictions)**
+- Attorney compares your testimony to prior statements (deposition, declaration, text messages)
+- If you said something different before, attorney highlights contradiction
+
+**Example:**
+Q: You testified that you do all the cooking for the children, correct?
+A: Yes, most of it.
+Q: But in your declaration filed last month, you stated "[Other parent] occasionally prepares meals for the children," didn't you?
+A: Yes, occasionally.
+Q: So not "all" the cooking—correct?
+A: Correct, I do the vast majority, [other parent] occasionally cooks.
+
+**Strategy:**
+- Be consistent with prior statements
+- If caught in contradiction, acknowledge and explain (don't double down on lie)
+
+**3. Gotcha Questions (Designed to Make You Look Bad)**
+- "Isn't it true you deny [other parent] access to the children whenever you're angry?"
+- "You've told the children negative things about [other parent], haven't you?"
+- "You're trying to erase [other parent] from the children's lives, aren't you?"
+
+**Strategy:**
+- Don't take the bait (stay calm)
+- Answer truthfully and add context if needed
+
+**Example:**
+Q: You've called [other parent] names in front of the children, correct?
+A: I may have expressed frustration in front of the children on occasion, but I don't badmouth [other parent] to them. I've told them that [other parent] and I have disagreements, which is normal for adults, but that we both love them.
+
+**4. Questions About Your Weaknesses**
+- Attorney focuses on any parenting mistakes, personal issues, or areas where other parent is stronger
+
+**Example:**
+Q: You were cited for speeding while the children were in the car, weren't you?
+A: Yes, once, two years ago. I was going 10 miles over the speed limit. I paid the fine and have had no traffic violations since.
+
+Q: You've struggled with anxiety, correct?
+A: I was diagnosed with anxiety five years ago. I see a therapist monthly and take medication as prescribed. My anxiety is well-managed and doesn't affect my parenting. In fact, therapy has made me a better parent—I've learned healthy coping strategies that I teach the children.
+
+**Cross-Examination Survival Rules:**
+
+**1. Tell the Truth**
+- Most important rule
+- If caught lying, your entire case collapses
+- Judge will not believe anything you say
+
+**2. Listen to the Question**
+- Don't answer the question you wish was asked
+- Don't answer the question you think is coming next
+- Answer the actual question asked
+
+**3. Pause Before Answering**
+- Gives your attorney time to object if needed
+- Gives you time to formulate good answer
+- Shows you're thoughtful, not reactive
+
+**4. Keep Answers Short**
+- Don't volunteer information
+- Don't ramble or explain unless question asks for explanation
+- Less you say, less ammunition for cross-examiner
+
+**Good Answer:** "Yes" or "No, that's not accurate"
+**Bad Answer:** Long explanation that opens new lines of attack
+
+**5. Stay Calm**
+- Cross-examiner may try to anger you, make you cry, fluster you
+- Deep breaths
+- Monotone, factual answers
+- Don't argue with attorney
+
+**6. Admit When You Don't Know or Don't Remember**
+- "I don't recall" is acceptable answer
+- Don't guess or make up answer
+- If you don't know, say so
+
+**7. Correct Mischaracterizations**
+- If attorney misstates your testimony, politely correct
+- "That's not what I said. What I said was..."
+
+**8. Direct Answers to Judge (Not Attorney)**
+- You're testifying to judge, not attorney
+- Make eye contact with judge
+- Judge is the one evaluating your credibility
+
+**9. Don't Get Defensive**
+- Defensive answers make you look guilty
+- Calm, factual answers show confidence
+
+**Bad Example:**
+Q: You left the children alone in the car while you ran into the store, didn't you?
+A: I was only gone for 2 minutes! It was safe! The car was locked! You're twisting everything I do!
+
+**Good Example:**
+Q: You left the children alone in the car while you ran into the store, didn't you?
+A: On one occasion, I left the children in the car briefly while I returned a Redbox movie at the kiosk in front of the store. The children were buckled in their car seats, the car was locked, and I could see them the entire time. I was gone less than one minute.
+
+**10. Your Attorney Will Rehabilitate You on Redirect**
+- After cross-examination, your attorney gets to ask follow-up questions (redirect)
+- Attorney will clarify any mischaracterizations, explain concerning answers
+- Don't panic during cross—your attorney will fix it
+
+### Other Parent's Cross-Examination (You're Not Testifying, But Watching)
+
+**What to Watch For:**
+- Contradictions (compared to their prior statements)
+- Lack of specific knowledge about children (can't answer basic questions)
+- Defensiveness or anger (shows poor emotional regulation)
+- Blaming you for everything (shows lack of accountability)
+- Inability to identify own weaknesses (shows lack of insight)
+- Inconsistent answers
+
+**Take Notes:**
+- Write down anything you need to tell your attorney
+- Don't react visibly (judge is watching you)
+- Your attorney will use your notes for follow-up questions
+
+### Witness Examination
+
+**Your Witnesses (Direct Examination by Your Attorney):**
+
+**Purpose:**
+- Corroborate your testimony
+- Provide independent perspective on your parenting
+- Identify concerns about other parent (if applicable)
+
+**Common Witnesses:**
+
+**1. Teachers**
+- Who attends conferences
+- Who volunteers
+- Who helps with homework
+- Child's wellbeing (emotional, academic, social)
+
+**Sample Questions:**
+Q: How would you describe [parent]'s involvement in Emily's education?
+A: [Parent] is one of the most involved parents I have. [He/she] attends every conference, emails me regularly, volunteers in the classroom, and clearly works with Emily on her homework. Emily's progress this year has been wonderful, and [parent]'s involvement is a big reason why.
+
+**2. Doctors**
+- Who brings child to appointments
+- Who follows medical advice
+- Child's health and wellbeing
+
+**Sample Questions:**
+Q: In your role as Emily's pediatrician, which parent typically brings her to appointments?
+A: [Parent] brings Emily to approximately 90% of her appointments. [He/she] is attentive, asks good questions, and follows my recommendations for Emily's care.
+
+**3. Therapist (Child's Therapist)**
+- Child's emotional wellbeing
+- Parent-child relationships
+- Observations about each parent
+
+**NOTE:** Therapist testimony can be problematic (confidentiality, dual relationship). Get attorney advice before calling child's therapist.
+
+**4. Family/Friends**
+- Long-term observations of your parenting
+- Your relationship with children
+- Concerns about other parent (if applicable)
+
+**Sample Questions:**
+Q: How often do you see [parent] and the children?
+A: I see them almost weekly. They come to our house for Sunday dinners. I also babysit occasionally.
+
+Q: How would you describe [parent]'s relationship with the children?
+A: [Parent] is a wonderful parent. The children are happy, well-cared for, and clearly adore [him/her]. [Parent] is patient, engaged, and always puts the children first.
+
+**5. Neighbors**
+- Daily observations (who picks up kids from bus stop, who's home with kids, noise/fighting at other parent's house)
+- Child's wellbeing
+- Your involvement
+
+**Other Parent's Witnesses (Cross-Examination by Your Attorney):**
+
+**Purpose:**
+- Undermine witness credibility (bias, lack of knowledge)
+- Elicit helpful admissions
+- Show witness doesn't have full picture
+
+**Common Cross-Examination Topics:**
+- Bias (witness is other parent's family member, close friend, financial interest)
+- Limited knowledge (hasn't spent much time with children, doesn't know details)
+- Hearsay (witness only knows what other parent told them, not personal observation)
+
+**Example:**
+Q: You're [other parent]'s mother, correct?
+A: Yes.
+Q: You want your son/daughter to have custody, don't you?
+A: Of course.
+Q: You only see the children every few months, correct?
+A: Yes, I live out of state.
+Q: So you don't observe the daily care the children receive from [my client], do you?
+A: No, I suppose not.
+
+### Expert Witnesses
+
+**Types of Experts in Custody Trials:**
+
+**1. Custody Evaluator (Most Important)**
+- Court-appointed or privately retained
+- Conducts comprehensive evaluation (interviews, testing, home visits, collaterals)
+- Issues report with custody recommendation
+- Testifies about evaluation and recommendation
+
+**Direct Examination (If Evaluator Supports You):**
+- Your attorney elicits evaluation process, findings, recommendation
+- Evaluator explains why you should have custody
+- Evaluator discusses concerns about other parent
+
+**Cross-Examination (If Evaluator Supports You):**
+- Other parent's attorney attacks evaluation methodology, bias, credentials
+- Your attorney will prepare evaluator for cross
+
+**Cross-Examination (If Evaluator Supports Other Parent):**
+- Your attorney challenges evaluation (errors, incomplete, bias)
+- Highlight facts evaluator missed or minimized
+- Consider rebuttal expert
+
+**2. Psychologist (If Psych Evals Done)**
+- Testifies about evaluation results
+- Explains diagnosis, treatment, parenting capacity
+- Opines on fitness
+
+**3. Vocational Expert (If Custody Dispute Involves Work Schedules)**
+- Analyzes work schedules, flexibility, income potential
+- Helps court understand each parent's availability for childcare
+
+**4. Parenting Coordinator or Mediator (If Prior Involvement)**
+- Testifies about co-parenting dynamics
+- Identifies high-conflict issues
+- May recommend custody arrangement
+
+### Closing Arguments
+
+**Purpose:**
+- Summarize evidence presented
+- Apply facts to law (best interests factors)
+- Persuade judge to rule in your favor
+
+**Structure:**
+
+**Introduction:**
+- "Your Honor, the evidence is clear: [Theme of your case]"
+- Example: "The evidence is clear: Emily and Jake thrive in [my client]'s care because [he/she] has been their primary caregiver since birth, providing stability, consistency, and meeting all their needs."
+
+**Summary of Evidence (Your Strengths):**
+- List key evidence supporting your case
+- "The court heard testimony that [parent] has attended every parent-teacher conference, every doctor appointment, every extracurricular event..."
+- "The court reviewed the parenting logs showing [parent]'s consistent, daily involvement..."
+- "The custody evaluator found that the children are bonded to [parent], thriving in [his/her] care, and recommended [custody arrangement]..."
+
+**Best Interests Factors Analysis:**
+- Go through your jurisdiction's best interests factors
+- Apply facts to each factor
+
+**Example (California Factors):**
+"Under California Family Code Section 3011, the court must consider the best interests of the children. Let's examine the factors:
+
+(a) Health, safety, and welfare of the child: The children are healthy, safe, and thriving in [parent]'s care. [Evidence: medical records, school records, testimony]
+
+(b) History of abuse: There is no history of abuse by [parent]. In contrast, [other parent] has [allegations if applicable].
+
+(c) Nature and amount of contact with both parents: The children have lived primarily with [parent] throughout their lives. This should continue to provide stability.
+
+(d) Habitual or continual substance abuse: [Parent] does not abuse substances. [Other parent]'s alcohol use is documented and concerning.
+
+Based on these factors, the only conclusion is that [custody arrangement] is in the children's best interests."
+
+**Address Other Parent's Weaknesses:**
+- Factually, not emotionally
+- Tie to best interests
+
+**Example:**
+"The court heard testimony about [other parent]'s inconsistent involvement. [Other parent] missed three scheduled visits last month alone. This inconsistency is confusing and harmful to the children. They need a parent they can count on—that parent is [my client]."
+
+**Address Your Weaknesses (If Other Parent Highlighted Them):**
+- Acknowledge, contextualize, minimize
+
+**Example:**
+"[Other parent]'s attorney made much of [parent]'s speeding ticket from two years ago. Your Honor, this was a single minor traffic violation. It has no bearing on [parent]'s ability to care for the children safely. The children have been safe in [parent]'s care for their entire lives."
+
+**Conclusion:**
+- Restate your requested custody arrangement
+- Emphasize children's best interests
+
+**Example:**
+"Your Honor, the law requires the court to prioritize the children's best interests. The evidence overwhelmingly shows that Emily and Jake are thriving in [parent]'s care, that [parent] has been and continues to be their primary caregiver, and that stability in [parent]'s home is essential to their wellbeing. We respectfully request that the court award primary physical custody to [parent], with reasonable visitation to [other parent]. Thank you."
+
+### After Trial: Awaiting Decision
+
+**Judge's Decision:**
+
+**Option 1: Ruling from Bench (Immediate)**
+- Judge announces decision at end of trial
+- Less common in complex custody cases
+- Judgment entered within days
+
+**Option 2: Taking Under Submission (Delayed)**
+- Judge needs time to review evidence, apply law
+- May request written closing briefs (due 1-2 weeks after trial)
+- Decision issued 2-8 weeks later
+- More common
+
+**Waiting Period:**
+- Maintain status quo custody arrangement (temporary orders remain in effect)
+- Continue documenting your parenting
+- Don't discuss trial or case on social media
+- Don't try to contact judge
+- Continue co-parenting as best as possible
+
+**When Decision Issued:**
+- Attorney will receive notice
+- Decision comes in form of "Statement of Decision" or "Findings and Order"
+- Reviews facts, applies law, announces custody award
+- Judgment entered based on decision
+
+**If You Win:**
+- Judgment entered awarding you custody per decision
+- Implement new custody schedule
+- Facilitate other parent's visitation
+- Follow all court orders precisely
+
+**If You Lose:**
+- Accept judgment gracefully (for now)
+- Implement custody schedule ordered
+- Consider whether to appeal (discuss with attorney)
+- Document other parent's failures (if considering future modification)
+
+### Appeals (If You Lose)
+
+**Appeal Basics:**
+- Can appeal final judgment
+- Must file Notice of Appeal within strict deadline (30-60 days, jurisdiction-specific)
+- Expensive (\$15K-\$50K+)
+- Time-consuming (6-18 months)
+- Low success rate (appellate courts defer to trial court's judgment)
+
+**Grounds for Appeal:**
+- Legal error (judge misapplied law)
+- Abuse of discretion (judge's decision not supported by evidence)
+- Procedural error (violated due process, excluded important evidence)
+
+**NOT Grounds for Appeal:**
+- You disagree with judge's decision
+- Judge weighed evidence differently than you'd prefer
+- Judge found other parent more credible than you
+
+**Standard of Review:**
+- Appellate court reviews trial court's decision for errors
+- Will not re-weigh evidence or re-hear testimony
+- Highly deferential to trial court
+
+**Appeal Decision:**
+- Affirm trial court (you lose appeal, original judgment stands)
+- Reverse trial court (you win appeal, judgment reversed, may be sent back for new trial)
+- Modify trial court (judgment adjusted)
+
+**Should You Appeal?**
+- Consult with attorney (honest assessment of appeal chances)
+- Consider cost vs benefit (another \$30K for low chance of success?)
+- Consider emotional toll on children (prolonging conflict)
+- Consider relationship with other parent (appeal may destroy any co-parenting cooperation)
+
+---
+
+`,
+  "Custody/09-temporary-orders.md": `
+## Section 9: Temporary Orders Strategy
+
+### Overview: Why Temporary Orders Matter
+
+**Critical Principle: Temporary Often Becomes Permanent**
+
+**Statistics:**
+- 70-80% of temporary custody arrangements become permanent
+- Courts prefer stability and continuity for children
+- "Status quo" presumption: Keep what's working
+
+**Why This Matters:**
+- If you get favorable temporary orders, you're likely to win at final judgment
+- If other parent gets favorable temporary orders, you're fighting uphill battle
+
+**Timeline:**
+- Temporary orders hearing: 30-90 days after filing
+- Final judgment: 6-18 months after filing
+- Children live under temporary orders for 6-18 months = establishing "status quo"
+
+**Your Strategy:**
+- Fight hard for favorable temporary orders
+- Treat temporary orders hearing like mini-trial
+- Win temporary custody → likely win permanent custody
+
+### Requesting Temporary Orders (Motion for Temporary Orders)
+
+**When to File:**
+- Immediately after filing divorce petition (or same day)
+- Can file before response is due
+- Urgent if current situation unstable or harmful to child
+
+**What You Can Request:**
+
+**1. Temporary Custody and Visitation**
+- Primary physical custody to you
+- Specified visitation schedule for other parent
+- Decision-making authority (legal custody)
+
+**2. Temporary Child Support**
+- Based on state guidelines
+- Ensures financial stability during divorce
+
+**3. Temporary Spousal Support (If Applicable)**
+- May be necessary to maintain status quo
+
+**4. Exclusive Use of Family Home**
+- You remain in home with children
+- Other parent moves out (if not already separated)
+
+**5. Restraining Orders (If Needed)**
+- Domestic violence
+- Child abuse
+- Substance abuse around child
+
+**6. Other Relief**
+- No disparagement orders (neither parent badmouths other)
+- Drug/alcohol testing
+- Supervised visitation (if safety concerns)
+
+### Motion for Temporary Orders: Components
+
+**1. Notice of Motion**
+- Tells court and other parent what you're asking for and when hearing is
+
+**2. Declaration (Your Sworn Statement)**
+- Facts supporting your requested orders
+- Evidence attached as exhibits
+- Detailed, specific, chronological
+
+**3. Proposed Order**
+- What you want judge to order
+- Specific schedule, terms
+
+**4. Supporting Evidence**
+- Exhibits: Photos, texts, emails, logs, receipts, records
+- Declarations from witnesses (teachers, family, neighbors)
+- Prior orders (restraining orders, police reports)
+
+### Writing Effective Declaration for Temporary Orders
+
+**Structure:**
+
+**Introduction:**
+"I, [Your Name], declare as follows under penalty of perjury:
+
+1. I am the Petitioner in this matter and the mother/father of [Child's Name], age [X]. I have personal knowledge of the facts stated in this declaration and, if called as a witness, could testify competently to them."
+
+**Background:**
+- Brief marriage/relationship history
+- Child's name, age, current living situation
+- Timeline of separation
+- Current custody arrangement (formal or informal)
+
+**Your Role as Parent:**
+- Establish yourself as primary caregiver (or highly involved parent)
+- Specific examples of daily caregiving
+- School, medical, extracurricular involvement
+- Financial support
+
+**Why Temporary Orders Needed:**
+- What's wrong with current situation
+- How it harms child
+- Urgency
+
+**Examples:**
+
+**Example 1: Child Currently with Other Parent (You Want Custody Back)**
+"Since the separation on January 15, 2025, [Other Parent] has kept the children at his/her residence and is refusing to allow me regular contact. This is harmful to the children because:
+
+a) I have been the children's primary caregiver since birth. Abruptly separating them from me is causing them distress.
+
+b) [Other Parent]'s work schedule (8am-6pm, Monday-Friday) means the children are in childcare 50+ hours per week, whereas my flexible schedule allows me to be home with them after school.
+
+c) The children's school, activities, and friends are all in my neighborhood. They are being uprooted from their established routine."
+
+**Example 2: Current Arrangement Unstable (50/50 Informal, You Want Primary)**
+"Since the separation, we have had an informal arrangement where the children alternate weeks between homes. This arrangement is not working:
+
+a) The children are struggling with the constant back-and-forth. Emily has been asking to stay at my house full-time. Her teacher reports Emily seems more anxious this semester.
+
+b) [Other Parent] has missed three scheduled custody exchanges in the past month, leaving me scrambling to arrange childcare.
+
+c) There is no consistency in rules, bedtimes, or homework expectations between homes, which is confusing for the children."
+
+**Example 3: Safety Concerns (Need Supervised Visitation)**
+"I am requesting supervised visitation for [Other Parent] due to the following safety concerns:
+
+a) On February 3, 2025, [Other Parent] was arrested for DUI with the children in the car. Police report attached as Exhibit A. The children were terrified. Jake has nightmares about the incident.
+
+b) [Other Parent] has refused to complete substance abuse evaluation or treatment, despite my requests.
+
+c) I do not believe it is safe for the children to be in [Other Parent]'s care unsupervised until [he/she] addresses the substance abuse issue."
+
+**Other Parent's Fitness Concerns:**
+- Specific, factual concerns
+- Dates, details, evidence
+- How concerns affect child
+
+**Examples:**
+- Substance abuse (dates witnessed, DUI arrests, children's reports)
+- Mental health crisis (hospitalization, erratic behavior, children frightened)
+- Domestic violence (police reports, restraining orders, children's trauma)
+- Neglect (missed visits, failure to provide basic care, children reporting hunger/poor hygiene)
+- Alienation (badmouthing you to children, blocking contact, coaching children)
+
+**Your Proposed Custody Schedule:**
+- Specific schedule you're requesting
+- Why it's in child's best interests
+- How it maintains stability
+
+**Example:**
+"I am requesting that the children reside primarily with me, with [Other Parent] having visitation every other weekend (Friday 6pm-Sunday 6pm) and one dinner visit per week (Wednesday 5pm-7pm). This schedule:
+
+a) Maintains stability—children remain in family home, same school, same activities.
+b) Provides [Other Parent] regular, consistent contact with children.
+c) Aligns with my flexible work schedule, allowing me to be available for children after school."
+
+**Facilitating Other Parent's Relationship:**
+"Despite the issues outlined above, I want the children to have a relationship with [Other Parent]. I will facilitate all court-ordered visitation, communicate about the children's needs, and encourage the children's relationship with [Other Parent]."
+
+**Conclusion:**
+"For the reasons stated above, I respectfully request that the Court grant the relief requested in my Motion for Temporary Orders."
+
+**Signature:**
+"I declare under penalty of perjury under the laws of the State of [State] that the foregoing is true and correct.
+
+Executed on [Date] at [City], [State].
+
+_________________________
+[Your Signature]
+[Your Printed Name]"
+
+### Responding to Other Parent's Motion for Temporary Orders
+
+**If Other Parent Files First:**
+- You will receive notice of their motion
+- You have deadline to respond (usually 7-14 days before hearing)
+- File responsive declaration
+
+**Your Responsive Declaration:**
+
+**Structure:**
+- Respond point-by-point to other parent's allegations
+- Provide your version of facts (with evidence)
+- Counter their proposed custody arrangement
+- Present your proposed custody arrangement
+
+**Tone:**
+- Factual, not emotional
+- Acknowledge truths, correct mischaracterizations
+- Don't ignore serious allegations (address them directly)
+
+**Example Responses:**
+
+**Other Parent's Allegation:**
+"[Respondent] is never involved in the children's education. [He/she] has not attended a single parent-teacher conference this year."
+
+**Your Response:**
+"This is false. I have attended [X] of the [Y] parent-teacher conferences this year. I was unable to attend the conference on [Date] due to a work conflict, but I rescheduled for the following week and met with the teacher individually. Email confirmation attached as Exhibit 5. I also volunteer in the classroom monthly (sign-in logs attached as Exhibit 6) and communicate with the teacher regularly via email (examples attached as Exhibit 7)."
+
+**Other Parent's Allegation:**
+"[Respondent] has anger management issues and has yelled at the children on multiple occasions."
+
+**Your Response:**
+"I do not have anger management issues. Like all parents, I have occasionally raised my voice when the children engage in dangerous behavior (e.g., running into the street) or repeatedly ignore instructions. This is normal parenting, not abuse. I have never harmed the children physically or emotionally. [Petitioner]'s characterization is an exaggeration designed to make me look unfit."
+
+**Other Parent's Allegation:**
+"The children prefer to live with me. Emily told me she wants to live at my house."
+
+**Your Response:**
+"[Petitioner] appears to be coaching the children. Emily has never expressed to me that she wants to live primarily with [Petitioner]. In fact, Emily is bonded to me and looks forward to our time together. Childtherapist's report (attached as Exhibit 10) states that Emily has a secure attachment to both parents. [Petitioner]'s attempt to use Emily's words to support custody is inappropriate and potentially harmful to Emily."
+
+### Temporary Orders Hearing Preparation
+
+**Typical Hearing:**
+- 15-45 minutes (much shorter than trial)
+- Judge has read both declarations
+- Each side gets brief argument time
+- May allow brief testimony or questions
+- Judge rules from bench (immediate decision)
+
+**What to Bring:**
+- Copies of all filed documents
+- Extra evidence (if judge allows)
+- Witness (if judge allows, unlikely)
+- Notebook for notes
+
+**What to Expect:**
+
+**Judge Reads Declarations First:**
+- Judge has reviewed your declaration and other parent's declaration
+- Judge may have tentative ruling before hearing
+
+**Your Attorney Argues (5-15 minutes):**
+- Summarizes your position
+- Highlights strongest evidence
+- Requests specific orders
+
+**Other Parent's Attorney Argues (5-15 minutes):**
+- Summarizes their position
+- Attacks your evidence
+- Requests different orders
+
+**Rebuttal (Brief):**
+- Your attorney responds to other parent's arguments
+
+**Judge May Ask Questions:**
+- Of attorneys
+- Of parties (you may be questioned directly)
+- About specific facts or evidence
+
+**Judge Rules:**
+- Announces temporary custody arrangement
+- Announces temporary support
+- Other orders (if requested)
+
+**Temporary Orders Issued:**
+- Signed order entered within days
+- Enforceable immediately
+- In effect until final judgment
+
+### If You Win Temporary Orders
+
+**Implement Orders Precisely:**
+- Follow custody schedule exactly
+- Follow all conditions (no drinking around kids, drug testing, etc.)
+- Facilitate other parent's visitation (don't block or interfere)
+- Document compliance
+
+**Why This Matters:**
+- Establishes status quo
+- Shows you can follow court orders
+- Demonstrates child thriving under arrangement
+- Builds case for permanent custody
+
+**Maintain Temporary Arrangement Until Final Judgment:**
+- Could be 6-18 months
+- Continue documenting your parenting
+- Continue gathering evidence
+- Show child thriving
+
+### If You Lose Temporary Orders
+
+**Don't Panic—Not Over Yet:**
+- Temporary orders are temporary (can be changed)
+- Final judgment could be different
+- But you have uphill battle (status quo working against you)
+
+**Your Options:**
+
+**1. Comply and Document (Most Important)**
+- Follow temporary orders precisely (don't violate)
+- Document all issues during other parent's custody time
+- Document child's struggles under arrangement
+- Build case for modification or different final judgment
+
+**What to Document:**
+- Child's distress (behavioral changes, school problems, emotional issues)
+- Other parent's failures (missed visits, poor care, safety concerns)
+- Your continued involvement (visits, communications, support)
+
+**2. File Motion to Modify Temporary Orders (If Circumstances Change)**
+- Significant change in circumstances required
+- Examples: Other parent arrested, child being neglected, child's needs not met
+
+**3. Proceed to Trial**
+- Focus on building strongest case possible for final judgment
+- Hope judge rules differently at trial (based on more evidence, different standard)
+
+### Emergency Custody Orders (Ex Parte Orders)
+
+**When Needed:**
+- Immediate danger to child
+- Can't wait for regular temporary orders hearing (30-90 days)
+
+**Grounds for Emergency Orders:**
+- Child abuse or neglect
+- Domestic violence
+- Substance abuse endangering child
+- Parental kidnapping risk
+- Other immediate threat to child's welfare
+
+**Process:**
+
+**1. File Ex Parte Motion (Emergency Motion)**
+- Declaration explaining emergency
+- Evidence supporting emergency
+- Proposed emergency orders
+
+**2. Hearing Scheduled (Usually Within 24-72 Hours)**
+- Judge hears emergency motion
+- Other parent may or may not be present (depending on jurisdiction and circumstances)
+
+**3. Judge Issues Emergency Orders (If Justified)**
+- Temporary custody to you
+- Supervised visitation for other parent (or no contact)
+- Restraining orders
+- In effect until full temporary orders hearing (within 2-3 weeks)
+
+**4. Full Temporary Orders Hearing Scheduled**
+- Within 2-3 weeks
+- Other parent has opportunity to respond
+- Judge reconsiders emergency orders with full information
+
+**Important:**
+- Don't abuse ex parte process (false emergencies will backfire)
+- Only use if genuine emergency
+- Be prepared to prove emergency at full hearing
+
+### Strategic Considerations for Temporary Orders
+
+**1. Ask for More Than You Expect to Get**
+- Negotiating room
+- Judge may split the difference
+- Example: Ask for primary custody (5 days/week), expect to get 4 days/week
+
+**2. Propose Detailed Schedule**
+- Don't leave ambiguity
+- Specify exact days, times, holidays, exchanges
+- Reduces future conflict
+
+**Example Proposed Schedule:**
+"Children reside primarily with [Parent A]. [Parent B] has the following parenting time:
+
+- **Regular Schedule:** Every other weekend, Friday at 6pm through Sunday at 6pm; and every Wednesday from 5pm-7pm for dinner visit.
+
+- **Holidays:** Alternate major holidays as follows:
+  - Odd years: [Parent B] has Thanksgiving, Christmas Eve; [Parent A] has Christmas Day, New Year's
+  - Even years: Reverse
+
+- **Summer:** [Parent B] has two non-consecutive weeks in July and August, with 30 days advance notice.
+
+- **Exchanges:** All exchanges at [location, e.g., children's school or neutral public location]."
+
+**3. Request Orders That Set You Up for Success**
+- Right of first refusal (if other parent needs childcare, must offer you time first)
+- Communication protocol (email only, parenting app, etc.)
+- Access to school/medical records and provider contact
+- No negative communication about you to/around children
+
+**4. Address Anticipated Issues**
+- If other parent likely to violate orders, request violation consequences
+- If substance abuse concern, request drug testing
+- If alienation concern, request therapy for child and reunification therapy
+
+**5. Be Reasonable (Judge Rewards Reasonableness)**
+- Propose schedule that allows other parent relationship with child
+- Show willingness to facilitate co-parenting
+- Don't appear vindictive or controlling
+
+---
+
+`,
+  "Custody/10-post-judgment.md": `
+## Section 10: Post-Judgment & Modifications
+
+### Overview: Life After Judgment
+
+**Final Judgment Entered:**
+- Court issues final custody orders
+- Divorce decree entered
+- Custody arrangement permanent (unless modified)
+
+**Your Responsibilities:**
+- Implement custody orders exactly as written
+- Facilitate other parent's relationship with child
+- Continue focusing on child's best interests
+- Document ongoing parenting and any concerns
+
+**Other Parent's Responsibilities:**
+- Same as yours
+- May or may not comply (document if they don't)
+
+**When Modification Possible:**
+- Significant change in circumstances
+- Time passage + child's needs change
+- Other parent's violations of orders
+- Child's preference (as child ages)
+
+### Implementing Final Judgment
+
+**Follow Orders Precisely:**
+- Custody schedule exactly as ordered
+- Holiday schedule as ordered
+- Decision-making as ordered (legal custody provisions)
+- Communication as ordered
+
+**Why This Matters:**
+- Contempt if you violate (could lose custody)
+- Sets good example for other parent
+- Shows respect for court process
+- Protects you if future modification sought
+
+**Common Mistakes to Avoid:**
+
+**1. Informal Changes Without Court Approval**
+- You and other parent agree to different schedule
+- Not documented or court-approved
+- One parent later claims violation of orders
+
+**Solution:**
+- Any changes to orders must be in writing (email or text)
+- Or filed with court as modified order (stipulation and order)
+- Don't rely on verbal agreements
+
+**2. Blocking Other Parent's Custody Time (Even If You Disagree with Orders)**
+- You don't like custody arrangement
+- You withhold child from other parent
+- = Contempt of court
+
+**Solution:**
+- Follow orders even if you disagree
+- Seek modification through proper legal channels
+
+**3. Making Unilateral Decisions (If Joint Legal Custody)**
+- Joint legal custody = both parents must agree on major decisions
+- You decide alone to change child's school, doctor, activities
+- = Violation of orders
+
+**Solution:**
+- Attempt to reach agreement with other parent
+- If can't agree, file motion for court to decide
+
+### When to Seek Modification of Custody Orders
+
+**Legal Standard:**
+- "Significant change in circumstances" since last order
+- Change affects child's best interests
+- Burden of proof on parent seeking modification (you must prove change)
+
+**Types of Changes That May Justify Modification:**
+
+**1. Other Parent's Unfitness (New or Worsening)**
+- Substance abuse (DUI, drug use, alcohol abuse)
+- Mental health crisis (hospitalization, inability to care for child)
+- Domestic violence (arrests, restraining orders)
+- Child abuse or neglect
+- Criminal behavior (arrests, incarceration)
+
+**Example:**
+Original orders: Joint physical custody (50/50).
+Change: Other parent arrested for DUI with child in car.
+Modification sought: Primary custody to you, supervised visitation for other parent.
+
+**2. Your Circumstances Improved**
+- You now have more stable housing
+- You now have more flexible job
+- You completed treatment/therapy (if issue before)
+- Your new spouse provides additional support
+
+**Example:**
+Original orders: Other parent has primary custody because you traveled for work.
+Change: You changed jobs, no longer travel, available for daily parenting.
+Modification sought: Switch to primary custody with you.
+
+**3. Child's Needs Changed**
+- Child older, has preference (wants to live with you)
+- Child's educational/medical/emotional needs better met by you
+- Child's activities/friends/school in your area
+
+**Example:**
+Original orders: Joint custody, child alternating weeks.
+Change: Child now in high school, all activities and friends near your home, child struggling with constant back-and-forth.
+Modification sought: Primary custody to you during school year, more time with other parent in summer.
+
+**4. Other Parent's Violation of Orders**
+- Repeated violations (missed visits, late exchanges, withholding child)
+- Contempt established (court found violations)
+- Child harmed by violations
+
+**Example:**
+Original orders: You have visitation every other weekend.
+Change: Other parent has denied you 15 of your last 20 weekends, no valid reasons.
+Modification sought: Switch custody to you (if other parent can't follow orders, you should have custody).
+
+**5. Relocation**
+- One parent wants to move away with child
+- Requires modification of custody/visitation
+
+**(Discussed separately below)**
+
+### Filing Motion for Modification
+
+**Process:**
+
+**1. Determine If Modification Justified**
+- Review custody orders
+- Identify significant change in circumstances
+- Gather evidence proving change
+- Assess whether child's best interests support modification
+
+**2. File Motion to Modify Custody**
+- Notice of Motion
+- Declaration (sworn statement explaining change, providing evidence)
+- Proposed modified order (what you want)
+- Supporting evidence (exhibits)
+
+**3. Serve Other Parent**
+- Other parent has deadline to respond
+
+**4. Hearing**
+- Similar to temporary orders hearing
+- Present evidence of changed circumstances
+- Argue child's best interests require modification
+- Other parent responds
+
+**5. Judge Decides**
+- Grants modification (orders change)
+- Denies modification (orders remain the same)
+
+**Burden of Proof:**
+- You must prove:
+  1. Significant change in circumstances since last order
+  2. Modification in child's best interests
+
+### Defending Against Modification (If Other Parent Seeks to Modify)
+
+**If Other Parent Files Motion to Modify:**
+- Review their allegations
+- Prepare responsive declaration
+- Gather evidence showing no change OR change not in child's best interests
+- Attend hearing and argue against modification
+
+**Common Arguments to Defend Status Quo:**
+
+**1. No Significant Change**
+- Circumstances are same as when original order entered
+- Changes alleged are minor or temporary
+- Other parent knew about alleged changes at time of original order
+
+**2. Modification Not in Child's Best Interests**
+- Child thriving under current arrangement
+- Child bonded to both parents as is
+- Stability important (changing custody disruptive)
+- Other parent's proposed arrangement worse for child
+
+**3. Other Parent's Motive Improper**
+- Seeking modification to reduce child support
+- Seeking modification to harass you
+- Seeking modification for own convenience, not child's best interests
+
+### Relocation (Move-Away) Cases
+
+**Scenario:**
+- You want to move to different city/state with child
+- OR other parent wants to move with child
+- Current custody orders don't allow relocation without other parent's consent or court approval
+
+**Relocation Law (Varies by State):**
+
+**California Example:**
+- Parent with primary custody has presumptive right to move with child (but must give notice, other parent can object)
+- Parent without primary custody needs other parent's consent or court approval to move with child
+- If parents have joint physical custody, no presumptive right—court decides
+
+**Move-Away Factors (What Court Considers):**
+1. **Reason for move** (good faith? job opportunity, family support, educational opportunities vs. to frustrate other parent's relationship)
+2. **Child's best interests** (will move benefit child?)
+3. **Child's relationship with both parents** (how will move impact relationship with non-moving parent?)
+4. **Child's age, developmental needs**
+5. **Distance of move** (across town vs. across country—feasibility of maintaining relationship with non-moving parent)
+6. **Non-moving parent's ability to maintain relationship** (visitation schedule after move, financial ability to travel)
+7. **Child's preference** (if age-appropriate)
+
+**If You Want to Move with Child:**
+
+**Step 1: Notify Other Parent**
+- Written notice (45-60 days advance, per your state's law)
+- Reason for move
+- New address
+- Proposed revised custody schedule
+
+**Step 2: Negotiate**
+- Attempt to reach agreement on modified custody schedule
+- May require:
+  - Longer visits during school breaks for other parent
+  - More frequent travel back to old area for visits
+  - Technology for communication (FaceTime, Zoom)
+  - You paying for child's travel costs
+
+**Step 3: If No Agreement, File Motion**
+- Request permission to relocate with child
+- Propose modified custody schedule
+- Evidence supporting move (job offer, family support, better schools, etc.)
+
+**Step 4: Hearing**
+- Present evidence why move in child's best interests
+- Present evidence how you'll facilitate other parent's relationship despite distance
+- Other parent will argue move harmful to child
+
+**Step 5: Judge Decides**
+- Grants move (can relocate with child, modified custody schedule)
+- Denies move (can't relocate with child OR can relocate but child stays with other parent)
+
+**If Other Parent Wants to Move with Child (You Object):**
+
+**Your Arguments:**
+- Move not in child's best interests
+- Move will harm child's relationship with you
+- Other parent's reason for move is illegitimate (to interfere with your relationship)
+- Child's ties to current community (school, friends, activities)
+- Your involvement in child's life will be drastically reduced
+
+**Evidence to Present:**
+- Your current involvement (how often you see child, your role in child's life)
+- Child's ties to area (school performance, friendships, activities, extended family)
+- Distance of move (feasibility of maintaining relationship)
+- Other parent's motive (evidence move is designed to interfere with you)
+
+**Possible Outcomes:**
+- Court denies move (child stays in current area)
+- Court allows move but switches custody to you (other parent can move, but child stays with you)
+- Court allows move with modified schedule (you get longer visits during breaks)
+
+### Contempt of Court (When Other Parent Violates Orders)
+
+**What is Contempt?**
+- Other parent's willful violation of court orders
+- Can be civil or criminal contempt
+
+**Examples of Contempt in Custody Cases:**
+- Denying you court-ordered custody/visitation time
+- Repeatedly late to exchanges
+- Withholding child from you
+- Making unilateral major decisions (if joint legal custody)
+- Moving out of area without permission
+- Violating no-disparagement orders (badmouthing you)
+- Failing to pay child support
+
+**When to Pursue Contempt:**
+- Pattern of violations (not isolated incident)
+- Violations harm child or your relationship with child
+- Attempts to resolve informally fail
+- Other parent shows no intent to comply
+
+**Filing Contempt Motion:**
+
+**1. Document Violations**
+- Dates, times, specific orders violated
+- Communications with other parent (your attempts to resolve)
+- Evidence (texts, emails, witnesses)
+
+**2. File Motion for Contempt**
+- Notice of Motion
+- Declaration (detailing violations)
+- Evidence (exhibits)
+
+**3. Hearing**
+- Present evidence of violations
+- Other parent must defend (deny violations OR show inability to comply wasn't willful)
+- Judge decides if contempt occurred
+
+**Consequences of Contempt:**
+- **Makeup time** (you get additional custody time to make up for denied time)
+- **Fines** (other parent pays court fines)
+- **Sanctions** (other parent pays your attorney fees)
+- **Modification** (if ongoing contempt, court may modify custody in your favor)
+- **Jail** (in extreme cases, criminal contempt)
+
+**Important:**
+- Contempt requires proof that violation was willful (not due to emergency or inability)
+- Example: Other parent late to exchange due to car accident = not contempt
+- Example: Other parent late to exchange because they "forgot" = contempt
+
+### Enforcement of Custody Orders
+
+**Other Methods to Enforce Orders (Besides Contempt):**
+
+**1. Police Enforcement**
+- If other parent withholds child during your custody time, call police
+- Bring copy of custody orders
+- Police may enforce orders (depends on jurisdiction)
+- Creates paper trail (police report)
+
+**2. Order to Show Cause**
+- Similar to contempt, but doesn't require proof of willful violation
+- Other parent must "show cause" why they didn't follow orders
+
+**3. Wage Garnishment (For Child Support Violations)**
+- If other parent not paying support, request wage garnishment
+- Support deducted from paycheck automatically
+
+**4. License Suspension (For Child Support Violations)**
+- Driver's license, professional license suspended until support paid
+
+**5. Parenting Coordinator**
+- Court-appointed neutral third party
+- Helps enforce orders and resolve disputes
+- Less formal than court
+
+### Modifying Child Support
+
+**When Child Support Can Be Modified:**
+- Significant change in either parent's income
+- Child's needs change
+- Custody arrangement changes (more custody = less support paid)
+- Passage of time (some states allow review every 2-3 years)
+
+**Process:**
+- File motion to modify support
+- Provide updated income information
+- Court recalculates support per state guidelines
+- New support order issued
+
+### Parenting Coordination (High-Conflict Cases)
+
+**What is Parenting Coordinator?**
+- Neutral third-party professional (often therapist or attorney)
+- Appointed by court to help high-conflict parents implement custody orders
+- Makes minor decisions when parents can't agree
+- Educates parents on co-parenting
+
+**When PC Appointed:**
+- Frequent court filings over minor disputes
+- Inability to co-parent (constant conflict)
+- Child suffering due to parental conflict
+
+**PC's Role:**
+- Facilitate communication
+- Resolve disputes (school choice, extracurricular activities, scheduling changes)
+- Make recommendations to court (if issues escalate)
+- Monitor compliance with orders
+
+**Cost:**
+- Parents split cost (typically \$150-\$300/hour)
+- May be worth it to reduce legal fees and court filings
+
+### Co-Parenting After Judgment (Making It Work)
+
+**Even if you fought hard for custody and won, co-parenting still necessary:**
+- Child benefits from relationship with both parents (in most cases)
+- Ongoing conflict harms child
+- Court expects cooperation
+
+**Co-Parenting Best Practices:**
+
+**1. Business-Like Communication**
+- Brief, factual, child-focused
+- Use email or parenting app (creates record)
+- Don't engage in arguments or personal attacks
+
+**Example:**
+❌ Bad: "You're always late and the kids are upset. You're such a terrible parent!"
+✅ Good: "Pickup was scheduled for 6pm today. You arrived at 6:45pm. Please adhere to the schedule in the future."
+
+**2. Parallel Parenting (If Co-Parenting Not Possible)**
+- Minimize direct contact
+- Each parent makes decisions during their custody time
+- Stick to court orders, don't negotiate everything
+- Use third party for exchanges (school, relative)
+
+**3. Focus on Child's Best Interests**
+- Put aside your feelings about other parent
+- Don't badmouth other parent to child
+- Facilitate child's relationship with other parent
+- Be flexible when possible (emergencies, special occasions)
+
+**4. Document Issues (But Don't Overreact)**
+- Keep records of violations, concerns
+- Don't file motion over every minor issue
+- Pick your battles (only involve court when necessary)
+
+**5. Shield Child from Conflict**
+- Don't fight in front of child
+- Don't use child as messenger
+- Don't interrogate child about other parent's house
+- Don't ask child to choose sides
+
+**6. Follow Orders**
+- Even when you disagree
+- Even when other parent doesn't
+- Seek modification through proper channels if orders not working
+
+### When to Return to Court (Post-Judgment)
+
+**Return to Court When:**
+- Significant change in circumstances (modification)
+- Other parent's contempt (violations)
+- Enforcement needed (other parent not following orders)
+- New issues arise (relocation, child's needs change)
+
+**Don't Return to Court for:**
+- Minor disagreements
+- Personality conflicts
+- Every small violation
+- Attempt to re-litigate issues already decided
+
+**Court Fatigue:**
+- Judges tire of frequent filers
+- Damages your credibility (seen as high-conflict)
+- Expensive
+- Harmful to child
+
+**Try to Resolve Outside Court:**
+- Direct communication with other parent
+- Mediation
+- Parenting coordinator
+- Collaborative problem-solving
+
+**Only Court When Necessary:**
+- Safety issues
+- Repeated violations
+- Significant changes requiring modification
+
+### Long-Term Success: Thriving Post-Divorce
+
+**For You:**
+- Move forward with life
+- Seek therapy if needed (divorce trauma, co-parenting stress)
+- Build new routines with child
+- Focus on your own wellbeing
+
+**For Your Child:**
+- Stability in your home
+- Consistency in routine
+- Emotional support through transition
+- Shielded from ongoing conflict
+- Thriving relationship with both parents (ideally)
+
+**Years Later:**
+- Child adjusts to two-home life
+- Conflict reduces (most cases)
+- You and other parent find workable co-parenting rhythm
+- Child's needs evolve (be prepared to modify as needed)
+
+**Remember:**
+- Divorce is life event, not life sentence
+- Child can thrive in two homes
+- Your relationship with child is what matters most
+- Focus on building strong, healthy parent-child bond
+
+---
+
+## Conclusion
+
+### Summary: Winning Custody
+
+**Throughout this guide, you've learned:**
+
+1. **Custody law fundamentals** - Best interests factors, legal vs physical custody, burden of proof
+2. **Building your winning case** - Establishing primary caregiver status, creating compelling narrative, coordinating witnesses
+3. **Evidence gathering** - Daily logs, photos, school/medical/activity documentation, financial records, communications
+4. **Custody evaluation preparation** - Home visits, parent interviews, psychological testing, child interviews, collateral contacts
+5. **Proving best interests** - Meeting child's needs by developmental stage, stability arguments, parent-child bond evidence
+6. **Countering opposition** - Defending against alienation and abuse allegations, responding to psych eval requests
+7. **Psychological evaluations** - Your rights, strategic responses, independent evaluations
+8. **Trial preparation** - Witness preparation, your testimony, cross-examination survival, closing arguments
+9. **Temporary orders strategy** - Why temporary often becomes permanent, requesting favorable interim orders
+10. **Post-judgment** - Implementing orders, seeking modifications, enforcement, co-parenting
+
+**Key Principles:**
+
+✅ **Document Everything** - Evidence wins cases. Daily logs, photos, receipts, communications.
+
+✅ **Be the Better Parent** - Not just on paper, but in reality. Child thriving in your care is strongest argument.
+
+✅ **Stay Child-Focused** - Every decision, every communication, every court filing—prioritize child's best interests.
+
+✅ **Follow Court Orders** - Precisely, consistently, without exception. Builds your credibility, protects you legally.
+
+✅ **Control the Narrative** - Frame your case proactively. Don't just respond to other parent's allegations.
+
+✅ **Prepare Thoroughly** - Custody evaluations, hearings, trial—preparation determines outcomes.
+
+✅ **Play the Long Game** - Custody battle may take 6-18 months. Marathon, not sprint. Stay consistent.
+
+✅ **Truth Matters** - Don't fabricate, don't exaggerate, don't coach child. Honest evidence of superior parenting wins.
+
+### Your Next Steps
+
+**Immediate Actions (This Week):**
+1. Review this guide and take notes on sections most relevant to your situation
+2. Invoke the appropriate agent:
+   - **custody-strategy** for litigation planning
+   - **custody-evaluation** for evaluation prep
+   - **parental-fitness** for evidence gathering
+3. Start daily parenting log (today!)
+4. Begin organizing evidence (create folders for school, medical, activities, photos)
+5. Identify potential witnesses (teachers, doctors, family, friends)
+
+**Short-Term (This Month):**
+1. Consult with experienced custody attorney
+2. Create comprehensive evidence binder
+3. Begin systematic photo documentation
+4. Request records (school, medical, activity)
+5. Draft timeline of your involvement as parent
+
+**Medium-Term (2-3 Months):**
+1. Complete evidence gathering
+2. Prepare witness statements/declarations
+3. If evaluation ordered: Prepare home, practice interview questions, review psychological test prep
+4. Build financial documentation
+5. Coordinate with attorney on case strategy
+
+**Long-Term (Throughout Case):**
+1. Continue daily parenting logs
+2. Continue photo documentation
+3. Maintain "business-like" communication with other parent (all via email/text for record)
+4. Document any fitness concerns about other parent (with dates, details, evidence)
+5. Focus on child thriving in your care
+
+### Final Thoughts
+
+**You can win custody if:**
+- You genuinely are the better parent for child's best interests
+- You document your superior parenting systematically
+- You prepare thoroughly for evaluation and trial
+- You present yourself as child-focused, reasonable, and cooperative
+- You have evidence (not just your word)
+
+**You will struggle to win custody if:**
+- You're not actually the better parent (honest self-assessment needed)
+- You lack evidence (words vs documentation)
+- You appear vindictive, controlling, or uncooperative
+- You coach child or fabricate evidence (will backfire)
+- You can't demonstrate child thriving in your care
+
+**Remember:**
+- Courts award custody based on child's best interests, not parent's desires
+- Evidence matters more than emotions
+- Preparation is everything
+- Truth-based cases succeed
+- Child's wellbeing is the ultimate goal
+
+**The 3 specialized agents are ready to help you:**
+
+🎯 **custody-strategy** - For litigation strategy, countering opposition tactics, trial preparation
+
+📋 **custody-evaluation** - For evaluation preparation, psychological testing, interview practice
+
+📊 **parental-fitness** - For evidence documentation, primary caregiver proof, witness coordination
+
+**Use them throughout your custody case to build the strongest possible case for your child's best interests.**
+
+---
+
+**This concludes the Comprehensive Guide to Winning Custody Battles.**
+
+**Disclaimer:** This guide provides educational information about custody law and strategy. It is not legal advice and does not create an attorney-client relationship. Every custody case is unique. Consult with a qualified family law attorney in your jurisdiction for advice specific to your situation.
+
+---
+
+*Guide Version 1.0 | Created [2025] | For use with Divorce Roadmap Navigator custody agent system*
+`,
+  "Custody/custody-evaluation-prep.md": `
+# Custody Evaluation Preparation Guide
+*Week-by-Week Timeline for Mastering Your Custody Evaluation*
+
+---
+
+## Overview
+
+This guide provides a comprehensive week-by-week preparation plan for custody evaluations. Most parents have 4-8 weeks' notice before evaluation begins. Use every day wisely—thorough preparation often determines custody outcomes.
+
+**What's at Stake:** Custody evaluator's recommendation carries significant weight with judges. Many judges defer to evaluator's recommendation entirely. Winning the evaluator often means winning custody.
+
+**Your Goal:** Present as child-focused, reasonable, well-prepared parent who genuinely provides best environment for child.
+
+---
+
+## Understanding the Evaluation Process
+
+### Standard Evaluation Components:
+
+1. **Parent Interviews** (2-4 hours per parent)
+   - Your background, parenting history, daily routines
+   - Strengths and weaknesses as parent
+   - Co-parenting relationship with other parent
+   - Concerns about other parent
+   - Your proposed custody arrangement
+
+2. **Home Visits** (1-2 hours per home)
+   - Safety and cleanliness assessment
+   - Child's living space
+   - Age-appropriateness
+   - Observations of parent-child interaction
+
+3. **Psychological Testing** (2-4 hours per parent)
+   - MMPI-2 (personality assessment)
+   - PAI (personality inventory)
+   - Parenting Stress Index
+   - Sometimes: Rorschach, Beck Depression Inventory, substance abuse screening
+
+4. **Child Interviews** (30-90 minutes per child, age-dependent)
+   - Child's daily routines at each home
+   - Child's relationship with each parent
+   - Child's preferences (if age-appropriate)
+   - Child's wellbeing and adjustment
+
+5. **Collateral Contacts** (30-60 minutes per contact)
+   - Teachers
+   - Doctors
+   - Therapists
+   - Childcare providers
+   - Family members
+   - Friends/neighbors
+
+6. **Record Review**
+   - School records
+   - Medical records
+   - Court filings
+   - Police reports (if applicable)
+   - Evidence binders from both parents
+
+7. **Report Writing** (2-4 weeks after data collection)
+   - Summary of findings
+   - Analysis of each parent's strengths/weaknesses
+   - Best interests factors assessment
+   - Custody recommendation
+
+**Total Timeline:** 8-16 weeks from evaluation start to report completion
+
+**Total Cost:** \$8,000-\$25,000+ (split between parents unless court orders otherwise)
+
+---
+
+## Preparation Timeline
+
+## 6-8 Weeks Before Evaluation
+
+### Week 1: Assessment & Planning
+
+**Day 1-2: Information Gathering**
+
+✅ **Research Your Evaluator**
+- ⬜ Google evaluator's name + "custody evaluation"
+- ⬜ Search court records for past cases they evaluated (may need attorney to help)
+- ⬜ Read any published articles or presentations by evaluator
+- ⬜ Ask your attorney: What's evaluator's reputation? Known biases? What do they prioritize?
+- ⬜ Check evaluator's credentials (PhD vs PsyD, license status, specializations, years of experience)
+
+**What to Look For:**
+- Do they favor mothers or fathers?
+- Do they prioritize stability vs equal parenting time?
+- Are they pro-reunification (if alienation alleged)?
+- Do they rely heavily on psychological testing vs observations?
+- What mistakes have they made in past reports (if you can find)
+
+✅ **Understand Evaluation Scope & Process**
+- ⬜ Review court order appointing evaluator (what's evaluator authorized to assess?)
+- ⬜ Get timeline from evaluator (when will interviews, home visits, testing occur)
+- ⬜ Understand what evaluator can/cannot include in report
+- ⬜ Know your rights (what you can refuse, what you must comply with)
+
+✅ **Attorney Consultation**
+- ⬜ Meet with attorney to discuss evaluation strategy
+- ⬜ Review what evidence to provide evaluator
+- ⬜ Discuss concerns about other parent (how to raise them appropriately)
+- ⬜ Role-play potential interview questions
+- ⬜ Get attorney's advice on psychological testing approach
+
+**Day 3-5: Evidence Organization**
+
+✅ **Compile Evidence Binder**
+- ⬜ Use custody-evidence-checklist.md to gather all documentation
+- ⬜ Organize evidence binder with tabs (see checklist Part 13)
+- ⬜ Make clean, professional presentation
+- ⬜ Digital backup of everything
+
+✅ **Identify Collateral Contacts**
+- ⬜ List favorable witnesses (teachers, doctors, coaches, family, friends)
+- ⬜ Contact each person to ask permission to provide their info to evaluator
+- ⬜ Brief them on what evaluation involves (evaluator may call them)
+- ⬜ Provide evaluator with collateral contact list (names, phone numbers, relationship to child)
+
+✅ **Prepare Collateral Contacts**
+- ⬜ Send brief email/letter explaining: "I'm undergoing custody evaluation. Evaluator may contact you. Please share your honest observations of my parenting and [child's] wellbeing."
+- ⬜ Don't coach them on what to say
+- ⬜ Do remind them to be specific (examples, not generalities)
+
+**Day 6-7: Home Preparation Begins**
+
+✅ **Home Assessment**
+- ⬜ Walk through your home as if you're the evaluator
+- ⬜ Note any safety issues (uncovered outlets, unsecured medications, hazards)
+- ⬜ Note any cleanliness issues (clutter, disorganization)
+- ⬜ Note any concerns about child's space
+
+✅ **Create Home Improvement List**
+- ⬜ Prioritize safety fixes (must be done before home visit)
+- ⬜ Identify cleaning/organizing tasks
+- ⬜ Identify child-focused improvements (make space more age-appropriate, personalized)
+
+---
+
+### Week 2: Home Preparation & Self-Preparation
+
+**Days 8-14: Home Improvements**
+
+✅ **Safety Fixes (Critical - Do First)**
+- ⬜ Install or check smoke detectors (working batteries)
+- ⬜ Install or check carbon monoxide detectors
+- ⬜ Secure all medications (locked cabinet if young children)
+- ⬜ Secure cleaning supplies (locked or high shelves)
+- ⬜ Outlet covers (if young children)
+- ⬜ Stair gates (if needed for toddlers)
+- ⬜ Secure firearms (locked safe, ammo stored separately) or remove from home
+- ⬜ Pool fence/gate locked (if applicable)
+- ⬜ Window locks functional
+- ⬜ Fire extinguisher (kitchen)
+
+✅ **Cleanliness & Organization**
+- ⬜ Deep clean entire home
+- ⬜ Declutter (remove excess stuff, organize remaining items)
+- ⬜ Kitchen: Clean counters, clean dishes, organized cabinets, stocked fridge (healthy food visible)
+- ⬜ Bathrooms: Clean, organized, toiletries put away
+- ⬜ Living areas: Tidy, comfortable, family-friendly
+- ⬜ Bedrooms: Clean, organized
+- ⬜ Laundry: Caught up (not piles of dirty laundry visible)
+
+✅ **Child's Space (Critical - Shows Child-Focused Home)**
+- ⬜ Child's bedroom clean and organized
+- ⬜ Age-appropriate bed and furniture
+- ⬜ Personalized (child's artwork, photos, favorite colors/themes)
+- ⬜ Toys/books organized and accessible
+- ⬜ Study/homework space (desk, good lighting, supplies)
+- ⬜ Closet organized (child has adequate, clean clothing)
+- ⬜ Child's belongings present (shows this is their home, not just visiting)
+
+✅ **Family-Focused Touches**
+- ⬜ Child's artwork displayed (fridge, walls)
+- ⬜ Family photos displayed (child feels part of family)
+- ⬜ Books visible (reading culture)
+- ⬜ Educational toys/games visible
+- ⬜ Recent school projects/awards visible
+
+**Days 8-14: Personal Preparation Begins**
+
+✅ **Start Interview Prep**
+- ⬜ Review common interview questions (see Interview Question Bank below)
+- ⬜ Draft answers to expected questions
+- ⬜ Practice answers aloud (sounds different than reading silently)
+- ⬜ Record yourself answering questions (identify verbal tics, nervous habits)
+
+✅ **Mental & Emotional Preparation**
+- ⬜ Accept that evaluation is stressful (normal to feel anxious)
+- ⬜ Schedule self-care (exercise, therapy, support system)
+- ⬜ Practice stress reduction techniques (deep breathing, meditation, yoga)
+- ⬜ Get adequate sleep (critical for cognitive performance during testing/interviews)
+
+✅ **Psychological Testing Prep**
+- ⬜ Research psychological tests evaluator uses (MMPI-2, PAI, etc.)
+- ⬜ Understand validity scales (detect lying, defensiveness, exaggeration)
+- ⬜ Strategy: Answer honestly, don't try to appear perfect, be consistent
+- ⬜ If you have legitimate mental health issues: Prepare to discuss treatment, management, why it doesn't affect parenting
+
+---
+
+### Week 3-4: Intensive Interview Preparation
+
+**Days 15-28: Mock Interviews & Practice**
+
+✅ **Interview Practice (Daily)**
+- ⬜ Practice answering questions for 30-60 minutes each day
+- ⬜ Have attorney, friend, or family member ask you questions
+- ⬜ Practice until answers feel natural (not scripted)
+- ⬜ Focus on child-centered answers (not attacks on other parent)
+- ⬜ Practice staying calm when asked about difficult topics
+
+✅ **Master Your Story**
+- ⬜ Know specific examples for every claim you make
+  - "I'm very involved in child's education" → Have specific examples ready (conferences attended, volunteer hours, homework routine, teacher communications)
+- ⬜ Know dates, details, evidence
+- ⬜ Chronology straight (don't contradict yourself)
+- ⬜ Consistent with your written declarations/statements
+
+✅ **Prepare for Difficult Questions**
+- ⬜ Practice answering questions about your weaknesses
+  - "What are your weaknesses as a parent?"
+  - "Tell me about a time you lost your temper with your child"
+  - "Have you ever used drugs/alcohol inappropriately?"
+- ⬜ Strategy: Honest, shows insight, explains how you've improved
+- ⬜ Don't be defensive, don't minimize, don't blame others
+
+✅ **Prepare to Discuss Other Parent (Carefully)**
+- ⬜ Identify specific, factual concerns (not emotional attacks)
+- ⬜ Have dates, details, evidence for every concern
+- ⬜ Practice neutral, calm tone when discussing other parent
+- ⬜ Balance: Acknowledge other parent's positive qualities, then raise legitimate concerns
+- ⬜ Frame as child-focused: "I have concerns about how [issue] affects [child]"
+
+✅ **Memorize Key Information**
+- ⬜ Child's full legal name, birthdate, age, grade, school name, teacher name
+- ⬜ Child's doctor (name, practice, when last visit)
+- ⬜ Child's dentist
+- ⬜ Child's activities (names of sports/classes, coaches/instructors, schedules)
+- ⬜ Child's friends (names, parents' names if you know)
+- ⬜ Child's favorite: Foods, colors, subjects, activities, books, toys
+- ⬜ Child's struggles: Subjects they find challenging, fears, dislikes
+- ⬜ Timeline of marriage/separation/divorce
+- ⬜ Current custody schedule
+- ⬜ Your work schedule (hours, flexibility, location)
+
+**Days 15-28: Evidence Binder Finalization**
+
+✅ **Review and Refine Evidence Binder**
+- ⬜ Make sure everything organized, labeled, easy to navigate
+- ⬜ Table of contents accurate
+- ⬜ Highlights or sticky notes on key evidence
+- ⬜ Photos printed clearly with captions
+- ⬜ Witness statements included
+- ⬜ Remove anything that might hurt your case (unflattering photos, angry texts from you)
+
+✅ **Practice Presenting Evidence**
+- ⬜ Know your binder cold (can quickly find any document)
+- ⬜ Be prepared to walk evaluator through key evidence
+- ⬜ Practice explaining: "This document shows X, which demonstrates Y"
+
+---
+
+### Week 5: Final Preparations
+
+**Days 29-35: Polish & Practice**
+
+✅ **Home Final Check**
+- ⬜ Complete any remaining home improvements
+- ⬜ Do final deep clean (schedule 2-3 days before home visit)
+- ⬜ Check all safety items still in place
+- ⬜ Make sure child's space looks lived-in (not sterile, but not messy)
+
+✅ **Interview Practice (Intensive)**
+- ⬜ Full mock interview with attorney or trusted advisor
+- ⬜ Simulate real conditions (sitting at table, 2-3 hour session)
+- ⬜ Practice handling curveball questions
+- ⬜ Practice staying composed under pressure
+- ⬜ Get feedback on:
+  - ⬜ Body language (fidgeting, eye contact, posture)
+  - ⬜ Tone (defensive, angry, calm?)
+  - ⬜ Answer quality (specific, child-focused, balanced?)
+  - ⬜ Credibility (believable, consistent, honest?)
+
+✅ **Psych Testing Preparation**
+- ⬜ Get good night's sleep before testing
+- ⬜ Eat well
+- ⬜ Minimize stress day-of
+- ⬜ Know that testing takes 2-4 hours (bring water, snacks for after)
+- ⬜ Reminder: Answer honestly, don't try to outsmart test, be consistent
+
+✅ **Mental Preparation**
+- ⬜ Visualize successful interview (calm, confident, child-focused)
+- ⬜ Prepare for anxiety (deep breathing, grounding techniques)
+- ⬜ Remind yourself: You're prepared, you're the better parent, evidence supports you
+- ⬜ Get support (therapy session, talk to trusted friend, attorney pep talk)
+
+---
+
+## Evaluation Week: Day-Of Tips
+
+### Day of Interview
+
+**Morning Of:**
+- ⬜ Good night's sleep (aim for 7-8 hours)
+- ⬜ Healthy breakfast
+- ⬜ Professional but comfortable clothing (business casual, not formal suit)
+- ⬜ Arrive 10-15 minutes early (shows responsibility, punctuality)
+- ⬜ Turn off phone (no interruptions)
+
+**During Interview:**
+- ⬜ Greet evaluator professionally (firm handshake, smile, eye contact)
+- ⬜ Listen carefully to each question before answering
+- ⬜ Pause to think (shows thoughtfulness)
+- ⬜ Answer completely but concisely (don't ramble)
+- ⬜ Stay calm and composed (even when discussing difficult topics)
+- ⬜ Make eye contact
+- ⬜ Sit still (don't fidget excessively)
+- ⬜ Be respectful of other parent (even when discussing concerns)
+- ⬜ Provide evidence binder when asked
+- ⬜ If you don't know answer, say "I don't know" (don't guess)
+- ⬜ If you don't remember, say "I don't recall" (don't make up details)
+
+**Mindset During Interview:**
+- Focus on child's best interests (every answer)
+- You are child's advocate, not other parent's accuser
+- Calm, factual, honest
+- You're having conversation with evaluator, not interrogation
+
+**After Interview:**
+- ⬜ Thank evaluator for their time
+- ⬜ Ask about next steps (home visit, testing, timeline)
+- ⬜ Don't rehash interview endlessly (you did your best)
+- ⬜ Brief notes on anything you forgot to mention (email to attorney, not evaluator)
+
+### Day of Home Visit
+
+**Preparation (Day Before):**
+- ⬜ Final clean (home should be clean but lived-in, not sterile)
+- ⬜ Fresh flowers or pleasant scent (subtle, not overpowering)
+- ⬜ Comfortable temperature (not too hot/cold)
+- ⬜ Good lighting (open curtains, turn on lights if needed)
+- ⬜ Remove or secure pets (unless child-friendly and well-behaved)
+- ⬜ Stock fridge with healthy food (evaluator may look)
+- ⬜ Have evidence binder available (if not already provided)
+
+**Day Of:**
+- ⬜ Wear casual, neat clothing (you're at home, be comfortable but presentable)
+- ⬜ Greet evaluator warmly
+- ⬜ Offer beverage (water, coffee)
+- ⬜ Give tour of home (narrate child-focused aspects: "This is where [child] does homework," "Here's [child's] art displayed," etc.)
+- ⬜ Show child's bedroom, play areas, study space
+- ⬜ If child present: Interact naturally (don't force interactions, evaluator observes authenticity)
+
+**During Home Visit:**
+- ⬜ Answer any questions honestly
+- ⬜ Point out safety features (smoke detectors, childproofing)
+- ⬜ Highlight child-focused elements
+- ⬜ Be relaxed and natural (this is your home, be comfortable)
+
+**What Evaluator Observes:**
+- Safety and cleanliness
+- Child's space quality
+- Family atmosphere
+- Parent-child interaction (if child present)
+- How comfortable you are in home (signs of stability)
+
+### Day of Psychological Testing
+
+**Preparation:**
+- ⬜ Good night's sleep (8+ hours)
+- ⬜ Healthy meal before testing
+- ⬜ Hydrate
+- ⬜ Arrive on time
+- ⬜ Bring reading material (may be wait time between tests)
+- ⬜ Bring water and snack (for after testing)
+
+**During Testing:**
+- ⬜ Listen carefully to instructions
+- ⬜ Ask clarifying questions if instructions unclear
+- ⬜ Answer honestly and consistently
+- ⬜ Don't overthink questions
+- ⬜ Don't try to outsmart test (will backfire)
+- ⬜ Take short breaks if offered
+- ⬜ Stay focused (testing is mentally exhausting)
+
+**Remember:**
+- Tests have validity scales (detect dishonesty, exaggeration, defensiveness)
+- Trying to look perfect will show up as defensiveness
+- Best strategy: Honest, consistent answers
+- If you have mental health issues, honesty about management is better than denial
+
+---
+
+## Interview Question Bank
+
+### Questions About Your Child
+
+**Basic Knowledge:**
+- "Tell me about your children."
+- "What are your children's strengths and weaknesses?"
+- "What is each child's personality like?"
+- "What are your children's interests and hobbies?"
+- "Who are your children's friends?"
+- "What subjects do your children like/struggle with in school?"
+- "What are your children's favorite foods? Least favorite?"
+- "What are your children afraid of?"
+- "How do your children handle stress or change?"
+
+**Good Answer Strategy:**
+- Detailed, specific, shows deep knowledge
+- Speaks to each child individually (not generic)
+- Balance (acknowledge strengths AND challenges)
+- Demonstrates emotional attunement
+
+**Example:**
+"Emily is 8. She's sensitive and introverted. She loves reading—Harry Potter is her current obsession. She's great at English and art but struggles with math, so we practice together every evening. She has a close friend group—Sophia, Mia, and Ava from her class. She's afraid of the dark, so we have a nightlight routine. She handles change well if I prepare her in advance—surprises make her anxious."
+
+### Questions About Parenting History
+
+- "Walk me through a typical day with your children."
+- "Describe your morning routine with the children."
+- "How do you handle homework?"
+- "What's bedtime like?"
+- "How involved are you in your children's education?"
+- "How involved are you in your children's medical care?"
+- "How involved are you in your children's extracurricular activities?"
+- "Who has been the primary caregiver?"
+- "How did you and [other parent] divide childcare responsibilities during the marriage?"
+
+**Good Answer Strategy:**
+- Specific, detailed daily routines (shows involvement)
+- Concrete examples with times, activities
+- Demonstrate consistency and structure
+- Honest about division of labor (don't exaggerate, but be clear about your role)
+
+**Example:**
+"A typical school day: I wake Emily at 6:30am. We pick out her outfit together—she likes matching. At 7am we have breakfast—usually oatmeal with berries. I pack her lunch while she eats—sandwich, fruit, veggie, healthy snack. At 7:30am we brush teeth, do hair, grab backpack. I drive her to school at 7:45am and walk her to her classroom. I talk to her teacher most mornings... [Continue through pickup, homework, dinner, bedtime with similar detail]"
+
+### Questions About Parenting Skills
+
+- "How do you discipline your children?"
+- "Describe a time you had to discipline [child]. What did you do?"
+- "How do you handle tantrums or meltdowns?"
+- "How do you teach your children right from wrong?"
+- "How do you handle conflict between siblings?"
+- "How do you balance structure and flexibility?"
+- "How do you support your children emotionally?"
+- "How do you help your children with difficult emotions like sadness or anger?"
+
+**Good Answer Strategy:**
+- Age-appropriate discipline
+- Calm, consistent, logical consequences
+- Teaching moments (not just punishment)
+- Emotional attunement and support
+
+**Example:**
+"I use natural consequences and time-outs. For example, last week Emily refused to do her homework. I calmly explained that if she didn't complete it, she wouldn't be able to watch her show after dinner. She chose not to do homework, so she lost the privilege. She was upset, but I stayed calm and explained that choices have consequences. The next day, she did her homework without prompting."
+
+### Questions About Your Strengths & Weaknesses
+
+- "What are your strengths as a parent?"
+- "What are your weaknesses as a parent?"
+- "What would you like to improve about your parenting?"
+- "Describe a time you made a mistake as a parent. What did you learn?"
+
+**Good Answer Strategy:**
+- Honest about strengths (specific examples)
+- Honest about weaknesses (shows insight, self-awareness)
+- Frame weaknesses as areas you're working on (growth mindset)
+- Never claim to be perfect (not credible)
+
+**Example - Strengths:**
+"I'm patient and consistent. Emily knows the rules and what to expect. I don't yell or lose my temper easily. I'm also very involved—I show up to her games, conferences, appointments. She knows she can count on me."
+
+**Example - Weaknesses:**
+"Sometimes I struggle with work-life balance. I want to provide financially, but I also want to be present. I've worked on this by adjusting my schedule to be more flexible. I've also learned to say no to extra projects at work so I can prioritize time with Emily."
+
+### Questions About the Other Parent
+
+- "How would you describe [other parent] as a parent?"
+- "What are [other parent]'s strengths as a parent?"
+- "What are your concerns about [other parent]'s parenting?"
+- "Do you think [other parent] loves the children?"
+- "How do you communicate with [other parent]?"
+- "Describe your co-parenting relationship."
+- "How do you handle disagreements about the children?"
+
+**Good Answer Strategy (CRITICAL - Easy to Mess This Up):**
+- Acknowledge other parent's positive qualities first (shows you're not alienating)
+- Raise legitimate concerns factually, not emotionally
+- Child-focused (how concerns affect child, not how they affect you)
+- Balanced tone (not attacking, not vindictive)
+- Show willingness to co-parent despite difficulties
+
+**Example:**
+"[Other parent] loves the children. When [he/she] is present, [he/she] can be fun and engaging. My concerns are about consistency and follow-through. [Other parent] has missed multiple scheduled visits—15 in the past 6 months. The children are disappointed each time. I've tried to communicate about this, but [other parent] doesn't respond to my texts or emails. I want the children to have a relationship with [other parent], but the inconsistency is harmful to them emotionally."
+
+**RED FLAG ANSWERS TO AVOID:**
+❌ "[Other parent] is a terrible parent"
+❌ "[Other parent] doesn't love the kids"
+❌ "[Other parent] only cares about [him/herself]"
+❌ "I can't co-parent with [other parent] at all"
+❌ Emotional, angry tone
+
+### Questions About Co-Parenting
+
+- "How willing are you to facilitate the children's relationship with [other parent]?"
+- "What would you do if the court awards custody to [other parent]?"
+- "How flexible are you about visitation schedule?"
+- "Have you ever denied [other parent] time with the children? Why?"
+
+**Good Answer Strategy:**
+- Show willingness to facilitate (even if you believe you should have primary custody)
+- Demonstrate flexibility and reasonableness
+- Frame any denials as legitimate (safety concerns, court order violations)
+
+**Example:**
+"I absolutely want the children to have a relationship with [other parent]. If the court awards custody to [other parent], I would respect that decision and focus on being the best parent I can be during my time with the children. I'm flexible about the schedule when possible—if [other parent] has a special event, I try to accommodate. My priority is the children's wellbeing and their relationships with both parents."
+
+**Trap Question:**
+"Do you think [other parent] loves the children?"
+
+**Right Answer:** "Yes, I believe [other parent] loves the children."
+**Wrong Answer:** "No" or qualified answer (shows alienation)
+
+### Questions About Proposed Custody Arrangement
+
+- "What custody arrangement are you seeking?"
+- "Why do you think this arrangement is in the children's best interests?"
+- "How would you facilitate [other parent]'s relationship with the children under your proposed arrangement?"
+
+**Good Answer Strategy:**
+- Specific custody schedule (days, times, holidays)
+- Child-focused reasons (stability, school, activities, needs)
+- Show willingness to facilitate other parent's relationship
+- Balance (not cutting other parent out)
+
+**Example:**
+"I'm requesting primary physical custody, with the children residing with me during the school year and having visitation with [other parent] every other weekend and one evening per week. During summer, I propose an extended visitation period for [other parent]. This arrangement provides stability for the children—they stay in their current school, maintain friendships, and continue their activities. It also ensures they have regular, consistent time with [other parent]. I will facilitate all visitation and ensure they stay connected through calls and video chats between visits."
+
+### Questions About Your Life & Circumstances
+
+- "Tell me about your work. What's your schedule?"
+- "How do you balance work and parenting?"
+- "Who provides childcare when you're working?"
+- "Tell me about your living situation."
+- "Do you have a support system? Who helps you?"
+- "Are you in a relationship? Tell me about your partner."
+- "Do you have any health issues? Mental health concerns?"
+- "Have you used drugs or alcohol? How much?"
+
+**Good Answer Strategy:**
+- Honest about circumstances
+- Demonstrate stability (steady work, stable housing)
+- Show you have support system (not isolated)
+- Address any concerns proactively (mental health managed, no substance issues, partner appropriate)
+
+**Example - Work:**
+"I work full-time as [job title]. My hours are 8am-4pm Monday-Friday, which allows me to do school pickup. My employer is family-friendly—if Emily is sick, I can work from home or take time off. I've worked there for 8 years, so I have job security and good relationships with my supervisors."
+
+**Example - Mental Health:**
+"I was diagnosed with anxiety five years ago. I see a therapist monthly and take medication as prescribed by my doctor. My anxiety is well-managed and doesn't affect my parenting. If anything, therapy has made me a better parent—I've learned coping skills that I can teach Emily."
+
+---
+
+## Child Interview Preparation (Ethical Guidelines)
+
+**What Evaluator Will Ask Child (Age-Dependent):**
+
+**Ages 4-6:**
+- Who do you live with?
+- What do you do at Mommy's/Daddy's house?
+- Who helps you with [bath, bedtime, meals]?
+- What's your favorite thing to do with Mommy/Daddy?
+
+**Ages 7-10:**
+- Tell me about your daily routine at each house
+- Who helps with homework?
+- What do you like about being at Mom's/Dad's?
+- What do you wish was different?
+- Do you feel safe at both houses?
+
+**Ages 11-13:**
+- All of above plus:
+- Where do you want to live?
+- How do you get along with each parent?
+- Do your parents fight in front of you?
+- Has anyone told you what to say to me?
+
+**Ages 14+:**
+- More detailed questions about preferences
+- Reasoning behind preferences
+- Academic, social factors
+- More weight given to opinions
+
+**How to Ethically Prepare Child (NOT Coaching):**
+
+✅ **DO:**
+- Tell child: "You'll talk to someone about our family. Just tell the truth about what life is like at each house."
+- Reassure child: "This isn't your fault. It's okay to love both parents."
+- Let child know: "You can say whatever you feel. No one will be mad at you."
+- Answer child's questions honestly: "The person will ask about your daily life, what you like doing, how you feel."
+
+❌ **DON'T:**
+- Tell child what to say
+- Rehearse responses
+- Badmouth other parent to child
+- Make child feel they must choose you
+- Ask child what they told evaluator afterward
+- Reward or punish child based on what you think they said
+
+**Signs of Coaching Evaluators Look For:**
+- Scripted, adult language
+- Child repeats parent's phrases verbatim
+- Child can't give specific examples
+- Extreme statements ("Mommy is perfect, Daddy is terrible")
+- Contradictions in child's story
+- Child seems anxious about disappointing parent
+- Rehearsed, robotic delivery
+
+**If Evaluator Suspects Coaching:**
+- Major red flag against you
+- Can result in recommendation for other parent
+- Damages your credibility entirely
+
+---
+
+## After Evaluation: Follow-Up
+
+**Once Evaluation Complete:**
+
+✅ **Provide Any Requested Follow-Up**
+- ⬜ If evaluator requests additional documents, provide promptly
+- ⬜ If evaluator has follow-up questions, respond honestly
+
+✅ **Don't Contact Evaluator Unnecessarily**
+- ⬜ Don't call to "check in"
+- ⬜ Don't send unsolicited additional information
+- ⬜ Don't try to influence evaluator
+- All communication through attorney
+
+✅ **Wait for Report**
+- ⬜ Timeline: 2-8 weeks typically
+- ⬜ Report sent to attorneys and court
+
+✅ **Review Report with Attorney**
+- ⬜ If favorable: Discuss how to use in settlement or trial
+- ⬜ If unfavorable: Discuss objections, rebuttal, cross-examination strategy
+
+✅ **If Report Unfavorable, Possible Responses:**
+- ⬜ Object to report (identify errors, bias, incomplete investigation)
+- ⬜ Retain independent evaluator for rebuttal report
+- ⬜ Prepare to cross-examine evaluator at trial
+- ⬜ Present contradictory evidence at trial
+
+---
+
+## Final Preparation Checklist
+
+**Before Evaluation Begins, I Have:**
+
+✅ Researched evaluator
+✅ Reviewed evaluation scope and process
+✅ Compiled complete evidence binder
+✅ Identified and prepared collateral contacts
+✅ Completed home safety fixes
+✅ Deep cleaned and organized home
+✅ Enhanced child's space (age-appropriate, personalized)
+✅ Practiced interview questions extensively
+✅ Prepared for difficult questions (weaknesses, other parent, concerns)
+✅ Reviewed psychological testing strategy
+✅ Memorized key facts about child (school, doctor, activities, preferences)
+✅ Practiced staying calm and composed under pressure
+✅ Consulted with attorney about strategy
+
+**I Am Ready to Present as:**
+
+✅ Child-focused parent
+✅ Reasonable and cooperative (willing to co-parent)
+✅ Honest and insightful (acknowledge weaknesses, show growth)
+✅ Stable and consistent (work, housing, routine)
+✅ Involved and knowledgeable (know everything about child)
+✅ Evidence-based (can support every claim with documentation)
+
+---
+
+## Final Reminders
+
+**Keys to Success:**
+
+1. **Preparation is Everything** - Evaluators can tell who prepared and who didn't
+
+2. **Child-Focused, Always** - Every answer should center on child's best interests
+
+3. **Honesty Over Perfection** - Don't try to appear perfect; show you're real, honest, insightful
+
+4. **Balance Over Attacks** - Acknowledge other parent's positives, then raise legitimate concerns
+
+5. **Evidence Matters** - Support every claim with documentation
+
+6. **Stay Calm** - Anxiety is normal, but practice staying composed
+
+7. **Trust the Process** - You've prepared thoroughly; trust your preparation
+
+**You've got this. Your preparation shows your commitment to your child's best interests.**
+
+---
+
+*Guide Version 1.0 | For use with Divorce Roadmap Navigator custody system*
+`,
+  "Custody/custody-evidence-checklist.md": `
+# Custody Evidence Checklist
+*Comprehensive Evidence Gathering System for Parents Seeking Full or Primary Custody*
+
+---
+
+## Overview
+
+This checklist provides a systematic approach to documenting your superior parenting and building an evidence-based custody case. Evidence matters more than words in custody battles. Use this guide to ensure you're gathering all necessary documentation.
+
+**Timeline:** Begin evidence gathering immediately. Ideal timeline is 3-6 months before evaluation or trial, but start TODAY regardless of where you are in the process.
+
+**Organization:** Create physical binders AND digital folders for each category below.
+
+---
+
+## Part 1: Daily Documentation System
+
+### Parenting Log (CRITICAL - Start Immediately)
+
+**Purpose:** Demonstrates consistent involvement, daily caregiving tasks, primary caregiver status.
+
+**Frequency:**
+- ✅ **Minimum:** 3-4 days per week during your custody time
+- ✅ **Ideal:** Daily logs for 2-3 months before evaluation/trial
+- ✅ **Focus:** Your custody days (show consistency and involvement)
+
+**What to Document:**
+
+**Morning Routine:**
+- ⬜ Wake-up time and who woke children
+- ⬜ Breakfast prepared (what you made, child's nutrition)
+- ⬜ Personal hygiene assistance (brushing teeth, bathing, getting dressed)
+- ⬜ School preparation (backpack, lunch, homework check)
+- ⬜ Transportation to school (who drove, any teacher interactions)
+
+**Afternoon Routine:**
+- ⬜ School pickup (who picked up, child's mood/behavior)
+- ⬜ Snack/meal provided
+- ⬜ Homework assistance (subjects, time spent, your involvement)
+- ⬜ Extracurricular transportation (who drove to practice/lessons)
+- ⬜ Activity attendance (did you watch practice, stay at event)
+
+**Evening Routine:**
+- ⬜ Dinner preparation (what you made, family meal)
+- ⬜ Bath time (supervised, assistance provided)
+- ⬜ Bedtime routine (reading, tucking in, prayers/rituals)
+- ⬜ Bedtime (what time, any difficulties)
+
+**Additional Daily Items:**
+- ⬜ Medical care (medications administered, symptoms monitored, doctor calls)
+- ⬜ Emotional support (conversations, comfort provided, discipline handled)
+- ⬜ Household tasks with child (chores, errands, life skills teaching)
+- ⬜ Quality time (playing, crafts, reading, outdoor activities)
+
+**Other Parent Contact:**
+- ⬜ Any communications with other parent (time, topic, tone)
+- ⬜ Custody exchanges (time, location, child's condition, any issues)
+
+**Notes Section:**
+- ⬜ Child's mood and wellbeing observations
+- ⬜ Developmental milestones or achievements
+- ⬜ Any concerns or issues
+- ⬜ Expenses incurred for child (keep receipts)
+
+**Template:** See Section 9 of custody-battle-guide.md for detailed daily log template.
+
+### Weekly Summary Log
+
+**Purpose:** High-level view of your involvement over time.
+
+**What to Track:**
+- ⬜ Total custody hours this week
+- ⬜ School involvement this week (conferences, volunteering, communications)
+- ⬜ Medical involvement this week (appointments, medications, calls)
+- ⬜ Extracurricular involvement (practices, games, events attended)
+- ⬜ Total expenses paid for child this week (category breakdown)
+- ⬜ Other parent's involvement/issues this week (missed visits, late, violations)
+
+---
+
+## Part 2: Photographic Evidence
+
+### What to Photograph (With Date/Time Stamps)
+
+**Daily Life & Routines:**
+- ⬜ Making breakfast/meals together
+- ⬜ Helping with homework
+- ⬜ Reading together (bedtime stories, educational)
+- ⬜ Bedtime routine (tucking in, prayers, nighttime rituals)
+- ⬜ Morning routine (getting ready for school)
+
+**Special Moments & Events:**
+- ⬜ First day of school (you there)
+- ⬜ Sports games/practices (you in stands/sidelines)
+- ⬜ Recitals, performances, competitions (you attending)
+- ⬜ Award ceremonies (you there)
+- ⬜ Birthday parties (yours and friends')
+- ⬜ Holidays and family traditions
+- ⬜ Field trips (you as chaperone)
+
+**Activities Together:**
+- ⬜ Park trips, bike rides, outdoor activities
+- ⬜ Family dinners
+- ⬜ Game nights, movie nights
+- ⬜ Arts and crafts projects
+- ⬜ Cooking/baking together
+- ⬜ Teaching moments (life skills, values)
+
+**Child Thriving:**
+- ⬜ Happy, smiling, engaged in activities
+- ⬜ Healthy appearance (clean, well-dressed, groomed)
+- ⬜ Enjoying quality time with you
+- ⬜ Accomplishments (projects, artwork, trophies, certificates)
+
+**Your Involvement (Important!):**
+- ⬜ You IN photos with child (shows bond, not just child alone)
+- ⬜ You at events (games, performances, school functions)
+- ⬜ You providing care (feeding, helping, teaching)
+
+**Home Environment:**
+- ⬜ Child's bedroom (own space, age-appropriate, personalized)
+- ⬜ Play area (organized, age-appropriate toys)
+- ⬜ Study space (desk, supplies, conducive to homework)
+- ⬜ Child's artwork displayed (shows you value their creations)
+- ⬜ Family photos displayed (child feels part of family)
+- ⬜ Clean, organized, safe home
+
+**Medical/School Evidence:**
+- ⬜ You at doctor appointments (waiting room, with child)
+- ⬜ You at school events (open house, conferences, volunteering)
+
+**Frequency:** Weekly throughout your custody time. Aim for 20-30 photos per month showing various aspects of your parenting.
+
+**Storage:** Print monthly and create albums. Also save digitally with folders by month/category.
+
+---
+
+## Part 3: School Involvement Documentation
+
+### Evidence to Gather:
+
+**Parent-Teacher Conferences:**
+- ⬜ Conference schedule (showing dates)
+- ⬜ Sign-in sheets (proving your attendance)
+- ⬜ Notes from conferences (teacher's comments, your follow-up)
+- ⬜ Email confirmations (scheduling, follow-up questions)
+
+**School Volunteer Hours:**
+- ⬜ Sign-in logs (classroom helper, reading volunteer)
+- ⬜ Field trip chaperone forms (signed by you)
+- ⬜ PTA meeting attendance
+- ⬜ School event attendance (back-to-school night, science fair, class parties)
+- ⬜ Photos of you at school events
+
+**Communication with Teacher:**
+- ⬜ Email correspondence (save all emails with teacher)
+- ⬜ Notes sent home (teacher notes, permission slips)
+- ⬜ Class newsletter (showing you're informed)
+- ⬜ Parent portal login history (checking grades, assignments)
+
+**Homework Help:**
+- ⬜ Child's completed homework (showing your assistance)
+- ⬜ Study routine you've established (schedule, techniques)
+- ⬜ Educational games/apps you use
+- ⬜ Reading logs (books read together)
+
+**Academic Progress:**
+- ⬜ Report cards (current and past—show improvement)
+- ⬜ Standardized test scores
+- ⬜ Teacher progress reports
+- ⬜ Awards, certificates, recognition
+- ⬜ Before/after comparison (grades under your care vs other parent's)
+
+**School Supplies & Fees:**
+- ⬜ Receipts for school supplies (back-to-school shopping)
+- ⬜ Receipts for school fees (registration, activities, field trips)
+- ⬜ Receipts for school uniforms/dress code clothing
+
+**Special Education (If Applicable):**
+- ⬜ IEP meeting attendance (sign-in, notes)
+- ⬜ 504 plan documentation
+- ⬜ Your advocacy for child's special needs
+- ⬜ Communications with special education team
+
+**Teacher Statement (If Willing):**
+- ⬜ Request letter from teacher describing your involvement
+- ⬜ Template: See custody-battle-guide.md Section 3
+
+---
+
+## Part 4: Medical Involvement Documentation
+
+### Evidence to Gather:
+
+**Appointment Attendance:**
+- ⬜ Appointment schedule/calendar (showing all appointments)
+- ⬜ Doctor's office sign-in sheets (proving your attendance)
+- ⬜ Receipts showing copays you paid
+- ⬜ Photos at appointments (waiting room, if appropriate)
+
+**Medical Records:**
+- ⬜ Request complete medical records from pediatrician
+- ⬜ Highlight appointments you attended (vs other parent)
+- ⬜ Show your contact info listed as primary
+- ⬜ Vaccination records (who ensured up-to-date)
+
+**Well-Child Visits:**
+- ⬜ Annual checkup records (who brought child)
+- ⬜ Developmental screening results
+- ⬜ Growth charts (showing child healthy)
+
+**Sick Visits:**
+- ⬜ Records of urgent care/ER visits (who took child)
+- ⬜ Notes on symptoms, when you noticed, how you responded
+- ⬜ Follow-up care you provided
+
+**Prescription Management:**
+- ⬜ Pharmacy records (who fills prescriptions)
+- ⬜ Medication log (who administers, tracks doses)
+- ⬜ Prescription labels (in your name or child's)
+
+**Specialist Care:**
+- ⬜ Dentist appointments (who schedules, who attends)
+- ⬜ Orthodontist records
+- ⬜ Vision care (eye exams, glasses)
+- ⬜ Therapist appointments (if child in therapy)
+- ⬜ Allergy specialist, dermatologist, etc.
+
+**Medical Communication:**
+- ⬜ Emails with doctor's office
+- ⬜ Phone call logs (scheduling appointments, asking questions)
+- ⬜ Patient portal login history
+
+**Emergency Situations:**
+- ⬜ Documentation of how you handled child's illness/injury
+- ⬜ ER visits (who took child, how quickly you responded)
+
+**Medical Decisions:**
+- ⬜ Research you did on child's condition
+- ⬜ Second opinions you sought
+- ⬜ Treatment decisions you made (with doctor's guidance)
+
+**Pediatrician Statement (If Willing):**
+- ⬜ Request letter from doctor describing your involvement
+- ⬜ Template: See custody-battle-guide.md Section 3
+
+---
+
+## Part 5: Extracurricular Involvement Documentation
+
+### For Each Activity Child Participates In:
+
+**Soccer, Dance, Music, Gymnastics, Tutoring, Etc.:**
+
+**Enrollment:**
+- ⬜ Enrollment form (your signature)
+- ⬜ Registration confirmation
+- ⬜ Fee payment receipt (showing you paid)
+
+**Ongoing Costs:**
+- ⬜ Monthly tuition/fee receipts
+- ⬜ Uniform/equipment purchases (cleats, leotard, instrument)
+- ⬜ Competition/performance fees
+- ⬜ Team photo purchases
+- ⬜ End-of-season banquet/party costs
+
+**Transportation:**
+- ⬜ Practice/lesson schedule (showing who drives)
+- ⬜ Mileage log (if tracking)
+- ⬜ Gas receipts
+- ⬜ Photos of you driving child to activity
+
+**Attendance at Events:**
+- ⬜ Game/competition schedules
+- ⬜ Photos of you at games/performances (in stands, sidelines, backstage)
+- ⬜ Videos of you cheering, supporting
+- ⬜ Attendance calendar (checked off each event you attended)
+
+**Involvement Beyond Attendance:**
+- ⬜ Team parent volunteer form
+- ⬜ Snack schedule (if you coordinate)
+- ⬜ Carpool organization (if you arrange)
+- ⬜ Fundraising participation
+
+**Communication with Coach/Instructor:**
+- ⬜ Emails about child's progress, schedule, concerns
+- ⬜ Text messages coordinating logistics
+- ⬜ Notes from instructor about child's improvement
+
+**Child's Progress:**
+- ⬜ Awards, ribbons, trophies
+- ⬜ Certificates of achievement
+- ⬜ Performance videos (recitals, games)
+- ⬜ Progress reports from instructor
+
+**Comparison:**
+- ⬜ Document other parent's involvement (or lack thereof)
+- ⬜ Games/events other parent missed
+- ⬜ Financial contribution from other parent (likely minimal)
+
+**Coach/Instructor Statement (If Willing):**
+- ⬜ Request letter describing your involvement
+- ⬜ Template: See custody-battle-guide.md Section 3
+
+---
+
+## Part 6: Financial Documentation
+
+### Purpose: Prove you provide financial support beyond court-ordered child support.
+
+**Monthly Expense Categories:**
+
+**Clothing:**
+- ⬜ Receipts for seasonal clothing (back-to-school, winter coats, shoes)
+- ⬜ Receipts for special occasion clothing (holiday outfits, formal wear)
+- ⬜ Receipts for sports uniforms/gear
+- ⬜ Receipt totals per month
+
+**Education:**
+- ⬜ School supplies receipts
+- ⬜ School fees (registration, yearbook, fundraisers)
+- ⬜ Tutoring costs
+- ⬜ Educational materials (books, apps, subscriptions)
+- ⬜ School lunch money
+
+**Extracurricular:**
+- ⬜ Activity enrollment/tuition
+- ⬜ Equipment and uniforms
+- ⬜ Competition/performance fees
+- ⬜ Private lessons
+
+**Medical:**
+- ⬜ Copays and deductibles
+- ⬜ Prescription costs
+- ⬜ Over-the-counter medications
+- ⬜ Medical equipment (glasses, braces, etc.)
+- ⬜ Therapy copays
+
+**Childcare:**
+- ⬜ Daycare costs (if applicable)
+- ⬜ After-school care
+- ⬜ Babysitter costs (when you work)
+
+**Entertainment & Enrichment:**
+- ⬜ Birthday party costs (child's parties)
+- ⬜ Birthday gifts for child
+- ⬜ Holiday gifts
+- ⬜ Family outings (zoo, museum, movies, etc.)
+- ⬜ Vacation costs (child's travel, accommodations)
+
+**Daily Living:**
+- ⬜ Groceries (child's food)
+- ⬜ Toiletries (child-specific)
+- ⬜ Haircuts
+- ⬜ Technology (tablet, educational apps, kid-friendly devices)
+
+**College Savings (If Applicable):**
+- ⬜ 529 plan statements
+- ⬜ Deposit records
+- ⬜ Account balance showing your contributions
+
+**Organization:**
+- ⬜ Monthly expense summary spreadsheet
+- ⬜ Organize receipts by category and month
+- ⬜ Calculate percentage: Your expenses vs other parent's expenses
+- ⬜ Total annual child-related expenses you paid
+
+**Bank Statements:**
+- ⬜ Highlight child-related transactions
+- ⬜ Show pattern of consistent financial support
+- ⬜ Demonstrate financial responsibility
+
+---
+
+## Part 7: Communication Records
+
+### Purpose: Document co-parenting attempts, other parent's problematic behavior, your reasonableness.
+
+**What to Save:**
+
+**Your Communications with Other Parent:**
+- ⬜ All text messages (use app to export/print)
+- ⬜ All emails
+- ⬜ Parenting app messages (OurFamilyWizard, TalkingParents, etc.)
+- ⬜ Voicemails (transcribe and save audio)
+- ⬜ Letters
+
+**What to Highlight:**
+
+**Your Positive Co-Parenting:**
+- ⬜ You initiating communication about child's needs
+- ⬜ You sharing information (report cards, medical updates, event schedules)
+- ⬜ You being flexible about schedule changes
+- ⬜ You proposing solutions to problems
+- ⬜ You remaining calm and business-like (even when other parent attacks)
+
+**Other Parent's Problematic Behavior:**
+- ⬜ Refusing to communicate
+- ⬜ Hostile, abusive language
+- ⬜ Refusing reasonable requests
+- ⬜ Badmouthing you
+- ⬜ Refusing to share information about child
+- ⬜ Making unilateral decisions (violating joint legal custody)
+- ⬜ Alienation attempts (coaching child, blocking contact)
+
+**Communications with Third Parties:**
+
+**Teachers:**
+- ⬜ All emails with teacher
+- ⬜ Questions you asked
+- ⬜ Information you provided
+- ⬜ Teacher's responses (showing they know you, see you as involved)
+
+**Doctors:**
+- ⬜ Emails with doctor's office
+- ⬜ Patient portal messages
+- ⬜ Questions about child's health
+- ⬜ Follow-up on treatment plans
+
+**Coaches/Instructors:**
+- ⬜ Coordination of schedules
+- ⬜ Questions about child's progress
+- ⬜ Volunteering offers
+
+**School Administration:**
+- ⬜ Enrollment communications
+- ⬜ Permission slips
+- ⬜ Attendance explanations
+
+**Organization:**
+- ⬜ Chronological binders by category (teacher emails, doctor emails, other parent texts)
+- ⬜ Highlight key passages
+- ⬜ Summarize themes (your involvement, other parent's failures)
+
+---
+
+## Part 8: Calendar Documentation
+
+### Purpose: Visual proof of custody time, your activities with child, other parent's involvement/failures.
+
+**What to Track on Calendar:**
+
+**Custody Time:**
+- ⬜ Mark each day child is with you (color code: your days, other parent's days)
+- ⬜ Track hours (not just overnight but daytime hours too)
+- ⬜ Calculate percentage over time (you have child 70% of time, etc.)
+
+**Activities/Events:**
+- ⬜ School events (conferences, performances, sports)
+- ⬜ Medical appointments
+- ⬜ Extracurricular activities (practices, games, lessons)
+- ⬜ Social activities (playdates, birthday parties)
+- ⬜ Family activities (outings, traditions, quality time)
+
+**Your Attendance:**
+- ⬜ Mark which events YOU attended
+- ⬜ Calculate: Attended X out of Y events
+
+**Other Parent's Involvement/Failures:**
+- ⬜ Missed custody exchanges (date, time, reason given)
+- ⬜ Late pickups/dropoffs
+- ⬜ Cancelled visits
+- ⬜ Events other parent missed
+- ⬜ Pattern of unreliability
+
+**Special Occasions:**
+- ⬜ Holidays (who had child)
+- ⬜ Child's birthday (who planned, who attended)
+- ⬜ School breaks (who had child, who planned activities)
+
+**Format:**
+- ⬜ Digital calendar (Google Calendar, Outlook) - easy to share with attorney/evaluator
+- ⬜ Printed monthly calendars with notes
+- ⬜ Summary report: "Over past 6 months, I had child 68% of overnights and attended 95% of school/activity events"
+
+---
+
+## Part 9: Witness Coordination
+
+### Purpose: Third-party validation of your parenting and child's wellbeing in your care.
+
+**Identify Potential Witnesses:**
+
+**Strong Witnesses:**
+- ⬜ Child's teacher (sees your involvement, child's wellbeing)
+- ⬜ Child's pediatrician (sees who brings child to appointments)
+- ⬜ Coach/instructor (sees your attendance, child's happiness)
+- ⬜ Childcare provider (sees daily caregiving, your consistency)
+- ⬜ Neighbor (observes daily life, your parenting)
+- ⬜ Long-term friend (10+ years, knows you as parent)
+- ⬜ Coworker (knows your work-life balance, child focus)
+- ⬜ Family member (credible, not estranged from other family)
+- ⬜ Child's therapist (if applicable—knows child's emotional state, parent relationships)
+
+**For Each Potential Witness:**
+- ⬜ Name, contact information, relationship to you/child
+- ⬜ Length of time they've known you
+- ⬜ Frequency of contact with you and child
+- ⬜ What they can testify to (specific observations)
+
+**Witness Preparation:**
+- ⬜ Brief them on your case (not coaching, just context)
+- ⬜ Explain what testimony involves (declaration, possible deposition/trial)
+- ⬜ What to emphasize:
+  - ⬜ Your involvement in child's life (specific examples)
+  - ⬜ Child's wellbeing in your care
+  - ⬜ Your character (responsible, patient, loving, engaged parent)
+  - ⬜ Comparison to other parent (if they know both)
+- ⬜ What NOT to say:
+  - ⬜ Bash other parent (looks bad)
+  - ⬜ Exaggerate or lie (evaluator will catch it)
+  - ⬜ Hearsay ("I heard that...")
+  - ⬜ Information outside their personal knowledge
+
+**Witness Statements/Declarations:**
+- ⬜ Request written statement (letter format)
+- ⬜ Or attorney prepares formal declaration for their signature
+- ⬜ Include: Who they are, how they know you, specific examples of your parenting, child's wellbeing
+
+**Witness Availability:**
+- ⬜ Confirm they're willing to testify (declaration, deposition, trial if needed)
+- ⬜ Get their availability for hearing dates
+- ⬜ Provide contact info to your attorney
+
+---
+
+## Part 10: Evidence of Stable Home Environment
+
+### Physical Home:
+
+**Safety:**
+- ⬜ Photo of smoke detectors (working batteries)
+- ⬜ Photo of fire extinguisher
+- ⬜ Photo of outlet covers (if young children)
+- ⬜ Photo of stair gates (if applicable)
+- ⬜ Photo of pool fence/lock (if applicable)
+- ⬜ Photo of locked cabinet for medications/cleaning supplies
+- ⬜ Photo of secured firearms (if any - locked safe, separate ammo)
+- ⬜ Home inspection report (if recent)
+
+**Cleanliness:**
+- ⬜ Photos of clean, organized home (not sterile, but tidy)
+- ⬜ Photos of functional kitchen (clean dishes, stocked fridge)
+- ⬜ Photos of clean bathrooms
+
+**Child-Focused:**
+- ⬜ Photo of child's bedroom (own space, age-appropriate)
+- ⬜ Photo of child's bed (appropriate sleeping arrangement—not in your bed beyond appropriate age)
+- ⬜ Photo of toy/play area (organized, accessible)
+- ⬜ Photo of study/homework space (desk, supplies, good lighting)
+- ⬜ Photo of child's artwork displayed (fridge, walls)
+- ⬜ Photo of family photos displayed (child feels part of family)
+- ⬜ Photo of child's books (reading materials available)
+
+**Stability:**
+- ⬜ Lease or mortgage (showing secure housing)
+- ⬜ Utility bills (showing consistent address, paid on time)
+- ⬜ Homeowner/renter insurance
+- ⬜ Length of time at address (stability)
+
+**Neighborhood:**
+- ⬜ School proximity (walking distance, same district)
+- ⬜ Safety (crime statistics, family-friendly area)
+- ⬜ Amenities (parks, library, child-friendly activities nearby)
+- ⬜ Child's friends in neighborhood (community ties)
+
+**Employment:**
+- ⬜ Employment verification letter (steady job)
+- ⬜ Pay stubs (income stability)
+- ⬜ Work schedule (flexibility to care for child)
+- ⬜ Employer letter (if needed—describes your reliability, work-life balance)
+
+**Character References:**
+- ⬜ Letter from landlord/property manager (good tenant, stable, quiet)
+- ⬜ Letter from employer (responsible, reliable)
+- ⬜ Letter from clergy/community leader (good character, family values)
+
+---
+
+## Part 11: Evidence of Other Parent's Unfitness (If Applicable)
+
+**IMPORTANT:** Only document genuine concerns. Do not fabricate or exaggerate. Focus on facts and evidence, not emotions.
+
+**If Other Parent Has Substance Abuse Issues:**
+- ⬜ DUI arrests (police reports, court records)
+- ⬜ Dates/times you witnessed intoxication around child (detailed log)
+- ⬜ Child's statements about other parent's drinking/drug use (write down exact words, date)
+- ⬜ Photos/videos (if you have evidence of intoxication)
+- ⬜ Witness statements (others who observed substance use)
+- ⬜ Treatment records (if other parent has been in rehab—may show failure to complete or relapse)
+
+**If Other Parent Has Mental Health Issues Affecting Parenting:**
+- ⬜ Hospitalizations (dates, reasons if known)
+- ⬜ Erratic behavior witnessed (dates, details, how it affected child)
+- ⬜ Failure to take prescribed medication (if you know)
+- ⬜ Child's reports of fear or confusion (exact words, dates)
+- ⬜ Mental health professional's concerns (if any have been expressed)
+
+**If Domestic Violence History:**
+- ⬜ Police reports (domestic violence incidents)
+- ⬜ Restraining orders (current or past)
+- ⬜ Photos of injuries (dated)
+- ⬜ Medical records (treatment for injuries from DV)
+- ⬜ Witness statements (people who saw violence or aftermath)
+- ⬜ Child's exposure to violence (dates, details, child's trauma symptoms)
+
+**If Neglect Concerns:**
+- ⬜ Photos of child in poor condition after other parent's time (dirty, hungry, inappropriate clothing)
+- ⬜ Child's statements about lack of care (exact words, dates)
+- ⬜ School attendance problems during other parent's time
+- ⬜ Medical neglect (missed appointments, failure to administer medication)
+- ⬜ Missed custody exchanges (log of dates/times)
+- ⬜ Failure to provide basic necessities (child reports no food, no clean clothes, etc.)
+
+**If Child Abuse Concerns:**
+- ⬜ Photos of injuries (dated, with measurements)
+- ⬜ Medical records (doctor's documentation of injuries)
+- ⬜ Child's statements (forensic interview if CPS involved)
+- ⬜ CPS reports and investigation findings
+- ⬜ Police reports (if criminal investigation)
+- ⬜ Witness statements
+- **IMPORTANT:** Report to authorities immediately if child abuse suspected. Don't just document—protect child.
+
+**If Alienation Concerns:**
+- ⬜ Child's statements parroting other parent's words (exact words, dates)
+- ⬜ Child's refusal to see you (when previously wanted to—dates, what child said)
+- ⬜ Other parent's communications badmouthing you (texts, emails, voicemails)
+- ⬜ Witness statements (others who heard other parent badmouth you)
+- ⬜ Blocking communications (other parent refusing to allow you to call child, screening calls)
+- ⬜ Withholding information (other parent not sharing school/medical info)
+
+**If Criminal History:**
+- ⬜ Arrest records
+- ⬜ Conviction records
+- ⬜ Sex offender registry (if applicable)
+- ⬜ Probation/parole status
+- ⬜ Relevance to child's safety (explain how criminal history affects parenting)
+
+**If Financial Irresponsibility:**
+- ⬜ Failure to pay child support (payment records)
+- ⬜ Child's needs unmet by other parent (child lacks basic clothing, school supplies, etc.)
+- ⬜ Utilities shut off at other parent's home (child living in unsafe conditions)
+- ⬜ Eviction notices (housing instability)
+
+**If Inappropriate Partners:**
+- ⬜ Other parent's partner has criminal history (especially violence, sexual offenses, drugs)
+- ⬜ Child's reports of fear/discomfort around partner
+- ⬜ Witness observations of inappropriate behavior by partner
+
+---
+
+## Part 12: Timeline Creation
+
+### Purpose: Visual representation of your role as primary caregiver from child's birth to present.
+
+**Historical Timeline:**
+
+**Child's Birth to Age 1:**
+- ⬜ Who took parental leave (you? how long?)
+- ⬜ Who did nighttime feedings (percentage estimate)
+- ⬜ Who did diaper changes (percentage)
+- ⬜ Who took to pediatrician appointments (number you attended vs other parent)
+- ⬜ Who selected/managed childcare (daycare selection, dropoff/pickup)
+
+**Ages 1-3 (Toddler Years):**
+- ⬜ Potty training (who did this)
+- ⬜ Feeding and meal prep (percentage)
+- ⬜ Daycare/preschool dropoff and pickup (percentage)
+- ⬜ Doctor appointments (percentage attended)
+- ⬜ Daily care (bathing, dressing, supervision)
+
+**Ages 4-5 (Preschool):**
+- ⬜ Preschool involvement (who attended parent events, who communicated with teachers)
+- ⬜ Daily care routines
+- ⬜ Social activities (playdates, birthday parties—who arranged and attended)
+- ⬜ Medical care
+
+**Ages 6+ (School-Age):**
+- ⬜ School involvement (conferences, volunteering, homework help)
+- ⬜ Medical involvement
+- ⬜ Extracurricular enrollment and involvement
+- ⬜ Daily caregiving (meals, bedtime, transportation)
+- ⬜ Social coordination
+
+**Summary Calculation:**
+
+Create chart showing percentage of caregiving tasks by category:
+
+| Task Category | You | Other Parent |
+|---------------|-----|--------------|
+| Daily care (meals, hygiene, bedtime) | __% | __% |
+| School involvement | __% | __% |
+| Medical involvement | __% | __% |
+| Extracurricular involvement | __% | __% |
+| Financial support (beyond support order) | __% | __% |
+| **Overall Primary Caregiver Status** | **___%** | **___%** |
+
+**Evidence Supporting Timeline:**
+- ⬜ Work schedules (historical—show you had more flexible schedule)
+- ⬜ Bank records (show you paid for most childcare, supplies, medical)
+- ⬜ Communications (texts/emails showing you handled most day-to-day issues)
+- ⬜ Witness statements (family, friends, childcare providers confirming your primary caregiver role)
+
+---
+
+## Part 13: Creating Evidence Binder for Evaluator/Attorney/Court
+
+### Organization System:
+
+**Physical Binder (3-ring):**
+
+**Tab 1: Introduction**
+- ⬜ Cover letter summarizing your case
+- ⬜ Table of contents
+- ⬜ Timeline summary (one-page overview)
+- ⬜ Witness list
+- ⬜ Your contact information
+
+**Tab 2: Parenting Logs**
+- ⬜ Daily logs (chronological, 2-3 months' worth)
+- ⬜ Weekly summaries
+
+**Tab 3: Photos**
+- ⬜ Organized by category (daily life, special events, activities, home environment)
+- ⬜ Printed photos with captions (date, location, what's happening)
+- ⬜ Create photo book if possible (looks professional)
+
+**Tab 4: School Involvement**
+- ⬜ Conference attendance records
+- ⬜ Volunteer logs
+- ⬜ Teacher communications
+- ⬜ Report cards (showing child's progress)
+- ⬜ Teacher statement (if obtained)
+
+**Tab 5: Medical Involvement**
+- ⬜ Appointment attendance records
+- ⬜ Medical records summary
+- ⬜ Doctor communications
+- ⬜ Prescription management logs
+- ⬜ Pediatrician statement (if obtained)
+
+**Tab 6: Extracurricular Involvement**
+- ⬜ Enrollment forms and receipts
+- ⬜ Payment records (tuition, equipment)
+- ⬜ Attendance photos
+- ⬜ Coach/instructor communications
+- ⬜ Coach/instructor statement (if obtained)
+
+**Tab 7: Financial Documentation**
+- ⬜ Monthly expense summaries (by category)
+- ⬜ Receipt samples (representative, not every single receipt)
+- ⬜ Bank statement highlights
+- ⬜ Total annual expenses (summary)
+
+**Tab 8: Communications**
+- ⬜ Sample texts/emails with other parent (showing your reasonableness, their problems)
+- ⬜ Communications with teachers, doctors, coaches (showing your involvement)
+
+**Tab 9: Calendar**
+- ⬜ 6-12 months of calendars showing custody time, events, attendance
+
+**Tab 10: Witness Statements**
+- ⬜ Letters/declarations from teachers, doctors, coaches, family, friends
+
+**Tab 11: Home Stability**
+- ⬜ Photos of home
+- ⬜ Lease/mortgage
+- ⬜ Employment verification
+
+**Tab 12: Other Parent's Concerns (If Applicable)**
+- ⬜ Evidence of unfitness (organized by category—substance abuse, neglect, etc.)
+
+**Tab 13: Timeline & Summary**
+- ⬜ Historical caregiver timeline
+- ⬜ Primary caregiver percentage calculation
+
+**Digital Backup:**
+- ⬜ Scan all documents
+- ⬜ Organize in folders matching binder tabs
+- ⬜ Save to cloud (Google Drive, Dropbox) and USB drive
+- ⬜ Provide digital copy to attorney
+
+---
+
+## Part 14: Evidence Gathering Don'ts (Critical - Avoid These Mistakes)
+
+❌ **DON'T fabricate evidence** - Will destroy your entire case if caught
+
+❌ **DON'T exaggerate** - Stick to facts; exaggerations undermine credibility
+
+❌ **DON'T coach child** - Evaluators detect coaching; harms your case and child
+
+❌ **DON'T secretly record other parent** - May be illegal in your state; consult attorney first
+
+❌ **DON'T photograph other parent's home without permission** - Privacy violation
+
+❌ **DON'T use child as spy** - Don't interrogate child about other parent's house; harmful to child
+
+❌ **DON'T post on social media** - Assume everything you post will be seen by judge
+
+❌ **DON'T violate court orders to gather evidence** - Example: Don't withhold child to document other parent's reaction
+
+❌ **DON'T "test" other parent** - Don't create situations hoping other parent fails
+
+❌ **DON'T gather evidence illegally** - Consult attorney about what's legal in your jurisdiction
+
+---
+
+## Checklist Summary: Am I Ready?
+
+**Before Evaluation/Trial, I Have:**
+
+✅ **3-6 months of daily parenting logs**
+
+✅ **200+ photos showing my involvement and child thriving**
+
+✅ **Complete school involvement documentation** (conferences, volunteer hours, communications, teacher statement)
+
+✅ **Complete medical involvement documentation** (appointments, records, communications, doctor statement)
+
+✅ **Complete extracurricular involvement documentation** (enrollment, payments, attendance, coach statement)
+
+✅ **Financial documentation** (6-12 months of receipts organized by category, totals calculated)
+
+✅ **Communications saved and organized** (texts, emails with other parent and third parties)
+
+✅ **Calendar tracking** (6-12 months showing custody time, events, attendance)
+
+✅ **Witness coordination complete** (identified witnesses, obtained statements, confirmed availability)
+
+✅ **Evidence of stable home** (photos, lease, employment verification)
+
+✅ **Evidence of other parent's unfitness** (if applicable, documented with dates/details/evidence)
+
+✅ **Historical timeline created** (showing my primary caregiver role from birth)
+
+✅ **Evidence binder organized** (physical and digital, ready to provide)
+
+**If you can check most/all boxes above, you have strong evidence foundation for custody case.**
+
+---
+
+## Final Tips
+
+1. **Start TODAY** - Don't wait. Begin parenting logs and photo documentation immediately.
+
+2. **Consistency Matters** - Daily logs for 2-3 months more powerful than sporadic entries over 12 months.
+
+3. **Quality Over Quantity** - Organized, relevant evidence better than boxes of disorganized documents.
+
+4. **Tell a Story** - Your evidence should paint clear picture: You're primary caregiver, child thrives in your care, other parent less involved or unfit.
+
+5. **Work with Attorney** - Share this checklist with your attorney; they'll guide you on jurisdiction-specific requirements.
+
+6. **Keep Gathering Evidence Throughout Case** - Continue documenting even after evaluation/trial (in case of appeals or future modifications).
+
+7. **Protect Evidence** - Multiple backups (physical copies, digital cloud storage, USB drives).
+
+8. **Stay Organized** - Use this checklist as your roadmap. Check off items as completed.
+
+---
+
+**This comprehensive evidence checklist, combined with the custody-battle-guide.md and the three specialized agents, gives you the systematic approach to building a winning custody case.**
+
+*Document Version 1.0 | For use with Divorce Roadmap Navigator custody system*
+`,
+  "Custody/proving-best-interests.md": `
+# Proving Best Interests of the Child
+*Evidence-Based Guide to Meeting the Legal Standard for Custody*
+
+---
+
+## Overview
+
+**The Legal Standard:** In all 50 states, custody decisions are based on "the best interests of the child." This is the only standard that matters. Your desires, the other parent's desires, what's fair to parents—none of that matters. Only: What's best for the child?
+
+**Your Goal:** Prove through overwhelming evidence that your child's best interests require primary or full custody with you.
+
+**How to Prove It:**
+1. Understand the specific best interests factors in your state
+2. Map your evidence to each factor
+3. Demonstrate child thriving in your care
+4. Show other parent cannot meet child's needs as well as you can
+
+---
+
+## Part 1: Best Interests Factors by State
+
+### Common Factors (Most States Include These):
+
+**1. Child's Physical, Mental, and Emotional Health and Safety**
+- Child's medical needs being met
+- Child physically safe in proposed custody arrangement
+- Child emotionally secure and stable
+
+**2. Child's Age and Developmental Needs**
+- Younger children may need primary attachment figure
+- Older children's preferences given more weight
+- Special needs require specific accommodations
+
+**3. Each Parent's Ability to Meet Child's Needs**
+- Parenting skills and capacity
+- Understanding of child's needs
+- Ability to provide for physical, emotional, educational needs
+
+**4. Child's Relationship with Each Parent**
+- Quality of attachment
+- History of caregiving
+- Parent-child bond strength
+
+**5. Each Parent's Physical and Mental Health**
+- Fitness to parent
+- Mental illness or substance abuse affecting parenting
+- Treatment and management of health issues
+
+**6. Continuity and Stability**
+- Maintaining child's established routine
+- Keeping child in same school, community
+- Minimizing disruption to child's life
+
+**7. Each Parent's Willingness to Foster Relationship with Other Parent**
+- Co-parenting cooperation
+- Encouraging child's relationship with other parent
+- Not engaging in alienation
+
+**8. History of Domestic Violence or Child Abuse**
+- Any abuse by either parent
+- Exposure of child to violence
+- Impact on child's safety and wellbeing
+
+**9. Each Parent's Involvement in Child's Life**
+- Historical caregiving roles
+- School involvement
+- Medical involvement
+- Extracurricular involvement
+
+**10. Child's Preference (If Age-Appropriate)**
+- Typically ages 12+ (varies by state)
+- Weight given increases with child's age and maturity
+- Must be genuine, not result of coaching
+
+**11. Each Parent's Home Environment**
+- Safety and suitability
+- Adequate space for child
+- Proximity to school and activities
+
+**12. Each Parent's Work Schedule and Availability**
+- Time available for childcare
+- Need for third-party childcare
+- Flexibility to meet child's needs
+
+### State-Specific Variations:
+
+**Some States Also Consider:**
+- Siblings (keeping siblings together preferred)
+- Extended family relationships
+- Religious upbringing
+- Child's ties to community (friends, school, activities)
+- Cultural considerations
+- Past parenting agreements
+- Relocation impact
+- Each parent's support system
+
+**Your Action:** Research your state's specific best interests factors. Look up "[Your State] custody best interests factors" and review your state's family code.
+
+---
+
+## Part 2: Evidence Mapping
+
+### How to Map Evidence to Best Interests Factors:
+
+**Strategy:** For each best interests factor, compile evidence that shows:
+1. You excel at meeting this factor
+2. Child thrives because you meet this factor
+3. Other parent does not meet this factor as well (if true)
+
+**Format:**
+
+\`\`\`
+Best Interests Factor: [Factor Name]
+My Evidence:
+- [Specific evidence item 1]
+- [Specific evidence item 2]
+- [Specific evidence item 3]
+Conclusion: [How this evidence shows I meet child's best interests]
+Other Parent's Failure (if applicable): [Evidence showing other parent does not meet this factor]
+\`\`\`
+
+### Factor-by-Factor Evidence Mapping:
+
+---
+
+## Factor 1: Child's Physical Health and Safety
+
+**What Court Assesses:**
+- Is child physically healthy?
+- Is child's medical care adequate?
+- Is child safe in each parent's home?
+- Are child's physical needs (food, shelter, clothing, medical care) met?
+
+**Your Evidence:**
+
+**Child's Health Status:**
+- ⬜ Recent medical records (well-child checkups, growth charts show healthy development)
+- ⬜ Vaccination records (up-to-date)
+- ⬜ Dental records (regular checkups, no neglect)
+- ⬜ Photos of child (healthy appearance, clean, well-groomed)
+- ⬜ School records (good attendance, PE participation, no health concerns flagged)
+
+**Your Medical Involvement:**
+- ⬜ Appointment attendance records (you attend 90%+ of appointments)
+- ⬜ Doctor's statement (confirms your involvement)
+- ⬜ Medication management logs (if applicable—you ensure compliance)
+- ⬜ Sick day care (documentation of times you stayed home with sick child, took to urgent care promptly)
+- ⬜ Preventive care (annual checkups, vision/dental screenings, sports physicals)
+
+**Home Safety:**
+- ⬜ Photos of safe home (smoke detectors, childproofing, secure medications, no hazards)
+- ⬜ Home inspection report (if applicable)
+- ⬜ Safe neighborhood (low crime statistics)
+
+**Nutrition:**
+- ⬜ Photos of healthy meals you prepare
+- ⬜ Grocery receipts (healthy food purchases)
+- ⬜ Child's growth (weight/height appropriate for age)
+- ⬜ No food insecurity (child always fed adequately)
+
+**Other Parent's Failure (if applicable):**
+- ⬜ Medical neglect (missed appointments, failure to administer medication)
+- ⬜ Unsafe home (hazards, lack of childproofing)
+- ⬜ Poor nutrition (child reports being hungry, losing weight)
+- ⬜ Injuries occurring during other parent's time (documented)
+
+**Conclusion Statement:**
+"[Child] is physically healthy and safe in my care. I attend all medical appointments, ensure proper nutrition, maintain a safe home environment, and respond promptly to health concerns. [Child]'s medical records demonstrate consistent, preventive care under my supervision."
+
+---
+
+## Factor 2: Child's Emotional and Mental Health
+
+**What Court Assesses:**
+- Is child emotionally secure?
+- Is child's mental health stable?
+- Does child have behavioral or emotional issues? How are they addressed?
+- Is child attached to and bonded with parent?
+
+**Your Evidence:**
+
+**Child's Emotional Wellbeing:**
+- ⬜ School records (teacher reports child is happy, well-adjusted, socially engaged)
+- ⬜ Teacher statement ("Emily is a well-adjusted, happy child. She talks about her mom frequently and clearly has a secure relationship with her.")
+- ⬜ Photos and videos (child smiling, laughing, engaged in activities—happy in your care)
+- ⬜ Therapist report (if child in therapy—confirms secure attachment to you, emotional stability)
+- ⬜ No behavioral problems (no disciplinary issues at school, daycare)
+
+**Your Emotional Support:**
+- ⬜ Daily parenting logs (show you provide emotional comfort, listen to child's concerns, help process feelings)
+- ⬜ Bedtime routine (reading, talking about day, comforting child)
+- ⬜ Responsiveness to child's emotions (examples of times you helped child through difficult emotions)
+- ⬜ Therapy for child (if needed—you arranged, attend sessions, follow therapist recommendations)
+
+**Parent-Child Bond:**
+- ⬜ Attachment assessment (from evaluator or therapist—confirms secure attachment)
+- ⬜ Child seeks you for comfort (examples: when hurt, scared, or upset, child comes to you)
+- ⬜ Quality time together (photos, activity logs)
+- ⬜ Affection and warmth (photos showing hugs, closeness)
+
+**Stability and Routine:**
+- ⬜ Consistent daily routine (child knows what to expect—reduces anxiety)
+- ⬜ Predictable schedule (meals, homework, bedtime at same times)
+- ⬜ Family traditions (weekly routines, holiday traditions—provide security)
+
+**Other Parent's Impact on Child's Emotional Health (if applicable):**
+- ⬜ Child's anxiety or distress after time with other parent (documented with dates, specific behaviors)
+- ⬜ School performance decline during other parent's custody time
+- ⬜ Behavioral issues (tantrums, aggression, withdrawal) following other parent's time
+- ⬜ Child's statements about feeling unsafe or uncomfortable (exact words, dates)
+- ⬜ Therapist concerns about other parent's impact on child
+
+**Conclusion Statement:**
+"[Child] is emotionally secure and thriving in my care. [He/she] has a secure attachment to me, as confirmed by [evaluator/therapist]. [Child's] teachers report [he/she] is well-adjusted and happy. I provide consistent routines, emotional support, and a stable environment that allows [child] to feel safe and secure."
+
+---
+
+## Factor 3: Each Parent's Ability to Meet Child's Needs
+
+**What Court Assesses:**
+- Does parent understand child's needs (age-specific, individual temperament, special needs)?
+- Does parent have parenting skills to meet those needs?
+- Is parent available and committed to caregiving?
+
+**Your Evidence:**
+
+**Demonstrating Understanding of Child's Needs:**
+- ⬜ Interview testimony (detailed knowledge of child's personality, strengths, challenges, fears, interests)
+- ⬜ Parenting logs (show you anticipate and respond to child's needs daily)
+- ⬜ School communication (emails showing you understand child's academic struggles, communicate with teacher about accommodations)
+- ⬜ Medical communication (emails/calls with doctor showing you understand child's health needs)
+
+**Age-Appropriate Parenting:**
+- ⬜ For infants/toddlers: Feeding, diapering, sleep routine documentation
+- ⬜ For preschoolers: Potty training, socialization, early learning activities
+- ⬜ For school-age: Homework help, social skills teaching, extracurricular support
+- ⬜ For teens: Independence balanced with supervision, communication about tough topics, guidance on decision-making
+
+**Special Needs (If Applicable):**
+- ⬜ IEP/504 plan involvement (attend meetings, implement accommodations at home)
+- ⬜ Therapy coordination (for learning disabilities, ADHD, autism, etc.)
+- ⬜ Medication management
+- ⬜ Specialized parenting strategies (research you've done, training you've completed)
+
+**Availability and Commitment:**
+- ⬜ Work schedule (flexibility to care for child)
+- ⬜ Time spent with child (logs showing hours per week)
+- ⬜ Prioritization of child (examples of times you sacrificed work/social opportunities to prioritize child)
+
+**Parenting Skills:**
+- ⬜ Discipline (age-appropriate, consistent, effective)
+- ⬜ Communication (open, age-appropriate conversations about feelings, behavior, values)
+- ⬜ Problem-solving (examples of how you help child work through challenges)
+- ⬜ Life skills teaching (chores, cooking, financial literacy, etc.)
+
+**Other Parent's Inability to Meet Needs (if applicable):**
+- ⬜ Lack of knowledge about child (in interview, couldn't answer basic questions about child's school, friends, interests)
+- ⬜ Inconsistent parenting (no routine, unreliable)
+- ⬜ Failure to meet special needs (doesn't follow IEP, forgets medication)
+- ⬜ Unavailability (works long hours, travels frequently, prioritizes own needs over child's)
+
+**Conclusion Statement:**
+"I have a deep understanding of [child]'s needs and the skills to meet them. I am available, committed, and have demonstrated [X years] of consistent, involved parenting. [Child]'s needs are met daily in my care—physically, emotionally, educationally, and socially."
+
+---
+
+## Factor 4: Child's Relationship with Each Parent
+
+**What Court Assesses:**
+- Quality of child's relationship with each parent
+- Strength of attachment
+- History of caregiving
+- Who is child bonded to?
+
+**Your Evidence:**
+
+**Parent-Child Bond:**
+- ⬜ Evaluator's assessment (attachment evaluation, observation of interaction)
+- ⬜ Therapist's assessment (if child in therapy)
+- ⬜ Photos and videos (physical affection, child comfortable with you, seeks you out)
+- ⬜ Child's statements (age-appropriate—child expresses love, preference for time with you)
+
+**Historical Caregiving:**
+- ⬜ Timeline from child's birth (you were primary caregiver from beginning)
+- ⬜ Percentage calculation (you handled 85%+ of daily care tasks)
+- ⬜ Witness statements (family, friends, childcare providers confirm you were primary caregiver)
+
+**Quality Time:**
+- ⬜ Activity logs (regular, consistent quality time—not just passive TV watching)
+- ⬜ Special activities (outings, traditions, one-on-one time)
+- ⬜ Communication (age-appropriate conversations, child confides in you)
+
+**Trust and Security:**
+- ⬜ Child seeks you for comfort when hurt, scared, or upset
+- ⬜ Child follows your rules and guidance (respects your authority because you've built trust)
+- ⬜ Child's wellbeing (thrives in your care, secure with you)
+
+**Other Parent's Relationship (For Comparison):**
+- ⬜ If other parent less bonded: Evidence showing limited historical involvement, peripheral role in child's life
+- ⬜ If other parent's relationship problematic: Evidence of child's fear, discomfort, behavioral issues after time with other parent
+
+**Conclusion Statement:**
+"[Child] and I have a strong, secure bond built over [X years] of daily caregiving. [Child] seeks me for comfort, trusts me, and thrives in my care. Our relationship is central to [his/her] wellbeing and development."
+
+---
+
+## Factor 5: Each Parent's Physical and Mental Health
+
+**What Court Assesses:**
+- Is parent physically and mentally able to care for child?
+- Does parent have health issues that impair parenting?
+- If parent has issues, are they managed effectively?
+
+**Your Evidence:**
+
+**Your Physical Health:**
+- ⬜ Physician statement (confirms you're in good health, able to care for child)
+- ⬜ Evidence of active lifestyle (play with child, take child on active outings)
+- ⬜ No physical limitations that impair parenting
+
+**Your Mental Health:**
+- ⬜ If no mental health issues: Statement confirming this
+- ⬜ If mental health diagnosis: Evidence of treatment compliance, symptom management, and that it doesn't affect parenting
+  - ⬜ Therapist letter (confirms diagnosis managed, no parenting impairment)
+  - ⬜ Medication compliance (if prescribed)
+  - ⬜ Psychological evaluation (confirms fitness)
+  - ⬜ Evidence child thriving (shows your mental health not harming child)
+
+**Substance Use:**
+- ⬜ If no substance use: Confirm this
+- ⬜ If past substance abuse: Evidence of recovery
+  - ⬜ Sobriety timeline
+  - ⬜ Treatment completion
+  - ⬜ Ongoing support (AA, therapy)
+  - ⬜ Clean drug tests
+  - ⬜ No substance use around child (ever)
+
+**Other Parent's Health Issues (if applicable):**
+- ⬜ Substance abuse (DUI, witnessed intoxication, failed drug tests)
+- ⬜ Mental illness affecting parenting (untreated depression, bipolar disorder, personality disorder causing erratic behavior)
+- ⬜ Physical health issues (can't care for child safely—mobility issues, chronic illness affecting availability)
+- ⬜ Failure to treat issues (refuses therapy, medication, rehab)
+
+**Conclusion Statement:**
+"I am physically and mentally fit to parent [child]. [If applicable: While I have been diagnosed with [condition], it is well-managed through [treatment], and it does not affect my ability to provide excellent care for [child]. [Child] is thriving in my care, which is the best evidence of my fitness.]"
+
+---
+
+## Factor 6: Continuity and Stability
+
+**What Court Assesses:**
+- Maintaining child's established routine
+- Keeping child in same school, community
+- Minimizing disruption to child's life
+- Preference for "status quo" (if child doing well)
+
+**Your Evidence:**
+
+**Residential Stability:**
+- ⬜ Child has lived primarily with you for [X months/years]
+- ⬜ Lease or mortgage (secure housing, not moving)
+- ⬜ Length of time at address (years of stability)
+- ⬜ No plans to relocate
+
+**School Continuity:**
+- ⬜ Child attends school in your district
+- ⬜ Child thriving at current school (good grades, friendships, teacher relationships)
+- ⬜ Switching schools would be disruptive (new environment, loss of friends)
+- ⬜ Your home proximity to school (walking distance, same district)
+
+**Community Ties:**
+- ⬜ Child's friends live near you (playdates, social connections)
+- ⬜ Extracurricular activities near you (gymnastics, soccer, etc.)
+- ⬜ Extended family near you (grandparents, aunts/uncles)
+- ⬜ Child's pediatrician, dentist, therapist in your area
+- ⬜ Community involvement (library, parks, local events)
+
+**Routine and Predictability:**
+- ⬜ Consistent daily routine at your home (wake time, meals, homework, bedtime)
+- ⬜ Weekly routine (library on Saturdays, family dinners on Sundays)
+- ⬜ Family traditions (holiday rituals, birthday traditions)
+- ⬜ Child's wellbeing thriving on this routine
+
+**Evidence of Status Quo:**
+- ⬜ If child has been living primarily with you (50%+ time), argue status quo: "Child is thriving under current arrangement. Disrupting this stability would harm child."
+- ⬜ Photos, logs, records showing child's wellbeing during this time period
+
+**Other Parent's Instability (if applicable):**
+- ⬜ Frequent moves (multiple addresses in short time)
+- ⬜ Housing instability (evictions, temporary housing, couch-surfing)
+- ⬜ Different school district (child would have to switch schools)
+- ⬜ Far from child's community (friends, activities, family)
+- ⬜ Inconsistent routine (no structure, chaos)
+
+**Conclusion Statement:**
+"[Child] has thrived in the stable environment I provide. [He/she] has lived primarily with me for [X time], attends [School Name] which [he/she] loves, participates in activities near my home, and has strong friendships in this community. Maintaining this continuity is critical to [child]'s wellbeing."
+
+---
+
+## Factor 7: Willingness to Foster Relationship with Other Parent
+
+**What Court Assesses:**
+- Will parent encourage child's relationship with other parent?
+- Is parent cooperative in co-parenting?
+- Does parent engage in alienation?
+- Can parent put child's needs above personal feelings about other parent?
+
+**Your Evidence:**
+
+**Co-Parenting Efforts:**
+- ⬜ Communication records (show you initiate communication about child's needs)
+- ⬜ Sharing information (you send report cards, medical updates, event schedules to other parent)
+- ⬜ Facilitating visitation (you never deny other parent's court-ordered time)
+- ⬜ Flexibility (examples of times you accommodated other parent's schedule changes)
+- ⬜ Encouraging relationship (you tell child "Daddy/Mommy loves you," encourage calls/FaceTime)
+
+**No Alienation:**
+- ⬜ You don't badmouth other parent to child (witness statements confirming this)
+- ⬜ You don't block contact (other parent can call/text child during your time)
+- ⬜ You don't interrogate child about other parent's home
+- ⬜ You encourage child to enjoy time with other parent
+
+**Testimony:**
+- ⬜ In interview, you acknowledged other parent's positive qualities
+- ⬜ You expressed willingness to facilitate relationship despite difficulties
+- ⬜ You proposed custody schedule that includes regular time with other parent (not trying to cut them out)
+
+**Other Parent's Failure (if applicable):**
+- ⬜ Other parent badmouths you to child (child repeats other parent's words, witnesses heard other parent disparage you)
+- ⬜ Other parent blocks contact (won't let child call you during their time)
+- ⬜ Other parent coaches child against you
+- ⬜ Other parent refuses to communicate (ignores your messages about child)
+- ⬜ Other parent uncooperative (refuses to share information, makes unilateral decisions)
+
+**Conclusion Statement:**
+"Despite the challenges in our relationship, I have consistently prioritized [child]'s relationship with [other parent]. I facilitate visitation, share information, and encourage [child] to maintain a bond with [other parent]. I do not engage in alienation or badmouthing. [Child]'s need for both parents is more important than my personal feelings."
+
+---
+
+## Factor 8: History of Domestic Violence or Abuse
+
+**What Court Assesses:**
+- Has either parent committed domestic violence?
+- Has either parent abused or neglected child?
+- Is child safe with each parent?
+- If abuse occurred, has perpetrator addressed it (treatment, changed behavior)?
+
+**Your Evidence:**
+
+**If You Have No History of Violence/Abuse:**
+- ⬜ Statement confirming no history
+- ⬜ No police reports, no restraining orders, no CPS investigations against you
+- ⬜ Child thriving, no signs of abuse or fear
+
+**If Other Parent Has History of Violence/Abuse:**
+
+**Domestic Violence Against You:**
+- ⬜ Police reports (dates, details, officer statements)
+- ⬜ Restraining orders (past or current)
+- ⬜ Photos of injuries (dated)
+- ⬜ Medical records (treatment for injuries)
+- ⬜ Witness statements (people who saw violence or aftermath)
+- ⬜ 911 calls (recordings if available)
+- ⬜ Text messages (threats, apologies after incidents)
+- ⬜ Your testimony (detailed account with dates, specific incidents)
+
+**Child's Exposure to Violence:**
+- ⬜ Child witnessed violence (child's statements, therapy records)
+- ⬜ Psychological impact on child (therapist assessment, behavioral changes)
+- ⬜ Fear of other parent (child's statements, behavioral indicators)
+
+**Child Abuse or Neglect:**
+- ⬜ CPS reports and investigation findings
+- ⬜ Photos of injuries (dated, with measurements)
+- ⬜ Medical records (doctor documented injuries, suspicious circumstances)
+- ⬜ Child's statements (forensic interview if available)
+- ⬜ School reports (teacher noticed bruises, child disclosed abuse)
+- ⬜ Police reports
+
+**Other Parent's Failure to Address:**
+- ⬜ No treatment (anger management, batterer intervention program)
+- ⬜ Denial of abuse (refuses to take responsibility)
+- ⬜ Continued violence or threats
+
+**Conclusion Statement (if other parent has abuse history):**
+"[Other parent] has a documented history of domestic violence/child abuse. This is evidenced by [police reports, restraining orders, CPS findings]. [Child]'s safety must be the court's primary concern. [Other parent] has not addressed this behavior through treatment. I request [supervised visitation/full custody to me] to protect [child]."
+
+**If You're Defending Against False Allegations:**
+- See custody-battle-guide.md Section 6 for detailed defense strategy
+
+---
+
+## Factor 9: Each Parent's Involvement in Child's Life
+
+**What Court Assesses:**
+- Who has been primary caregiver historically?
+- Who is involved in school, medical, extracurricular activities?
+- Who handles daily care (meals, hygiene, bedtime)?
+- Who is "hands-on" vs peripheral parent?
+
+**Your Evidence:**
+
+**Historical Timeline:**
+- ⬜ From child's birth to present: You handled majority of caregiving
+- ⬜ Percentage calculation (you provided 80-90% of daily care)
+- ⬜ Evidence supporting timeline (see custody-evidence-checklist.md Part 12)
+
+**School Involvement:**
+- ⬜ Conference attendance (you attended 100%)
+- ⬜ Volunteer hours (you volunteered, other parent didn't)
+- ⬜ Teacher communications (frequent emails from you, none from other parent)
+- ⬜ Homework help (you supervise nightly)
+- ⬜ Teacher statement (confirms your involvement)
+
+**Medical Involvement:**
+- ⬜ Appointment attendance (you attend 90%+)
+- ⬜ Medication management (you handle)
+- ⬜ Doctor communications (you call, email, coordinate care)
+- ⬜ Pediatrician statement (confirms your involvement)
+
+**Extracurricular Involvement:**
+- ⬜ Enrollment (you signed up child)
+- ⬜ Payment (you pay fees)
+- ⬜ Transportation (you drive to practices)
+- ⬜ Attendance at events (you attend games, recitals)
+- ⬜ Coach/instructor statement (confirms your involvement)
+
+**Daily Care:**
+- ⬜ Parenting logs (3-6 months showing your daily involvement)
+- ⬜ Photos (meals, bedtime, homework, activities)
+- ⬜ Calendar (custody time tracked—you have child majority of time)
+
+**Comparison to Other Parent:**
+- ⬜ Other parent's minimal involvement (missed conferences, didn't attend games, no communications with school/doctor)
+- ⬜ Other parent's historical role (peripheral, not primary caregiver)
+
+**Conclusion Statement:**
+"I have been [child]'s primary caregiver since birth. I am deeply involved in every aspect of [his/her] life—education, medical care, extracurricular activities, and daily caregiving. This level of involvement is not only historical but ongoing and essential to [child]'s wellbeing."
+
+---
+
+## Factor 10: Child's Preference (If Age-Appropriate)
+
+**What Court Assesses:**
+- Child's preference (typically ages 12+, but varies by state)
+- Reasoning behind preference (is it thoughtful or result of coaching?)
+- Maturity of child
+- Weight increases with age
+
+**Your Evidence:**
+
+**If Child Prefers You:**
+- ⬜ Child's statement to evaluator (during child interview)
+- ⬜ Child's reasoning (stable, friends, school, closer relationship with you)
+- ⬜ NOT the result of coaching (child gave specific, genuine reasons)
+
+**If Child Doesn't State Preference or Prefers Other Parent:**
+- ⬜ Focus on other best interests factors (child's preference is only one factor)
+- ⬜ If other parent coached child: Evidence of coaching (scripted answers, parroting phrases, adult language)
+- ⬜ Argue child's expressed preference is not in child's best interests (explain why, with evidence)
+
+**Note:** You cannot force child's preference. Focus on what you can control: demonstrating you're better parent through objective evidence.
+
+---
+
+## Factor 11: Each Parent's Home Environment
+
+**What Court Assesses:**
+- Is home safe?
+- Is home adequate (space, bedrooms, cleanliness)?
+- Is home child-focused?
+- Proximity to school, activities, community?
+
+**Your Evidence:**
+
+**Safety:**
+- ⬜ Photos of safety features (smoke detectors, childproofing, secure medications, no hazards)
+- ⬜ Home inspection report (if available)
+- ⬜ Safe neighborhood (crime statistics, family-friendly)
+
+**Adequacy:**
+- ⬜ Child has own bedroom (or shares with sibling appropriately)
+- ⬜ Clean, organized home
+- ⬜ Functional utilities
+- ⬜ Adequate space for child's needs
+
+**Child-Focused:**
+- ⬜ Photos of child's space (bedroom, play area, study space)
+- ⬜ Age-appropriate setup
+- ⬜ Child's artwork displayed
+- ⬜ Family photos
+- ⬜ Books, educational materials
+
+**Stability:**
+- ⬜ Lease or mortgage (secure housing)
+- ⬜ Length of time at address
+- ⬜ No plans to move
+
+**Proximity:**
+- ⬜ Walking distance to school (or short drive)
+- ⬜ Near child's activities
+- ⬜ Near child's friends
+- ⬜ Near support system (grandparents, etc.)
+
+**Other Parent's Home (if problematic):**
+- ⬜ Unsafe (hazards, no childproofing)
+- ⬜ Inadequate (no separate space for child, dirty, disorganized)
+- ⬜ Unstable (frequent moves, evictions)
+- ⬜ Inappropriate (roommates, transient living situation)
+
+---
+
+## Factor 12: Each Parent's Work Schedule and Availability
+
+**What Court Assesses:**
+- Who has time to care for child?
+- Who has flexible schedule?
+- Who will rely on third-party childcare?
+- Who prioritizes time with child?
+
+**Your Evidence:**
+
+**Your Schedule:**
+- ⬜ Work hours (include flexibility)
+- ⬜ Ability to work from home (if applicable)
+- ⬜ Time off available (sick days, vacation, personal days)
+- ⬜ Employer support (family-friendly workplace)
+- ⬜ Commute (short, allows time for childcare)
+
+**Your Availability:**
+- ⬜ Parenting logs (show you're available and present during your custody time)
+- ⬜ Calendar (time spent with child)
+- ⬜ Minimal third-party childcare needed
+- ⬜ Prioritization of child (examples of times you chose child over work/social events)
+
+**Other Parent's Schedule (if problematic):**
+- ⬜ Long work hours (60+ hours/week)
+- ⬜ Frequent travel
+- ⬜ Inflexible schedule (can't take time off for child's needs)
+- ⬜ Relies heavily on third-party childcare (child would be in daycare 50+ hours/week)
+- ⬜ Prioritizes work over child (examples of missed events due to work)
+
+**Conclusion Statement:**
+"My work schedule allows me to prioritize [child]. I work [hours], which allows me to do school pickup, attend appointments, and be present for homework and bedtime. [Child] needs a parent who is available and present—I am that parent."
+
+---
+
+## Part 3: Creating Your Best Interests Argument
+
+### Step 1: Analyze Your Strengths
+
+**For Each Best Interests Factor, Rate Yourself:**
+- Strong (overwhelming evidence, you excel)
+- Moderate (good evidence, you meet factor)
+- Weak (limited evidence, potential issue)
+
+**Focus on Strong Factors:**
+- These are your case themes
+- Highlight these in testimony, evidence, arguments
+
+**Address Weak Factors:**
+- Proactively address weaknesses
+- Minimize damage
+- Reframe if possible
+
+### Step 2: Analyze Other Parent's Weaknesses
+
+**For Each Best Interests Factor, Rate Other Parent:**
+- Strong (they excel)
+- Moderate (they meet factor adequately)
+- Weak (they fail this factor, evidence of problems)
+
+**Exploit Weak Factors:**
+- Present evidence showing other parent's failures
+- Contrast with your strengths
+- Tie to child's needs not being met
+
+### Step 3: Build Your Narrative
+
+**Your Case Theme:** One clear, compelling sentence summarizing why you should have custody.
+
+**Examples:**
+- "Emily thrives in the stable, nurturing environment I've provided as her primary caregiver for 8 years, and she needs continuity of this care."
+- "Jake's special needs require the level of involvement and advocacy I provide, which [other parent] has not demonstrated."
+- "The children's safety requires primary custody with me due to [other parent]'s ongoing substance abuse."
+
+**Supporting Arguments:**
+- 3-5 key points supporting your theme
+- Each point backed by specific evidence
+- Each point tied to best interests factors
+
+**Example Structure:**
+Theme: "Emily thrives in the stable environment I provide and needs continuity."
+
+Supporting Arguments:
+1. Primary Caregiver: I've been Emily's primary caregiver since birth (85% of daily care). [Evidence: timeline, logs, witness statements] → Factors 4, 9
+2. Stability: Emily has lived with me, attends school in my district, all her friends and activities are here. [Evidence: school records, activity enrollment, photos] → Factor 6
+3. Involvement: I attend every conference, volunteer monthly, attend all games. Other parent has attended 2 events in past year. [Evidence: sign-in sheets, teacher statement, coach statement] → Factor 9
+4. Emotional Bond: Emily is securely attached to me and thrives emotionally in my care. [Evidence: evaluator assessment, therapist report, child's wellbeing] → Factor 4
+5. Facilitating Relationship: I encourage Emily's relationship with [other parent] and will facilitate regular visitation. → Factor 7
+
+### Step 4: Map Evidence to Narrative
+
+**For Each Supporting Argument:**
+- List 3-5 pieces of strongest evidence
+- Prepare to present evidence (tabs in binder, testimony practiced)
+- Prepare to reference evidence in closing argument
+
+### Step 5: Anticipate Counterarguments
+
+**What Will Other Parent Argue?**
+- Predict their best interests arguments
+- Prepare rebuttals (evidence contradicting their claims)
+- Prepare to address any legitimate points they'll raise
+
+---
+
+## Part 4: Presenting Your Best Interests Case
+
+### In Custody Evaluation:
+
+**Parent Interview:**
+- Frame every answer through best interests lens
+- "I believe I should have primary custody because it's in Emily's best interests. She thrives with the stability and involvement I provide."
+- Reference specific best interests factors in your answers
+
+**Home Visit:**
+- Point out aspects of home that meet best interests (safety, child-focused, stable)
+
+**Evidence Binder:**
+- Organize binder by best interests factors (tab for each factor)
+- Include summary sheet mapping evidence to factors
+
+### In Testimony at Trial:
+
+**Direct Examination:**
+- Your attorney will ask questions designed to elicit evidence for each best interests factor
+- Your testimony will "check the box" for each factor
+
+**Cross-Examination:**
+- Other parent's attorney will attack your best interests arguments
+- Defend calmly with evidence
+
+**Closing Argument:**
+- Your attorney will summarize all evidence, apply to best interests factors, argue why you should have custody
+
+---
+
+## Part 5: Best Interests Checklist
+
+**Before Evaluation/Trial, I Can Prove:**
+
+✅ **Factor 1 (Physical Health):** Child is healthy, I provide excellent medical care, safe home
+
+✅ **Factor 2 (Emotional Health):** Child is emotionally secure, bonded to me, thriving
+
+✅ **Factor 3 (Parent's Ability):** I understand child's needs and have skills to meet them
+
+✅ **Factor 4 (Parent-Child Relationship):** Strong, secure bond built over years of primary caregiving
+
+✅ **Factor 5 (Parent's Health):** I am physically and mentally fit to parent
+
+✅ **Factor 6 (Stability):** Child thrives in stable environment I provide; continuity essential
+
+✅ **Factor 7 (Fostering Relationship):** I encourage child's relationship with other parent
+
+✅ **Factor 8 (Abuse):** No history of violence/abuse by me; [if applicable: documented abuse by other parent]
+
+✅ **Factor 9 (Involvement):** I am primary caregiver, deeply involved in school, medical, activities
+
+✅ **Factor 10 (Child's Preference):** [If applicable: child prefers me for genuine, thoughtful reasons]
+
+✅ **Factor 11 (Home):** Safe, adequate, child-focused home in child's community
+
+✅ **Factor 12 (Availability):** Flexible schedule, prioritize child, minimal third-party care needed
+
+**I have evidence (documentation, testimony, witnesses) for EACH factor above.**
+
+---
+
+## Final Thoughts
+
+**The Best Interests Standard Is Everything:**
+- Not about what you want
+- Not about what's fair to you
+- Only about what's best for your child
+
+**Evidence Wins:**
+- Every claim must be backed by evidence
+- "I'm a great parent" = meaningless
+- "I attend every parent-teacher conference, as confirmed by sign-in sheets and teacher statement" = powerful
+
+**Child Thriving Is Ultimate Proof:**
+- If child is happy, healthy, doing well academically and socially in your care—that's the best evidence
+- Physical and emotional wellbeing under your care proves best interests
+
+**Focus Your Case:**
+- Don't try to prove everything
+- Focus on 3-5 strongest best interests factors
+- Build overwhelming evidence for those factors
+- Minimize or address weaker factors
+
+**Tell a Compelling Story:**
+- Facts + narrative = persuasion
+- "Child thrives in my care because [compelling story]"
+- Evidence supports every element of your story
+
+---
+
+*Guide Version 1.0 | For use with Divorce Roadmap Navigator custody system*
+`,
 };
+
+// Export for use in app.js
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = markdownContent;
+}
