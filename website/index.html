@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divorce Roadmap Navigator</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Marked.js for markdown parsing -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <h1 class="header-title">📘 Divorce Roadmap Navigator</h1>
+            <div class="search-container">
+                <input
+                    type="text"
+                    id="searchInput"
+                    class="search-input"
+                    placeholder="Search across all guides..."
+                >
+                <div id="searchResults" class="search-results hidden"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <nav class="nav">
+                <!-- Process Stages Section -->
+                <div class="nav-section">
+                    <h3 class="nav-section-title" data-section="stages">
+                        <span class="section-icon">🛤️</span>
+                        Process Stages
+                        <span class="toggle-icon">▼</span>
+                    </h3>
+                    <ul class="nav-list" id="stagesList">
+                        <li class="nav-item" data-file="01-safety-stabilization-days-0-7.md">
+                            <span class="stage-number">01</span>
+                            <span class="nav-link">Safety & Stabilization</span>
+                        </li>
+                        <li class="nav-item" data-file="02-resolution-track-selection.md">
+                            <span class="stage-number">02</span>
+                            <span class="nav-link">Resolution Track Selection</span>
+                        </li>
+                        <li class="nav-item" data-file="03-prefiling-prep-weeks-1-3.md">
+                            <span class="stage-number">03</span>
+                            <span class="nav-link">Pre-Filing Preparation</span>
+                        </li>
+                        <li class="nav-item" data-file="04-filing-and-service.md">
+                            <span class="stage-number">04</span>
+                            <span class="nav-link">Filing & Service</span>
+                        </li>
+                        <li class="nav-item" data-file="05-temporary-orders-30-90-days.md">
+                            <span class="stage-number">05</span>
+                            <span class="nav-link">Temporary Orders</span>
+                        </li>
+                        <li class="nav-item" data-file="06-financial-disclosures-discovery.md">
+                            <span class="stage-number">06</span>
+                            <span class="nav-link">Financial Disclosures</span>
+                        </li>
+                        <li class="nav-item" data-file="07-parenting-plan-development.md">
+                            <span class="stage-number">07</span>
+                            <span class="nav-link">Parenting Plan</span>
+                        </li>
+                        <li class="nav-item" data-file="08-property-division.md">
+                            <span class="stage-number">08</span>
+                            <span class="nav-link">Property Division</span>
+                        </li>
+                        <li class="nav-item" data-file="09-support-determination.md">
+                            <span class="stage-number">09</span>
+                            <span class="nav-link">Support Determination</span>
+                        </li>
+                        <li class="nav-item" data-file="10-settlement-or-trial.md">
+                            <span class="stage-number">10</span>
+                            <span class="nav-link">Settlement or Trial</span>
+                        </li>
+                        <li class="nav-item" data-file="11-judgment-and-postdecree.md">
+                            <span class="stage-number">11</span>
+                            <span class="nav-link">Judgment & Post-Decree</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Strategy Guides Section -->
+                <div class="nav-section">
+                    <h3 class="nav-section-title" data-section="guides">
+                        <span class="section-icon">📚</span>
+                        Strategy Guides
+                        <span class="toggle-icon">▼</span>
+                    </h3>
+                    <ul class="nav-list" id="guidesList">
+                        <li class="nav-item strategy-guide" data-file="first-10-moves-today.md">
+                            <span class="guide-icon">⚡</span>
+                            <span class="nav-link">First 10 Moves Today</span>
+                        </li>
+                        <li class="nav-item strategy-guide" data-file="strategies-protect-yourself-and-kids.md">
+                            <span class="guide-icon">🛡️</span>
+                            <span class="nav-link">Protect Yourself & Kids</span>
+                        </li>
+                        <li class="nav-item strategy-guide" data-file="what-never-to-do.md">
+                            <span class="guide-icon">⛔</span>
+                            <span class="nav-link">What Never to Do</span>
+                        </li>
+                        <li class="nav-item strategy-guide" data-file="what-other-person-might-do.md">
+                            <span class="guide-icon">👁️</span>
+                            <span class="nav-link">What Other Person Might Do</span>
+                        </li>
+                        <li class="nav-item strategy-guide" data-file="allowed-vs-not-allowed.md">
+                            <span class="guide-icon">⚖️</span>
+                            <span class="nav-link">Allowed vs Not Allowed</span>
+                        </li>
+                        <li class="nav-item strategy-guide" data-file="dividing-things-fairly.md">
+                            <span class="guide-icon">📊</span>
+                            <span class="nav-link">Dividing Things Fairly</span>
+                        </li>
+                        <li class="nav-item strategy-guide" data-file="settlement-strategies.md">
+                            <span class="guide-icon">🤝</span>
+                            <span class="nav-link">Settlement Strategies</span>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="content">
+            <div id="welcomeScreen" class="welcome-screen">
+                <div class="welcome-content">
+                    <h1>👋 Welcome to the Divorce Roadmap Navigator</h1>
+                    <p class="welcome-intro">
+                        Your comprehensive guide through the divorce process, from initial safety planning to final judgment and beyond.
+                    </p>
+
+                    <div class="welcome-sections">
+                        <div class="welcome-card stages-card">
+                            <div class="card-icon">🛤️</div>
+                            <h3>11 Process Stages</h3>
+                            <p>Step-by-step guidance through each phase of divorce, from Days 0-7 through post-decree life.</p>
+                            <button class="card-btn" onclick="loadFile('01-safety-stabilization-days-0-7.md')">
+                                Start with Stage 1
+                            </button>
+                        </div>
+
+                        <div class="welcome-card guides-card">
+                            <div class="card-icon">📚</div>
+                            <h3>7 Strategy Guides</h3>
+                            <p>Essential reference materials for protection, negotiation, and navigating complex situations.</p>
+                            <button class="card-btn" onclick="loadFile('first-10-moves-today.md')">
+                                View First 10 Moves
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="welcome-tips">
+                        <h3>💡 Quick Tips</h3>
+                        <ul>
+                            <li>Use the sidebar to navigate between stages and guides</li>
+                            <li>Search across all content using the search bar above</li>
+                            <li>Click on cross-references to jump between related sections</li>
+                            <li>This is educational guidance - consult with a qualified attorney for your specific situation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <article id="markdownContent" class="markdown-content hidden">
+                <!-- Markdown content will be rendered here -->
+            </article>
+
+            <div id="loadingSpinner" class="loading-spinner hidden">
+                <div class="spinner"></div>
+                <p>Loading content...</p>
+            </div>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>
+            <strong>Disclaimer:</strong> This roadmap provides general educational information.
+            It is not legal advice and does not create an attorney-client relationship.
+            Consult with a qualified attorney in your jurisdiction for advice specific to your situation.
+        </p>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
