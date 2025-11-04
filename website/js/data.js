@@ -1,7 +1,7 @@
 // This file contains all the markdown content embedded as JavaScript
 // Generated automatically to avoid CORS issues when opening HTML directly
 
-const markdownContent = {
+const EMBEDDED_CONTENT = {
   "01-safety-stabilization-days-0-7.md": `
 # Stage 1: Safety & Stabilization (Days 0-7)
 

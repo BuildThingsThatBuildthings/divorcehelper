@@ -26,6 +26,21 @@ const FILES = {
         'allowed-vs-not-allowed.md',
         'dividing-things-fairly.md',
         'settlement-strategies.md'
+    ],
+    custody: [
+        'Custody/01-understanding-custody-law.md',
+        'Custody/02-building-winning-case.md',
+        'Custody/03-evidence-gathering.md',
+        'Custody/04-custody-evaluation.md',
+        'Custody/05-proving-best-interests.md',
+        'Custody/06-countering-tactics.md',
+        'Custody/07-psychological-evaluations.md',
+        'Custody/08-trial-preparation.md',
+        'Custody/09-temporary-orders.md',
+        'Custody/10-post-judgment.md',
+        'Custody/custody-evidence-checklist.md',
+        'Custody/custody-evaluation-prep.md',
+        'Custody/proving-best-interests.md'
     ]
 };
 
@@ -40,6 +55,9 @@ const markdownContent = document.getElementById('markdownContent');
 const loadingSpinner = document.getElementById('loadingSpinner');
 const searchInput = document.getElementById('searchInput');
 const searchResults = document.getElementById('searchResults');
+const menuToggle = document.getElementById('menuToggle');
+const menuOverlay = document.getElementById('menuOverlay');
+const sidebar = document.querySelector('.sidebar');
 
 // ===================================
 // Initialize
@@ -48,6 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initializeNavigation();
     initializeSearch();
     initializeSectionToggle();
+    initializeMobileMenu();
 
     // Load content from URL hash if present
     const hash = window.location.hash.substring(1);
@@ -89,6 +108,39 @@ function initializeSectionToggle() {
             section.classList.toggle('collapsed');
         });
     });
+}
+
+function initializeMobileMenu() {
+    // Toggle menu when hamburger is clicked
+    menuToggle.addEventListener('click', () => {
+        const isOpen = sidebar.classList.contains('mobile-open');
+        if (isOpen) {
+            closeMobileMenu();
+        } else {
+            openMobileMenu();
+        }
+    });
+
+    // Close menu when overlay is clicked
+    menuOverlay.addEventListener('click', closeMobileMenu);
+
+    // Close menu when a nav item is clicked
+    const navItems = document.querySelectorAll('.nav-item');
+    navItems.forEach(item => {
+        item.addEventListener('click', closeMobileMenu);
+    });
+}
+
+function openMobileMenu() {
+    sidebar.classList.add('mobile-open');
+    menuOverlay.classList.add('active');
+    document.body.style.overflow = 'hidden'; // Prevent background scrolling
+}
+
+function closeMobileMenu() {
+    sidebar.classList.remove('mobile-open');
+    menuOverlay.classList.remove('active');
+    document.body.style.overflow = ''; // Restore scrolling
 }
 
 // ===================================
@@ -200,7 +252,8 @@ function processCrossReferenceLinks() {
         if (href && href.endsWith('.md')) {
             link.addEventListener('click', (e) => {
                 e.preventDefault();
-                const filename = href.split('/').pop(); // Get just the filename
+                // Preserve full path including directory (e.g., "Custody/01-understanding-custody-law.md")
+                const filename = href;
                 loadFile(filename);
             });
         }
