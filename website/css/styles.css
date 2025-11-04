@@ -51,6 +51,11 @@
     --transition-fast: 150ms ease;
     --transition-normal: 250ms ease;
     --transition-slow: 350ms ease;
+
+    /* Accent Colors */
+    --primary-color: #2563eb;
+    --primary-hover: #1d4ed8;
+    --accent-red: #ef4444;
 }
 
 body {
@@ -102,6 +107,13 @@ body {
     align-items: center;
     gap: 0.5rem;
     letter-spacing: 0.03em;
+    cursor: pointer;
+    transition: opacity var(--transition-fast);
+    user-select: none;
+}
+
+.header-title:hover {
+    opacity: 0.8;
 }
 
 .search-container {
