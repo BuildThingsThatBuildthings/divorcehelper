@@ -925,6 +925,7 @@ body {
     }
 
     .sidebar {
+        width: 280px;
         transform: translateX(-100%);
         transition: transform var(--transition-normal);
         z-index: 1000;
